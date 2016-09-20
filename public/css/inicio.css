@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box; }
+
+body {
+  background: #F2F2F2;
+  font-family: 'Lato', sans-serif; }
+
+header {
+  color: #FFF;
+  font-weight: 300; }
+  header a {
+    color: #FFF;
+    text-decoration: none; }
+
+.logo-menu {
+  background: #143F84; }
+  .logo-menu .menu a {
+    display: inline-block;
+    padding: 20px 20px; }
+    .logo-menu .menu a:hover {
+      border-bottom: 4px solid #FF9F1C;
+      padding-bottom: 16px; }
+
+.section1 {
+  width: 100%;
+  height: calc(100vh - 60px);
+  background-color: #437BBB;
+  background-size: cover; }
