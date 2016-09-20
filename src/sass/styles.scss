@@ -1,0 +1,20 @@
+$primary: #143F84;
+$secondary: #437BBB;
+$terciary: #4D79BC;
+$background: #F2F2F2;
+
+@import 'header';
+@import 'section1';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body{
+    background: $background;
+    font-family: 'Lato', sans-serif;
+}
