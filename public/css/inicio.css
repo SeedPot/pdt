@@ -28,5 +28,9 @@ header {
 .section1 {
   width: 100%;
   height: calc(100vh - 60px);
-  background-color: #437BBB;
-  background-size: cover; }
+  background-color: #4D79BC;
+  background-image: url("/img/cover2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  left: 0; }

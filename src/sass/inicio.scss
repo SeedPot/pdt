@@ -1,5 +1,6 @@
 $primary: #143F84;
 $secondary: #437BBB;
+$terciary: #4D79BC;
 $background: #F2F2F2;
 
 *{
@@ -39,8 +40,15 @@ header{
 .section1{
     width: 100%;
     height: calc(100vh - 60px);
-    background-color: $secondary;
-    background-size: cover;
+    background-color: $terciary;
+    background-image: url('/img/cover2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    left: 0;
+    .titulo1{
+        
+    }
 }
 
 
