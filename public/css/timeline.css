@@ -107,9 +107,12 @@ body {
    
   .timeline ul li div {
     width: calc(100vw - 91px);
+  }
+
+  .timeline ul li div::first-child{
     visibility: visible;
     opacity: 1;
-    transition: all .5s ease-in-out;
+    /*transition: all .5s ease-in-out;*/
   }
    
   .timeline ul li:nth-child(even) div {
