@@ -12,13 +12,17 @@ body {
   overflow-x: hidden;
 }  
 
-.timeline{
+.background{
   width: 100%;
   /*height: calc(100vh - 60px);*/
   background-image: url(../img/ENERGIA_SOLAR_TRES.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.line-container{
+  padding-bottom: 50px;
 }
 
 /* TIMELINE
@@ -107,12 +111,6 @@ body {
    
   .timeline ul li div {
     width: calc(100vw - 91px);
-  }
-
-  .timeline ul li div::first-child{
-    visibility: visible;
-    opacity: 1;
-    /*transition: all .5s ease-in-out;*/
   }
    
   .timeline ul li:nth-child(even) div {
