@@ -14,7 +14,7 @@ body {
 
 .background{
   width: 100%;
-  /*height: calc(100vh - 60px);*/
+  height: auto;
   background-image: url(../img/ENERGIA_SOLAR_TRES.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -122,28 +122,4 @@ body {
     border-width: 8px 16px 8px 0;
     border-color: transparent #efefef transparent transparent;
   }
-}
- 
-.timeline ul li.in-view::after {
-  background: #143F84;
-}
- 
-.timeline ul li div {
-  visibility: hidden;
-  opacity: 0;
-  transition: all .5s ease-in-out;
-}
- 
-.timeline ul li:nth-child(odd) div {
-  transform: translate3d(200px,0,0);
-}
- 
-.timeline ul li:nth-child(even) div {
-  transform: translate3d(-200px,0,0);
-}
- 
-.timeline ul li.in-view div {
-  transform: none;
-  visibility: visible;
-  opacity: 1;
 }
