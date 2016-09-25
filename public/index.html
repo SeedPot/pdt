@@ -1,52 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title></title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i" rel="stylesheet">
-        <link href="css/flexboxgrid.min.css" rel="stylesheet">
-        <link href="css/styles.css" rel="stylesheet">
-    </head>
-    <body>
-        <header>
-            <div class="logo-menu">
-                <div class="container">
+<head>
+    <meta charset="UTF-8">
+    <title>Programa de difusión tecnológica</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/flexboxgrid.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
 
-                    <div class="row middle-xs between-xs">
-                        <div class="logo col-xs-12 col-sm-4 start-sm center-xs">
-                            <h2>PDT</h2>
-                        </div>
+<div class="wrap">
 
-                        <nav class="menu col-xs-12 col-sm-4 end-sm center-xs">
-                            <a href="index.html">Inicio</a>
-                            <a href="#">Programa</a>
-                            <a href="actividades.html">Actividades</a>
-                        </nav>
-                    </div>
+    <div id="header">
+        <div class="row">
 
-                </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-4">
+                <a href="hola.html"><img id="logo" src="images/support.png" alt="Lleal" width="130" height="24" /></a>
             </div>
-        </header>
 
-        <main>
-            <section class="section1">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-8">   
+                <div class="row end-lg end-md end-sm end-xs">
 
-                    <div class="col-xs-5 col-xs-offset-1">
-                        <div class="contenedor-titulo1">
-                            <p class="titulo1">Tecnología e Innovación con Energía Solar</p>
-                            <p class="subtitulo1">Programa de difusión tecnológica para el 
-                                desarrollo de la industria auxiliar proveedora de proyectos de 
-                                generación y soluciones que operen con energía renovables</p>
-                        </div>
+                    <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                        <a class="header-link" href="#">Inicio</a>
                     </div>
 
-            </section>
-        </main>
+                    <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                        <a class="header-link" href="#">Programa</a>                        
+                    </div>
 
-        <footer>
+                    <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                        <a class="header-link" href="#">Actividades</a>
+                    </div>
+
+                </div>  
+            </div>
             
-        </footer>
+        </div>    
+    </div>
 
-    </body>
+    <div class="home-area">                     
+            <div class="home-picture" style="background-image: url('images/img6.jpg');">
+            </div>
+                        
+            <div class="home-picture hp-2" style="background-image: url('images/img7.jpg');">
+            </div> 
+                                    
+            <div class="home-picture hp-3" style="background-image: url('images/img3.jpg');">
+            </div>
+
+            <div class="home-picture hp-4" style="background-image: url('images/img4.jpg');">
+            </div>  
+    </div>
+
+    <div class="home-text-container">       
+        <div class="home-text-area">
+
+            <h1>Tecnología e Innovación con Energía Solar</h1>
+            <h2>Programa de difusión tecnológica</h2>
+
+        </div>
+    </div>
+
+    <div class="home-arrow-container">
+        <i class="material-icons arrow-down bounce">keyboard_arrow_down</i>
+    </div>
+    
+</div>
+
+<main>
+    <section style="width: 100%; background-color: #efefef; padding: 30px 20px 60px;">
+
+        <div class="row center-xs">
+            <div class="col-xs-8 pdt-title">
+                <h1>¿Qué es el Programa de Difusión Tecnológica?</h1>
+            </div>
+            <div class="col-xs-8">
+                <hr class="pdt-hr">
+            </div>
+        </div>
+
+        <div class="row center-xs">
+            <div class="col-xs-12 container">
+                <div class="row center-xs">
+                    <div class="col-xs-10 col-lg-8">
+                        <p class="pdt-content">
+                        El PDT es un programa de tecnología y e innovación destinado al desarrollo
+                        soluciones que operan con energía solar.
+                        El programa es impulsado por Support Consultores y apoyado por INNOVACHILE CORFO.
+                        </p>
+                    </div>
+                </div>
+                <div class="row center-xs">
+                    <div class="col-xs-6 col-md-4">
+                        <aside class="arrow">Saber más</aside>
+                    </div>
+                    
+                </div>          
+            </div>          
+        </div>
+
+    </section>
+    <section style="height: 50vh;width: 100%; background-color: blue;">
+        
+    </section>
+    <section style="height: 50vh;width: 100%; background-color: purple;">
+        
+    </section>
+</main>
+
+
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/slick.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+        $('.home-area').slick({
+            dots: false,
+            arrows: false,
+            autoplay: true,
+            autoplaySpeed: 3000,
+            infinite: true,
+            speed: 1500,
+            fade: true,
+            pauseOnFocus: false,
+            pauseOnHover: false,
+            cssEase: 'linear'
+        });
+    });
+    
+</script>
+    
+</body>
 </html>
