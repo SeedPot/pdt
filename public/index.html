@@ -65,13 +65,15 @@
     </div>
 
     <div class="home-arrow-container">
-        <i class="material-icons arrow-down bounce">keyboard_arrow_down</i>
+        <a id="arrow-down" href="#seccion1">
+            <i class="material-icons arrow-down bounce">keyboard_arrow_down</i>
+        </a>
     </div>
     
 </div>
 
 <main>
-    <section style="width: 100%; background-color: #efefef; padding: 30px 20px 60px;">
+    <section id="seccion1" style="width: 100%; background-color: #efefef; padding: 40px 20px 60px;">
 
         <div class="row center-xs">
             <div class="col-xs-8 pdt-title">
@@ -103,7 +105,7 @@
         </div>
 
     </section>
-    <section style="height: 50vh;width: 100%; background-color: blue;">
+    <section style="height: 50vh;width: 100%; background-color: #DADFE1;">
         
     </section>
     <section style="height: 50vh;width: 100%; background-color: purple;">
@@ -114,6 +116,7 @@
 
 <script src="js/jquery-3.1.1.min.js"></script>
 <script src="js/slick.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
 
 <script>
     $(document).ready(function(){
@@ -130,7 +133,26 @@
             cssEase: 'linear'
         });
     });
-    
+
+    $('#arrow-down').click(function(){
+        $('html, body').animate({
+            scrollTop: $( $(this).attr('href') ).offset().top
+        }, 800);
+        return false;
+    });
+
+    var waypoint = new Waypoint({
+        element: document.getElementById('seccion1'),
+        handler: function(direction) {
+            if(direction === 'down'){
+                $("#header").css("background-color", "rgba(0,0,0,.4)");
+                
+            }else{
+                $("#header").css("background-color", "transparent");
+            }
+        },
+        offset: 30 
+    })
 </script>
     
 </body>
