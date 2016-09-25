@@ -92,7 +92,7 @@ Main components
   margin: 2em 0;
 }
 .cd-timeline-block:after {
-  content: "";
+  content: '';
   display: table;
   clear: both;
 }
@@ -119,8 +119,8 @@ Main components
   background-color: white;
   top: 0;
   left: 0;
-  width: 20px;
-  height: 20px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
 }
 @media only screen and (min-width: 1170px) {
