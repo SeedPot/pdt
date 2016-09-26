@@ -8,11 +8,9 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i" rel="stylesheet">
 
     <link rel="stylesheet" href="css/flexboxgrid.min.css">
-    <!-- CSS reset -->
+    <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/styles.css">
-    <!-- CSS reset -->
     <link rel="stylesheet" href="css/timeline.css">
-    <!-- Resource style -->
     <script src="js/modernizr.js"></script>
     <!-- Modernizr -->
 
@@ -21,23 +19,33 @@
 
 <body>
     <header>
-        <div class="logo-menu">
-            <div class="container">
+      <div id="header">
+        <div class="row">
 
-                <div class="row middle-xs between-xs">
-                    <div class="logo col-xs-12 col-sm-4 start-sm center-xs">
-                        <h2>PDT</h2>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-4">
+                <a href="hola.html"><img id="logo" src="images/support.png" alt="Lleal" width="130" height="24" /></a>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-8">   
+                <div class="row end-lg end-md end-sm end-xs">
+
+                    <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                        <a class="header-link" href="#">Inicio</a>
                     </div>
 
-                    <nav class="menu col-xs-12 col-sm-4 end-sm center-xs">
-                        <a href="index.html">Inicio</a>
-                        <a href="#">Programa</a>
-                        <a href="actividades.html">Actividades</a>
-                    </nav>
-                </div>
+                    <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                        <a class="header-link" href="#">Programa</a>                        
+                    </div>
 
+                    <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                        <a class="header-link" href="#">Actividades</a>
+                    </div>
+
+                </div>  
             </div>
-        </div>
+            
+        </div>    
+    </div>
     </header>
 
     <section id="cd-timeline" class="cd-container">
@@ -252,6 +260,10 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="js/main.js"></script>
     <!-- Resource jQuery -->
+    </main>
+
+    <footer></footer>
+
 </body>
 
 </html>
