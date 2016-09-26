@@ -2,20 +2,35 @@ $hr_color: #8c8b8b;
 $pdt_title: #2c3e50;
 $pdt_content: #6C7A89;
 
-.pdt-background{
-    background-color: $white2;
+#seccion1{
+    width: 100%;
+    background-image: url('../images/cover_opt.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top right; 
+    background-color: $primary2;
+}
+
+@media (max-width: 1023px){
+    #seccion1{
+        background-image: none; 
+    }
+}
+
+.pdt-container{    
+    padding: 70px 60px 30px;  
 }
 
 .pdt-title{
-    color: $pdt_title;
-    font-size: 24px;
+    color: $white2;
+    font-size: 20px; 
     padding: 40px 0;
 }
 
 .pdt-hr{
     height: 30px; 
     border-style: solid; 
-    border-color: $hr_color; 
+    border-color: $white2; 
     border-width: 1px 0 0 0; 
     border-radius: 20px; 
     &:before { 
@@ -24,12 +39,12 @@ $pdt_content: #6C7A89;
         height: 30px; 
         margin-top: -31px; 
         border-style: solid; 
-        border-color: $hr_color; 
+        border-color: $white2; 
         border-width: 0 0 1px 0; 
         border-radius: 20px; 
     }
     &:after{
-        content: url('../icon/solar_48.png');
+        // content: url('../icon/solar_48.png');
         display: inline-block;
         position: relative;
         top: -20px;
@@ -41,14 +56,23 @@ $pdt_content: #6C7A89;
 }
 
 .pdt-content{
-    color: $pdt_content;
+    color: $white2; 
     font-size: 20px;
     padding: 10px 0;
-    text-align: center;
+    margin-bottom: 10px;
+    text-align: center; 
 }
 
+// .pdt-image{     
+//     background-image: url('../images/cover2.png');
+//     background-color: $primary2;  
+//     background-repeat: no-repeat; 
+//     background-size: contain; 
+//     background-position: right top;
+// }
+
 // ==================== BOTON SABER MAS ====================
-$arrow_color: #3498DB;
+$arrow_color: #3498DB; 
 
 aside{
     margin: 20px 0;

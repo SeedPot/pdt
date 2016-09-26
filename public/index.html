@@ -73,36 +73,46 @@
 </div>
 
 <main>
-    <section id="seccion1" style="width: 100%; background-color: #efefef; padding: 40px 20px 60px;">
+    <section id="seccion1">
 
-        <div class="row center-xs">
-            <div class="col-xs-8 pdt-title">
-                <h1>¿Qué es el Programa de Difusión Tecnológica?</h1>
-            </div>
-            <div class="col-xs-8">
-                <hr class="pdt-hr">
-            </div>
-        </div>
+    <div class="row no-margin">
+        <!-- contenido -->
+        <div class="pdt-container col-sm-12 col-md-6 col-lg-7">
 
-        <div class="row center-xs">
-            <div class="col-xs-12 container">
-                <div class="row center-xs">
-                    <div class="col-xs-10 col-lg-8">
-                        <p class="pdt-content">
-                        El PDT es un programa de tecnología y e innovación destinado al desarrollo
-                        soluciones que operan con energía solar.
-                        El programa es impulsado por Support Consultores y apoyado por INNOVACHILE CORFO.
-                        </p>
-                    </div>
+            <div class="row center-xs">
+                <div class="col-xs-12 pdt-title">
+                    <h1>¿Qué es el Programa de Difusión Tecnológica?</h1>
                 </div>
-                <div class="row center-xs">
-                    <div class="col-xs-6 col-md-4">
-                        <aside class="arrow">Saber más</aside>
-                    </div>
-                    
-                </div>          
-            </div>          
+            </div>
+
+            <div class="row center-xs">            
+                <div class="col-xs-11">
+                    <hr class="pdt-hr">
+                </div>
+            </div>
+
+            <div class="row center-xs">
+                <div class="col-xs-10 col-md-11 col-lg-11">
+                    <p class="pdt-content">
+                    El PDT es un programa de tecnología y e innovación destinado al desarrollo
+                    soluciones que operan con energía solar.</p>
+                    <p class="pdt-content">El programa es impulsado por Support Consultores y apoyado por INNOVACHILE CORFO.
+                    </p>
+                </div>
+                <div class="col-xs-10 col-sm-6 col-md-6 col-lg-6">
+                    <aside class="arrow">Saber más</aside>
+                </div>    
+            </div>
+
         </div>
+        <!-- imagen -->
+        <div class="pdt-image col-md-5 col-lg-5">
+            
+        </div>
+
+    </div>
+
+        
 
     </section>
     <section style="height: 50vh;width: 100%; background-color: #DADFE1;">
@@ -119,6 +129,7 @@
 <script src="js/jquery.waypoints.min.js"></script>
 
 <script>
+    // Slider
     $(document).ready(function(){
         $('.home-area').slick({
             dots: false,
@@ -134,6 +145,7 @@
         });
     });
 
+    // Scroll suave hacia seccion1 al hacer click en la flecha
     $('#arrow-down').click(function(){
         $('html, body').animate({
             scrollTop: $( $(this).attr('href') ).offset().top
@@ -141,6 +153,7 @@
         return false;
     });
 
+    // Punto de anclaje para cambiar la opacidad del header al llegar a seccion1
     var waypoint = new Waypoint({
         element: document.getElementById('seccion1'),
         handler: function(direction) {
