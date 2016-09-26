@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/flexboxgrid.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/modulo.css">
+    <title>Módulos</title>
+</head>
+
+<body style="background-color: #4183D7;">
+    <header>
+        <div id="header">
+            <div class="row">
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-4">
+                    <a href="hola.html"><img id="logo" src="images/support.png" alt="Lleal" width="130" height="24" /></a>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-8">
+                    <div class="row end-lg end-md end-sm end-xs">
+
+                        <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                            <a class="header-link" href="#">Inicio</a>
+                        </div>
+
+                        <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                            <a class="header-link" href="#">Programa</a>
+                        </div>
+
+                        <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+                            <a class="header-link" href="#">Actividades</a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <main style="margin-top:100px;">
+        <div class="row center-xs">
+            <ul class="tab">
+                <li><a href="#" class="tablinks" onclick="openCity(event, 'Modulo1')">Módulo 1</a></li>
+                <li><a href="#" class="tablinks" onclick="openCity(event, 'Modulo2')">Módulo 2</a></li>
+                <li><a href="#" class="tablinks" onclick="openCity(event, 'Modulo3')">Módulo 3</a></li>
+            </ul>
+        </div>
+        <div class="row center-xs">
+            <div id="Modulo1" class="tabcontent">
+                <h3>Módulo 1</h3>
+                <h3>Instalación de sistemas fotovoltaicos y conexión a la red</h3>
+                <span>Duración: 8Hrs</span>
+                <p>El participante quedará capacitado para realizar el dimensionamiento, instalación, mantención y puesta en
+                    marcha de sistemas solares fotovoltaicos para la generación de electricidad; identificando los procedimientos
+                    en una planificación adecuada; reconociendo y ubicando los distintos componentes del sistema solar; instalando
+                    de acuerdo a los procedimientos establecidos y cumpliendo todas las exigencias de seguridad con mención
+                    a la legislación actual que regula o beneficia este tipo de tecnologías.</p><br>
+                <p>Este módulo estará a cargo del Centro de Capacitación de Energías Renovables, empresa privada con sede en
+                    Santiago de Chile, integrada por profesionales de gran experiencia y estudios formales en áreas de la
+                    ingeniería, electricidad, mecánica y ERNC. Se trata de una empresa con Certificación en Sistema de Gestión
+                    de la Calidad ISO 9001:2008 y la Norma Chilena NCh 2728:2003, registrada como OTEC y orientada en específico
+                    a temas de energías renovables.
+                </p>
+            </div>
+
+            <div id="Modulo2" class="tabcontent">
+                <h3>Módulo 2</h3>
+                <p>Irure incididunt mollit aute enim consequat ipsum proident nisi officia. Tempor et consequat in enim et est
+                    non ex. Ex officia duis ipsum exercitation est aute culpa eiusmod. Duis amet officia qui Lorem magna
+                    ullamco voluptate adipisicing et duis est nulla dolor exercitation. Dolore dolore do est exercitation
+                    adipisicing eiusmod id occaecat enim qui anim adipisicing. Irure id aute qui excepteur eiusmod ad ea
+                    ea id mollit tempor laborum reprehenderit. Elit sint aute sunt cupidatat ipsum eu esse exercitation laborum
+                    elit excepteur do veniam do.</p>
+            </div>
+
+            <div id="Modulo3" class="tabcontent">
+                <h3>Módulo 3</h3>
+                <p>Ex et veniam commodo in nostrud sint cupidatat adipisicing adipisicing sunt. Qui anim laboris laboris est
+                    enim adipisicing sint amet eu occaecat. Officia fugiat pariatur laborum aliqua ad est proident.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer></footer>
+
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+</script>
+</body>
+
+</html>
