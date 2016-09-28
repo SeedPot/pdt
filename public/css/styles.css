@@ -228,9 +228,9 @@ aside {
 .aside-text {
   font-size: 20px; }
 
-@media (max-width: 826px) {
+@media (max-width: 1124px) {
   .aside-text {
-    font-size: 10px; } }
+    font-size: 16px; } }
 
 .act-seccion {
   width: 100%;
