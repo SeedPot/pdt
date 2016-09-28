@@ -4,6 +4,7 @@ $pdt_content: #6C7A89;
 
 #seccion1{
     width: 100%;
+    background-color: $terciary;
 }
 
 .pdt-container{    
@@ -13,7 +14,7 @@ $pdt_content: #6C7A89;
 .pdt-title{
     color: $white2;
     font-size: 20px; 
-    padding: 40px 0;
+    padding: 40px 0 30px; 
 }
 
 .pdt-hr{
