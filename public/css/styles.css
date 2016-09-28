@@ -198,6 +198,7 @@
 
 aside {
   margin: 20px 0;
+  font-size: 20px;
   line-height: 34px;
   position: relative;
   cursor: pointer;
@@ -224,6 +225,10 @@ aside {
     aside.arrow:after {
       border-color: transparent #3498DB;
       right: -17px; }
+
+@media (max-width: 826px) {
+  aside {
+    font-size: 16px; } }
 
 .act-seccion {
   width: 100%;
