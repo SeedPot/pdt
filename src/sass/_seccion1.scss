@@ -4,17 +4,6 @@ $pdt_content: #6C7A89;
 
 #seccion1{
     width: 100%;
-    background-image: url('../images/cover_opt.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: top right; 
-    background-color: $primary2;
-}
-
-@media (max-width: 1023px){
-    #seccion1{
-        background-image: none; 
-    }
 }
 
 .pdt-container{    
@@ -63,13 +52,10 @@ $pdt_content: #6C7A89;
     text-align: center; 
 }
 
-// .pdt-image{     
-//     background-image: url('../images/cover2.png');
-//     background-color: $primary2;  
-//     background-repeat: no-repeat; 
-//     background-size: contain; 
-//     background-position: right top;
-// }
+.pdt-image{     
+    background-image: url('../images/cover2_opt.png');
+    background-size: 100% 100%;
+}
 
 // ==================== BOTON SABER MAS ====================
 $arrow_color: #3498DB; 

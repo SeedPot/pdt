@@ -8,6 +8,9 @@ $white2: #EFEFEF;
 @import 'header';
 @import 'cover';
 @import 'seccion1';
+@import 'seccion2';
+@import 'seccion3';
+@import 'footer';
 
 * {
 	margin:0;
@@ -23,6 +26,10 @@ body {
 
 .wrap{
 	position: relative;
+}
+
+.principal{
+	background-color: $primary2;
 }
 
 .no-margin{
