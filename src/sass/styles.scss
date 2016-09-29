@@ -1,12 +1,17 @@
 $primary: #143F84;
+$primary2: #203E83;
 $secondary: #437BBB;
 $terciary: #4D79BC;
 $background: #F2F2F2;
 $white2: #EFEFEF;
+$asphalt: #34495e;
 
 @import 'header';
 @import 'cover';
 @import 'seccion1';
+@import 'seccion2';
+@import 'seccion3';
+@import 'footer';
 
 * {
 	margin:0;
@@ -22,4 +27,16 @@ body {
 
 .wrap{
 	position: relative;
+}
+
+.principal{
+	background-color: $primary2;
+}
+
+.no-margin{
+	margin: 0;
+}
+
+.no-padding{
+	padding: 0;
 }

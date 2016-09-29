@@ -2,20 +2,25 @@ $hr_color: #8c8b8b;
 $pdt_title: #2c3e50;
 $pdt_content: #6C7A89;
 
-.pdt-background{
-    background-color: $white2;
+#seccion1{
+    width: 100%;
+    background-color: $terciary;
+}
+
+.pdt-container{    
+    padding: 70px 60px 30px;  
 }
 
 .pdt-title{
-    color: $pdt_title;
-    font-size: 24px;
-    padding: 40px 0;
+    color: $white2;
+    font-size: 20px; 
+    padding: 40px 0 30px; 
 }
 
 .pdt-hr{
     height: 30px; 
     border-style: solid; 
-    border-color: $hr_color; 
+    border-color: $white2; 
     border-width: 1px 0 0 0; 
     border-radius: 20px; 
     &:before { 
@@ -24,31 +29,53 @@ $pdt_content: #6C7A89;
         height: 30px; 
         margin-top: -31px; 
         border-style: solid; 
-        border-color: $hr_color; 
+        border-color: $white2; 
         border-width: 0 0 1px 0; 
         border-radius: 20px; 
     }
     &:after{
-        content: url('../icon/solar_48.png');
+        content: url('../icon/solar_panel.png');
         display: inline-block;
         position: relative;
         top: -20px;
-        padding: 0 10px;
-        background: #f0f0f0;
+        padding: 5px 10px 0;
+        background: rgba(0,0,0,0);
         color: $hr_color;
         font-size: 18px;
     }
 }
 
+.celeste{
+    @extends .pdt-hr;
+    &:after{
+        background: $terciary;
+    }
+}
+
+.azul{
+    @extends .pdt-hr;
+    &:after{
+        background: $primary2;
+    }
+}
+
 .pdt-content{
-    color: $pdt_content;
+    color: $white2; 
     font-size: 20px;
     padding: 10px 0;
-    text-align: center;
+    margin-bottom: 10px;
+    text-align: center; 
+}
+
+.pdt-image{     
+    background-image: url('../images/cover2_opt.png');
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 // ==================== BOTON SABER MAS ====================
-$arrow_color: #3498DB;
+$arrow_color: #3498DB; 
 
 aside{
     margin: 20px 0;
@@ -57,32 +84,11 @@ aside{
     cursor: pointer; 
     user-select: none;
     color: $white2;
-    &:hover {
-        top: -2px;
-    }
-    &:active {
-        top: 1px;
-    }
-    &:before, &:after {
-        content: '';
-        position: absolute;
-        height: 0;
-        width: 0;
-        border-style: solid;
-        border-width: 0;
-    }
-    &.arrow {
-        background-color: $arrow_color;
-        &:after,&:before{
-            border-width: 17px 0 17px 17px;
-        }
-        &:before {
-            border-color: $arrow_color transparent;
-            left: -17px;
-        }
-        &:after {
-            border-color: transparent $arrow_color;
-            right: -17px;
-        }
-    }
+    background-color: $arrow_color;
+
+    
+}
+
+.aside-text{
+    font-size: 16px;
 }
