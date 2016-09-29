@@ -196,11 +196,6 @@
   .azul:after {
     background: #203E83; }
 
-.blanco {
-  @extends .pdt-hr; }
-  .blanco:after {
-    background: #EFEFEF; }
-
 .pdt-content {
   color: #EFEFEF;
   font-size: 20px;
@@ -210,7 +205,9 @@
 
 .pdt-image {
   background-image: url("../images/cover2_opt.png");
-  background-size: 100% 100%; }
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: right; }
 
 aside {
   margin: 20px 0;

@@ -59,13 +59,6 @@ $pdt_content: #6C7A89;
     }
 }
 
-.blanco{
-    @extends .pdt-hr;
-    &:after{
-        background: $white2;
-    }
-}
-
 .pdt-content{
     color: $white2; 
     font-size: 20px;
@@ -76,7 +69,9 @@ $pdt_content: #6C7A89;
 
 .pdt-image{     
     background-image: url('../images/cover2_opt.png');
-    background-size: 100% 100%;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 // ==================== BOTON SABER MAS ====================
