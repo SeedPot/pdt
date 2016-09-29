@@ -177,13 +177,29 @@
     border-width: 0 0 1px 0;
     border-radius: 20px; }
   .pdt-hr:after {
+    content: url("../icon/solar_panel.png");
     display: inline-block;
     position: relative;
     top: -20px;
-    padding: 0 10px;
-    background: #f0f0f0;
+    padding: 5px 10px 0;
+    background: transparent;
     color: #8c8b8b;
     font-size: 18px; }
+
+.celeste {
+  @extends .pdt-hr; }
+  .celeste:after {
+    background: #4D79BC; }
+
+.azul {
+  @extends .pdt-hr; }
+  .azul:after {
+    background: #203E83; }
+
+.blanco {
+  @extends .pdt-hr; }
+  .blanco:after {
+    background: #EFEFEF; }
 
 .pdt-content {
   color: #EFEFEF;
@@ -243,7 +259,8 @@ aside {
   border-style: solid;
   border-color: #34495e;
   border-width: 1px 0 0 0;
-  border-radius: 20px; }
+  border-radius: 20px;
+  margin-bottom: 10px; }
   .logo-hr:before {
     display: block;
     content: "";
@@ -253,6 +270,15 @@ aside {
     border-color: #34495e;
     border-width: 0 0 1px 0;
     border-radius: 20px; }
+  .logo-hr:after {
+    content: url("../icon/solar_panel_asphalt.png");
+    display: inline-block;
+    position: relative;
+    top: -20px;
+    padding: 5px 10px 0;
+    background: #EFEFEF;
+    color: #8c8b8b;
+    font-size: 18px; }
 
 #footer {
   width: 100%;
