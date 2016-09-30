@@ -449,3 +449,12 @@ Main components
 .cd-timeline-content li{
   margin-left: 30px;
 }
+.pdt-hr-activity{
+  margin-top: 20px;
+  border-top: 3px double #8c8b8b;
+}
+
+.content-img{
+  float: right;
+  padding-top: 20px; 
+}
