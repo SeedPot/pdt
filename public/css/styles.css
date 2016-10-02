@@ -150,11 +150,11 @@
     transform: translateY(-30px); } }
 
 #seccion1 {
-  width: 100%;
-  background-color: #4D79BC; }
+  width: 100%; }
 
 .pdt-container {
-  padding: 70px 60px 30px; }
+  padding: 70px 60px 30px;
+  background-color: #4D79BC; }
 
 .pdt-title {
   color: #EFEFEF;
@@ -228,6 +228,10 @@ aside {
 .act-img {
   width: 100%;
   height: 100%; }
+
+.act-container {
+  padding: 70px 60px 30px;
+  background-color: #203E83; }
 
 .logo-seccion {
   width: 100%;
@@ -327,9 +331,6 @@ body {
 
 .wrap {
   position: relative; }
-
-.principal {
-  background-color: #203E83; }
 
 .no-margin {
   margin: 0; }
