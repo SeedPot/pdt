@@ -14,31 +14,7 @@
 <div class="wrap">
 
     <div id="header">
-        <div class="row">
-
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-4">
-                <a href="hola.html"><img id="logo" src="images/support.png" alt="Lleal" width="130" height="24" /></a>
-            </div>
-
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-8">   
-                <div class="row end-lg end-md end-sm end-xs">
-
-                    <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
-                        <a class="header-link" href="index.html">Inicio</a>
-                    </div>
-
-                    <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
-                        <a class="header-link" href="programa.html">Programa</a>                        
-                    </div>
-
-                    <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
-                        <a class="header-link" href="actividades.html">Actividades</a>
-                    </div>
-
-                </div>  
-            </div>
-            
-        </div>    
+        <?php include_once 'header.php' ?>    
     </div>
 
     <div class="home-area">                     
@@ -206,103 +182,7 @@
 
 <footer id="footer">
 
-    <div class="footer-container">
-        <div class="row around-xs">
-
-            <div class="footer-ul col-xs-6 col-sm-3 col-md-3 col-lg-3">
-                <p class="footer-title">CONTÁCTANOS</p>
-                <ul>
-                    <li class="footer-li">
-                        <img src="icon/address.png" alt="">
-                        <a href="#">
-                            Dirección
-                        </a>
-                    </li>
-                    <li class="footer-li">
-                        <img src="icon/phone.png" alt="">
-                        <a href="#">
-                            Teléfono1
-                        </a>
-                    </li>
-                    <li class="footer-li">
-                        <img src="icon/phone.png" alt="">
-                        <a href="#">
-                            Teléfono2
-                        </a>
-                    </li>
-                    <li class="footer-li">
-                        <img src="icon/email.png" alt="">
-                        <a href="#">
-                            Enviar mensaje
-                        </a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="footer-ul col-xs-6 col-sm-3 col-md-3 col-lg-3">
-                <p class="footer-title">NAVEGACIÓN</p>
-                <ul>
-                    <li class="footer-li">
-                        <img src="icon/home.png" alt="">
-                        <a href="index.html">
-                            Inicio
-                        </a>
-                    </li>
-                    <li class="footer-li">
-                        <img src="icon/panel.png" alt="">
-                        <a href="programa.html">
-                            Programa
-                        </a>
-                    </li>
-                    <li class="footer-li">
-                        <img src="icon/timeline.png" alt="">
-                        <a href="actividades.html">
-                            Actividades
-                        </a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="footer-ul col-xs-12 col-sm-3 col-md-3 col-lg-3">
-                <p class="footer-title">MÁS SOBRE EL PDT</p>
-                <ul>
-                    <li class="footer-li">
-                        <img src="icon/home.png" alt="">
-                        <a href="#">
-                            Enertar Iquique 2016
-                        </a>
-                    </li>
-                    <li class="footer-li">
-                        <img src="icon/panel.png" alt="">
-                        <a href="#">
-                            La Estrella de Iquique
-                        </a>
-                    </li>
-                    <li class="footer-li">
-                        <img src="icon/timeline.png" alt="">
-                        <a href="#">
-                            El Longino
-                        </a>
-                    </li>
-                    <li class="footer-li">
-                        <img src="icon/timeline.png" alt="">
-                        <a href="#">
-                            Ministerio de Energía
-                        </a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="footer-ul col-xs-12 col-sm-3 col-md-3 col-lg-3">
-                <div class="row start-xs start-lg">
-                    <div class="col-xs-10">
-                        <p class="footer-logo-title">Proyecto desarrollado por:</p>
-                        <img class="footer-logo" src="images/logo_support.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <?php include_once 'footer.php'; ?>
     
 </footer>
 
