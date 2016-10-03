@@ -540,7 +540,7 @@
     <!-- Resource jQuery -->
     </main>
 
-    <footer></footer>
+    <footer id="footer"><?php include_once 'footer.php' ?></footer>
 
 </body>
 
