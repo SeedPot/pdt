@@ -33,7 +33,9 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  height: 100vh; }
+  height: 100vh;
+  filter: brightness(70%);
+  -webkit-filter: brightness(70%); }
 
 .home-text-container {
   position: absolute;
@@ -295,10 +297,13 @@ aside {
   padding: 40px 30px 0px; }
 
 .footer-logo {
+  display: block;
   width: 100%;
-  max-width: 180px;
-  float: right;
-  text-align: right; }
+  max-width: 200px; }
+
+.footer-logo-title {
+  font-size: 14px;
+  margin-bottom: 20px; }
 
 .footer-title {
   font-size: 16px;
