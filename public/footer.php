@@ -39,19 +39,19 @@
                 <ul>
                     <li class="footer-li">
                         <img src="icon/home.png" alt="">
-                        <a href="index.html">
+                        <a href="index.php">
                             Inicio
                         </a>
                     </li>
                     <li class="footer-li">
                         <img src="icon/panel.png" alt="">
-                        <a href="programa.html">
+                        <a href="programa.php">
                             Programa
                         </a>
                     </li>
                     <li class="footer-li">
                         <img src="icon/timeline.png" alt="">
-                        <a href="actividades.html">
+                        <a href="actividades.php">
                             Actividades
                         </a>
                     </li>
@@ -90,7 +90,12 @@
 
             <div class="footer-ul col-xs-6 col-sm-3 col-md-3 col-lg-3">
                 <img class="footer-logo" src="images/logo_support.png" alt="">
-            </div>
-            <p>Visitas: <?php echo visitas() ?></p>
+            </div>            
         </div>
+        <div class="row center-xs">
+            <div class="col-xs-12">
+                <p>Visitas: <?php echo visitas() ?></p>
+            </div>
+        </div>
+
     </div>
