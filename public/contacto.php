@@ -20,14 +20,14 @@
         <main>
             <div class="row no-margin">
                 <div class="col-xs-12 col-md-5">
-                    <form action="mailer.php" method="POST" id="ajax-contact" class="pdt-contact-container">   
+                    <form action="mail.php" method="POST" id="ajax-contact" class="pdt-contact-container">   
                         <div class="row center-xs box">
                             <div class="col-xs-12">
                                 <h1>CONTÁCTANOS</h1>
                             </div>
                         </div>
                         <div class="row start-xs center-md box">
-                            <div class="col-xs-10 col-xs-offset-1 col-md-1 col-md-offset-0">
+                            <div class="col-xs-10 col-xs-offset-1 col-md-1 col-md-offset-0 text-margin">
                                 Nombre:
                             </div>
                             <div class="col-xs-10 col-xs-offset-1 col-md-7">
@@ -36,7 +36,7 @@
                         </div>
 
                         <div class="row start-xs center-md box">
-                            <div class="col-xs-10 col-xs-offset-1 col-md-1 col-md-offset-0">
+                            <div class="col-xs-10 col-xs-offset-1 col-md-1 col-md-offset-0 text-margin">
                                 Email:
                             </div>
                             <div class="col-xs-10 col-xs-offset-1 col-md-7">
@@ -45,15 +45,15 @@
                         </div>
 
                         <div class="row start-xs center-md box">
-                            <div class="col-xs-10 col-xs-offset-1 col-md-1 col-md-offset-0">
+                            <div class="col-xs-10 col-xs-offset-1 col-md-1 col-md-offset-0 text-margin">
                                 Pregunta:
                             </div>
                             <div class="col-xs-10 col-xs-offset-1 col-md-7">
                                 <textarea name="message" id="message" name="consulta" rows="5"></textarea>
                             </div>
                         </div>
-                        <div class="row center-xs box">
-                            <div class="col-xs-10 col-xs-offset-1 col-md-5 col-md-offset-0">
+                        <div class="row center-xs box-boton">
+                            <div class="col-xs-10 col-md-4">
                                     <input type="submit" class="boton">
                             </div>
                         </div>
