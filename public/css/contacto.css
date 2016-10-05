@@ -2,8 +2,12 @@ input,textarea{
     width: 100%;
     padding: 3px;
     border-radius: 5px;
+    
 }
-
+textarea{
+    resize: none;
+    height: 100px;
+}
 .pdt-contact-container{
     color: #efefef;
     max-width: 500px;
@@ -12,20 +16,19 @@ input,textarea{
     margin: 100px  auto; 
     background-color: #4D79BC;
 }
-
+.map-container{
+    padding: 10px;
+    display:block;
+    height: 500px; 
+    margin: 100px  auto; 
+}
 .box{
     margin-top: 50px;
     margin-bottom: 50px;
 }
-
 body{
     background-color: #efefef;
 }
-
-main{
-    height: 70vh;
-}
-
 .boton{
     padding: 10px;
     background-color: #22313F; 
@@ -35,4 +38,10 @@ main{
 .boton:hover{
     background-color: #efefef; 
     color: black;
+}
+
+@media screen and (max-width: 768px) {
+    .map-container{
+        display: none;
+    }
 }

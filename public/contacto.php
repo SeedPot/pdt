@@ -18,45 +18,57 @@
         </header>
 
         <main>
-        <form action="send.php" method="POST" class="pdt-contact-container">   
-            <div class="row center-xs box">
-                <div class="col-xs-12">
-                    <h1>CONTÁCTANOS</h1>
-                </div>
-            </div>
-            <div class="row start-xs center-md box">
-                <div class="col-xs-10 col-xs-offset-1 col-md-1 col-md-offset-0">
-                    Nombre:
-                </div>
-                <div class="col-xs-10 col-xs-offset-1 col-md-7">
-                    <input type="text">
-                </div>
-            </div>
+            <div class="row no-margin">
+                <div class="col-xs-12 col-md-5">
+                    <form action="mailer.php" method="POST" id="ajax-contact" class="pdt-contact-container">   
+                        <div class="row center-xs box">
+                            <div class="col-xs-12">
+                                <h1>CONTÁCTANOS</h1>
+                            </div>
+                        </div>
+                        <div class="row start-xs center-md box">
+                            <div class="col-xs-10 col-xs-offset-1 col-md-1 col-md-offset-0">
+                                Nombre:
+                            </div>
+                            <div class="col-xs-10 col-xs-offset-1 col-md-7">
+                                <input name="name" id="name" type="text">
+                            </div>
+                        </div>
 
-            <div class="row start-xs center-md box">
-                <div class="col-xs-10 col-xs-offset-1 col-md-1 col-md-offset-0">
-                    Email:
-                </div>
-                <div class="col-xs-10 col-xs-offset-1 col-md-7">
-                    <input type="email">
-                </div>
-            </div>
+                        <div class="row start-xs center-md box">
+                            <div class="col-xs-10 col-xs-offset-1 col-md-1 col-md-offset-0">
+                                Email:
+                            </div>
+                            <div class="col-xs-10 col-xs-offset-1 col-md-7">
+                                <input name="email" id="email" type="email">
+                            </div>
+                        </div>
 
-            <div class="row start-xs center-md box">
-                <div class="col-xs-10 col-xs-offset-1 col-md-1 col-md-offset-0">
-                    Pregunta:
+                        <div class="row start-xs center-md box">
+                            <div class="col-xs-10 col-xs-offset-1 col-md-1 col-md-offset-0">
+                                Pregunta:
+                            </div>
+                            <div class="col-xs-10 col-xs-offset-1 col-md-7">
+                                <textarea name="message" id="message" name="consulta" rows="5"></textarea>
+                            </div>
+                        </div>
+                        <div class="row center-xs box">
+                            <div class="col-xs-10 col-xs-offset-1 col-md-5 col-md-offset-0">
+                                    <input type="submit" class="boton">
+                            </div>
+                        </div>
+                        <div class="row center-xs">
+                            <div id="form-messages" class="col-xs-6"></div>
+                        </div>
+                    </form>                    
                 </div>
-                <div class="col-xs-10 col-xs-offset-1 col-md-7">
-                    <textarea name="consulta" rows="5"></textarea>
-                </div>
-            </div>
-            <div class="row center-xs box">
-                <div class="col-xs-10 col-xs-offset-1 col-md-5 col-md-offset-0">
-                        <input type="submit" class="boton">
-                </div>
-            </div>
-        </form>
 
+                <div class="col-xs-12 col-md-6">
+                    <div id="map" class="map-container">
+
+                    </div>
+                </div>
+            </div>
         </main>
         <div class="megafooter">
             <footer id="footer"><?php include_once 'footer.php' ?></footer>
@@ -67,6 +79,43 @@
                 </div>
             </section>
         </div>
-        <script></script>    
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/app.js"></script>
+        <script>
+            var map;
+            function initMap() {
+                var dharma = {lat: -20.210831, lng: -70.149565}
+                var image = 'images/logo_opt.png';
+                var contentString = '<h3>Support Consultores</h3><br><p>Sotomayor #575</p><p>Edificio Dharma 5° piso</p>'
+
+                map = new google.maps.Map(document.getElementById('map'), {
+                    center: dharma,
+                    zoom: 20,
+                });               
+
+                var infowindow = new google.maps.InfoWindow({
+                    content: contentString
+                });
+                
+
+                var marker = new google.maps.Marker({
+                    position: dharma,
+                    map: map,
+                    title: 'Support Consultores',
+                    icon: image,
+                    animation: google.maps.Animation.BOUNCE
+                });
+
+                infowindow.open(map, marker);
+
+                marker.addListener('click', function() {
+                    infowindow.open(map, marker);
+                });
+
+
+            }
+        </script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDeecT9iXPgBUDhR14jM2qAaH2_qlKByB8&callback=initMap">
+        </script>    
     </body>
 </html>
