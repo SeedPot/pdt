@@ -24,6 +24,17 @@
         </div>
     </header>
 
+    <section class="title-container">
+        <div class="row center-xs">
+            <div class="col-xs-12">
+                <h1>Cronograma de actividades</h1>
+            </div>
+            <div class="col-xs-10 col-sm-10 col-md-6">
+                <hr class="pdt-hr-title azul">
+            </div>
+        </div>
+    </section>   
+
     <section id="cd-timeline" class="cd-container">
         <div class="cd-timeline-block">
             <div class="cd-timeline-img"></div>
@@ -228,10 +239,10 @@
                     </div>                    
                     <div class="col-xs-12 col-md-6">
                         <img class="content-img" src="images/talleres/3-1.jpg" alt="taller 3">
-                    </div>
+                    </div><!--
                     <div class="col-xs-12 col-md-6">
                         <img class="content-img" src="images/talleres/2-1.jpg" alt="taller 2">
-                    </div>
+                    </div>-->
                 </div>
                 <a href="#0" class="cd-read-more">Leer más</a>
                 <span class="cd-date">08/06/2016 - 22/06/2016</span>

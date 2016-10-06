@@ -478,7 +478,39 @@ Main components
     background: transparent;
     font-size: 18px; }
 
+  .pdt-hr-title {
+  margin-top: 20px;
+  height: 30px;
+  border-style: solid;
+  border-width: 1px 0 0 0;
+  border-radius: 20px; }
+  .pdt-hr-title:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    border-radius: 20px; }
+  .pdt-hr-title:after {
+    content: url("../icon/solar_panel.png");
+    display: inline-block;
+    position: relative;
+    top: -20px;
+    padding: 5px 10px 0;
+    background: transparent;
+    font-size: 18px; }
+
 .blanco {
   @extends .pdt-hr-activity; }
   .blanco:after {
     background: white; }
+.azul {
+  @extends .pdt-hr-title; }
+  .azul:after {
+    background: #041744; }
+
+.title-container{
+  margin-top: 100px;
+  color: #efefef;
+}
