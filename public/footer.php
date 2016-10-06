@@ -9,21 +9,21 @@
                 <ul>
                     <li class="footer-li">
                         <img src="icon/address.png" alt="">
-                        <a href="#">
+                        <span class="li-text">
                             Sotomayor #575
-                        </a>
+                        </span>
                     </li>
                     <li class="footer-li">
-                        <img src="icon/address.png" alt="">
-                        <a href="#">
+                        <img src="icon/building.png" alt="">
+                        <span class="li-text">
                             Edificio Dharma, 5° piso
-                        </a>
+                        </span>
                     </li>
                     <li class="footer-li">
                         <img src="icon/phone.png" alt="">
-                        <a href="#">
+                        <span class="li-text">
                             Teléfono2
-                        </a>
+                        </span>
                     </li>
                 </ul>
             </div>
@@ -33,19 +33,19 @@
                 <ul>
                     <li class="footer-li">
                         <img src="icon/home.png" alt="">
-                        <a href="index.php">
+                        <a class="li-text" href="index.php">
                             Inicio
                         </a>
                     </li>
                     <li class="footer-li">
                         <img src="icon/email.png" alt="">
-                        <a href="contacto.php">
+                        <a class="li-text" href="contacto.php">
                             Contacto
                         </a>
                     </li>
                     <li class="footer-li">
                         <img src="icon/timeline.png" alt="">
-                        <a href="actividades.php">
+                        <a class="li-text" href="actividades.php">
                             Actividades
                         </a>
                     </li>
@@ -57,25 +57,25 @@
                 <ul>
                     <li class="footer-li">
                         <img src="icon/news.png" alt="">
-                        <a href="#">
+                        <a class="li-text" href="#">
                             Enertar Iquique 2016
                         </a>
                     </li>
                     <li class="footer-li">
                         <img src="icon/news.png" alt="">
-                        <a href="#">
+                        <a class="li-text" href="#">
                             La Estrella de Iquique
                         </a>
                     </li>
                     <li class="footer-li">
                         <img src="icon/news.png" alt="">
-                        <a href="#">
+                        <a class="li-text" href="#">
                             El Longino
                         </a>
                     </li>
                     <li class="footer-li">
                         <img src="icon/news.png" alt="">
-                        <a href="#">
+                        <a class="li-text" href="#">
                             Ministerio de Energía
                         </a>
                     </li>

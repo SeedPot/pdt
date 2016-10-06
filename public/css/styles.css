@@ -324,10 +324,11 @@ aside {
   .footer-li img {
     width: 18px;
     vertical-align: bottom; }
+  .footer-li .li-text {
+    margin-left: 4px;
+    color: #EFEFEF; }
   .footer-li a {
-    text-decoration: none;
-    color: #EFEFEF;
-    margin-left: 4px; }
+    text-decoration: none; }
 
 .footer-visitas {
   padding: 0 10px 10px;
