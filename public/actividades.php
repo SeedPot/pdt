@@ -164,7 +164,7 @@
                         <h2>4 Módulos de capacitación</h2>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row center-xs">
                     <div class="col-xs-12">
                         <span>Duración: 8 horas c/u</span>
                     </div>
@@ -205,7 +205,7 @@
                         <h2>3 Talleres</h2>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row center-xs">
                     <div class="col-xs-12">
                         <span>Duración: 3 horas c/u</span>
                     </div>
