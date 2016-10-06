@@ -16,13 +16,13 @@
                     <li class="footer-li">
                         <img src="icon/building.png" alt="">
                         <span class="li-text">
-                            Edificio Dharma, 5° piso
+                            Edificio Dharma, 5° piso, oficina 504
                         </span>
                     </li>
                     <li class="footer-li">
                         <img src="icon/phone.png" alt="">
                         <span class="li-text">
-                            Teléfono2
+                            56-057-2717379
                         </span>
                     </li>
                 </ul>
@@ -57,25 +57,25 @@
                 <ul>
                     <li class="footer-li">
                         <img src="icon/news.png" alt="">
-                        <a class="li-text" href="#">
+                        <a class="li-text" href="http://expoenergiatarapaca.cl/">
                             Enertar Iquique 2016
                         </a>
                     </li>
                     <li class="footer-li">
                         <img src="icon/news.png" alt="">
-                        <a class="li-text" href="#">
+                        <a class="li-text" href="http://www.estrellaiquique.cl/">
                             La Estrella de Iquique
                         </a>
                     </li>
                     <li class="footer-li">
                         <img src="icon/news.png" alt="">
-                        <a class="li-text" href="#">
+                        <a class="li-text" href="http://diariolongino.cl/">
                             El Longino
                         </a>
                     </li>
                     <li class="footer-li">
                         <img src="icon/news.png" alt="">
-                        <a class="li-text" href="#">
+                        <a class="li-text" href="http://www.energia.gob.cl/">
                             Ministerio de Energía
                         </a>
                     </li>
