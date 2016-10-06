@@ -211,6 +211,9 @@
   background-repeat: no-repeat;
   background-position: right; }
 
+.link-arrow {
+  text-decoration: none; }
+
 aside {
   margin: 20px 0;
   line-height: 34px;

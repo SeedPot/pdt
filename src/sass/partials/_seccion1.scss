@@ -78,6 +78,10 @@ $pdt_content: #6C7A89;
 // ==================== BOTON SABER MAS ====================
 $arrow_color: #3498DB; 
 
+.link-arrow{    
+    text-decoration: none;
+}
+
 aside{
     margin: 20px 0;
     line-height: 34px;
@@ -86,8 +90,6 @@ aside{
     user-select: none;
     color: $white2;
     background-color: $arrow_color;
-
-    
 }
 
 .aside-text{

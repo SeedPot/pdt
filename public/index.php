@@ -118,7 +118,11 @@
                         </p>
                     </div>
                     <div class="col-xs-10 col-sm-6 col-md-6 col-lg-6">
-                        <aside class="arrow"><span class="aside-text">Ir al cronograma</span></aside>
+                        <a class="link-arrow" href="actividades.php">
+                            <aside class="arrow">
+                                <span class="aside-text">Ir al cronograma</span>
+                            </aside>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -147,29 +151,43 @@
             <div class="row no-margin around-xs middle-xs">
 
                 <div class="col-xs-6 col-sm-5 col-md-3 col-lg-3 logo-img-contenedor">
-                    <img src="images/logo/corfo.png" class="logo-img" alt="">
+                    <a href="http://www.corfo.cl/"><img src="images/logo/corfo.png" class="logo-img" alt="">
                 </div>
                 <div class="col-xs-6 col-sm-5 col-md-3 col-lg-3 logo-img-contenedor">
-                    <img src="images/logo/innovachile.png" class="logo-img" alt="">
+                    <a href="http://www.corfo.cl/">
+                        <img src="images/logo/innovachile.png" class="logo-img" alt="">
+                    </a>
                 </div>
                 <div class="col-xs-6 col-sm-5 col-md-3 col-lg-3 logo-img-contenedor">
+                    <a href="http://www.estudiosolar.cl/">
                     <img src="images/logo/estudio_solar.png" class="logo-img" alt="">
+                    </a>
                 </div>
                 <div class="col-xs-6 col-sm-5 col-md-3 col-lg-3 logo-img-contenedor">
-                    <img src="images/logo/gaa.png" class="logo-img" alt="">
+                    <a href="http://www.gaa.cl/">
+                        <img src="images/logo/gaa.png" class="logo-img" alt="">
+                    </a>
                 </div>
                 
                 <div class="col-xs-6 col-sm-5 col-md-3 col-lg-3 logo-img-contenedor">
-                    <img src="images/logo/saferay.png" class="logo-img" alt="">
+                    <a href="https://www.saferay.com/">
+                        <img src="images/logo/saferay.png" class="logo-img" alt="">
+                    </a>
                 </div>
                 <div class="col-xs-6 col-sm-5 col-md-3 col-lg-3 logo-img-contenedor">
-                    <img src="images/logo/solar_trust.png" class="logo-img" alt="">
+                    <a href="http://www.solartrust.cl/">
+                        <img src="images/logo/solar_trust.png" class="logo-img" alt="">
+                    </a>
                 </div>
                 <div class="col-xs-6 col-sm-5 col-md-3 col-lg-3 logo-img-contenedor">
-                    <img src="images/logo/mca_innovation.png" class="logo-img" alt="">
+                    <a href="http://www.mca-innovation.com/">
+                        <img src="images/logo/mca_innovation.png" class="logo-img" alt="">
+                    </a>
                 </div>
                 <div class="col-xs-6 col-sm-5 col-md-3 col-lg-3 logo-img-contenedor">
-                    <img src="images/logo/zofri.png" class="logo-img" alt="">
+                    <a href="http://www.zofri.cl/">
+                        <img src="images/logo/zofri.png" class="logo-img" alt="">
+                    </a>
                 </div>
 
             </div>
