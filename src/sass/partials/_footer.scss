@@ -42,10 +42,12 @@
 		width: 18px;
 		vertical-align: bottom;
 	}
+	.li-text{
+		margin-left: 4px;	
+		color: $white2;	
+	}
 	a{
 		text-decoration: none;
-		color: $white2;
-		margin-left: 4px;
 	}
 }
 

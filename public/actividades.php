@@ -521,10 +521,6 @@
         <!-- cd-timeline-block -->
 
     </section>
-    <!-- cd-timeline -->
-    <script src="js/jquery-3.1.1.min.js"></script>
-    <script src="js/main.js"></script>
-    <!-- Resource jQuery -->
     </main>
 
     <footer id="footer"><?php include_once 'footer.php' ?></footer>
@@ -534,6 +530,12 @@
             <p>Pretzel Studio<sup>&reg;</sup> 2016</p>
         </div>
     </section>
+
+    
+    <!-- cd-timeline -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- Resource jQuery -->
 
 </body>
 
