@@ -19,7 +19,7 @@
 </header>
 
 <main class="contacto-img">
-    <div class="row no-margin">
+    <div class="row no-margin center-xs">
         <div class="col-xs-12 col-md-5">
             <form action="mail.php" method="POST" id="ajax-contact" class="pdt-contact-container">   
                 <div class="row center-xs box">
@@ -64,7 +64,7 @@
             </form>                    
         </div>
 
-        <div class="col-xs-12 col-md-6">
+        <div class="col-xs-12 col-md-5">
             <div id="map" class="map-container">
 
             </div>
