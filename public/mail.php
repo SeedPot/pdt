@@ -17,7 +17,7 @@
         }
 
         // CAMBIAR POR EL MAIL DE CONTACTO DEL PDT
-        $to = 'piratemani@gmail.com';
+        $to = 'daza.camilos@gmail.com';
         // $to = 'julio.caruncho.a@gmail.com';
 
         $pdtEmail = 'contacto@industriasolartarapaca.cl';
