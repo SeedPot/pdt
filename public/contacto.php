@@ -89,7 +89,7 @@
     function initMap() {
         var dharma = {lat: -20.210831, lng: -70.149565}
         var image = 'images/logo_opt.png';
-        var contentString = '<h3>Support Consultores</h3><br><p>Sotomayor #575</p><p>Edificio Dharma 5° piso</p>'
+        var contentString = '<h3>Support Consultores</h3><br><p>Sotomayor #575</p><p>Edificio Dharma 5° piso oficina 504</p>'
 
         map = new google.maps.Map(document.getElementById('map'), {
             center: dharma,
