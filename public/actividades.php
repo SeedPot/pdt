@@ -410,16 +410,16 @@
                 </div>
                 <div class="row">
                     <div class="col-xs-3">
-                        <img src="images/difusion/1.jpg" alt="">
+                        <img class="content-img" src="images/difusion/1.jpg" alt="">
                     </div>
                     <div class="col-xs-3">
-                        <img style="padding-top: 25px;" src="images/difusion/2.jpg" alt="">
+                        <img class="content-img" src="images/difusion/2.jpg" alt="">
                     </div>
                     <div class="col-xs-3">
-                        <img style="padding-bottom: -30px;" src="images/difusion/3.jpg" alt="">
+                        <img class="content-img" src="images/difusion/3.jpg" alt="">
                     </div>
                     <div class="col-xs-3">
-                        <img src="images/difusion/4.jpg" alt="">
+                        <img class="content-img" src="images/difusion/4.jpg" alt="">
                     </div>
                 </div>
                 <a href="#0" class="cd-read-more">Leer más</a>
