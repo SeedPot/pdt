@@ -34,8 +34,8 @@
   background-position: center center;
   background-size: cover;
   height: 100vh;
-  filter: brightness(70%);
-  -webkit-filter: brightness(70%); }
+  filter: brightness(90%);
+  -webkit-filter: brightness(90%); }
 
 .home-text-container {
   position: absolute;

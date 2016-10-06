@@ -1,3 +1,10 @@
+.contacto-img{
+    background: url('../images/contacto1.1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(80%);
+}
+
 input,textarea{
     width: 100%;
     padding: 3px;
@@ -15,12 +22,13 @@ textarea{
     display:block;
     margin: 100px  auto; 
     background-color: #4D79BC;
+    box-shadow: 0px 0px 10px #000;
 }
 .map-container{
-    padding: 10px;
     display:block;
     height: 500px; 
     margin: 100px  auto; 
+    box-shadow: 0px 0px 10px #000;
 }
 .box{
     margin-top: 50px;

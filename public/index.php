@@ -18,16 +18,16 @@
     </div>
 
     <div class="home-area">                     
-            <div class="home-picture" style="background-image: url('images/img6.jpg');">
+            <div class="home-picture" style="background-image: url('images/img6.6.6.jpg');">
             </div>
                         
-            <div class="home-picture hp-2" style="background-image: url('images/img7.jpg');">
+            <div class="home-picture" style="background-image: url('images/img7.7.7.jpg');">
             </div> 
                                     
-            <div class="home-picture hp-3" style="background-image: url('images/img3.jpg');">
+            <div class="home-picture" style="background-image: url('images/img3.3.3.jpg');">
             </div>
 
-            <div class="home-picture hp-4" style="background-image: url('images/img4.jpg');">
+            <div class="home-picture" style="background-image: url('images/img4.4.4.jpg');">
             </div>  
     </div>
 
