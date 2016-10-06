@@ -26,6 +26,11 @@ textarea{
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
+.text-margin{
+    margin-bottom: 8px;
+}
+
 body{
     background-color: #efefef;
 }
@@ -38,6 +43,14 @@ body{
 .boton:hover{
     background-color: #efefef; 
     color: black;
+}
+
+.box-boton{
+    margin-bottom: 30px;
+}
+
+.form-messages{
+    margin: 20px 0;
 }
 
 @media screen and (max-width: 768px) {
