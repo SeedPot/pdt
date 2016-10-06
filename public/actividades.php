@@ -29,7 +29,7 @@
             <div class="cd-timeline-img"></div>
 
             <div class="cd-timeline-content">
-                <div class="row">
+                <div class="row center-xs">
                     <div class="col-xs-12">
                         <h2>Seminario inicial</h2>
                     </div>
@@ -62,7 +62,7 @@
             <div class="cd-timeline-img"></div>
 
             <div class="cd-timeline-content">
-                <div class="row">
+                <div class="row center-xs">
                     <div class="col-xs-12">
                         <h2>Diagnóstico en profundidad</h2>
                     </div>
@@ -92,7 +92,7 @@
             <div class="cd-timeline-img"></div>
 
             <div class="cd-timeline-content">
-                <div class="row">
+                <div class="row center-xs">
                     <div class="col-xs-12">
                         <h2>Investigación de cadena de valor</h2>
                     </div>
@@ -112,7 +112,7 @@
                     </div>
                 </div>
                 <a href="#0" class="cd-read-more">Leer más</a>
-                <span class="cd-date">Abril-Julio 2016</span>
+                <span class="cd-date">04/2016 - 07/2016</span>
             </div>
         </div>
 
@@ -120,7 +120,7 @@
             <div class="cd-timeline-img"></div>
 
             <div class="cd-timeline-content">
-                <div class="row">
+                <div class="row center-xs">
                     <div class="col-xs-12">
                         <h2>Visitas Técnicas</h2>
                     </div>
@@ -159,7 +159,7 @@
             <div class="cd-timeline-img"></div>
 
             <div class="cd-timeline-content">
-                <div class="row">
+                <div class="row center-xs">
                     <div class="col-xs-12">
                         <h2>4 Módulos de capacitación</h2>
                     </div>
@@ -200,7 +200,7 @@
             <div class="cd-timeline-img"></div>
 
             <div class="cd-timeline-content">
-                <div class="row">
+                <div class="row center-xs">
                     <div class="col-xs-12">
                         <h2>3 Talleres</h2>
                     </div>
@@ -234,7 +234,7 @@
                     </div>
                 </div>
                 <a href="#0" class="cd-read-more">Leer más</a>
-                <span class="cd-date">08/06 - 22/06 2016</span>
+                <span class="cd-date">08/06/2016 - 22/06/2016</span>
             </div>
             <!-- cd-timeline-content -->
         </div>
@@ -244,7 +244,7 @@
             <div class="cd-timeline-img"></div>
 
             <div class="cd-timeline-content">
-                <div class="row">
+                <div class="row center-xs">
                     <div class="col-xs-12">
                         <h2>Laboratorio</h2>
                     </div>
@@ -273,7 +273,7 @@
             <div class="cd-timeline-img"></div>
 
             <div class="cd-timeline-content">
-                <div class="row">
+                <div class="row center-xs">
                     <div class="col-xs-12">
                         <h2>Trabajo con antenas</h2>
                     </div>
@@ -297,7 +297,7 @@
                     </div>
                 </div>
                 <a href="#0" class="cd-read-more">Leer más</a>
-                <span class="cd-date">1/08/2016 - 30/09/2016</span>
+                <span class="cd-date">01/08/2016 - 30/09/2016</span>
             </div>
             <!-- cd-timeline-content -->
         </div>
@@ -307,7 +307,7 @@
             <div class="cd-timeline-img"></div>
 
             <div class="cd-timeline-content">
-                <div class="row">
+                <div class="row center-xs">
                     <div class="col-xs-12">
                         <h2>reunión y acuerdos</h2>
                     </div>
@@ -336,7 +336,7 @@
             <div class="cd-timeline-img"></div>
 
             <div class="cd-timeline-content">
-                <div class="row">
+                <div class="row center-xs">
                     <div class="col-xs-12">
                         <h2>Construcción y habilitación de portal web</h2>
                     </div>
@@ -364,7 +364,7 @@
             <div class="cd-timeline-img"></div>
 
             <div class="cd-timeline-content">
-                <div class="row">
+                <div class="row center-xs">
                     <div class="col-xs-12">
                         <h2>Realizar un Seminario de energía solar renovable en Tarapacá</h2>
                     </div>
@@ -392,7 +392,7 @@
             <div class="cd-timeline-img"></div>
 
             <div class="cd-timeline-content">
-                <div class="row">
+                <div class="row center-xs">
                     <div class="col-xs-12">
                         <h2>Realizar actividades de difusión</h2>
                     </div>
@@ -423,7 +423,7 @@
                     </div>
                 </div>
                 <a href="#0" class="cd-read-more">Leer más</a>
-                <span class="cd-date">Feb - Dic 2016</span>
+                <span class="cd-date">02/2016 - 12/2016</span>
             </div>
             <!-- cd-timeline-content -->
         </div>
@@ -433,7 +433,7 @@
             <div class="cd-timeline-img"></div>
 
             <div class="cd-timeline-content">
-                <div class="row">
+                <div class="row center-xs">
                     <div class="col-xs-12">
                         <h2>Elaborar propuestas de proyectos tecnológicos y/o innovación</h2>
                     </div>
@@ -450,7 +450,7 @@
                     </div>
                 </div>
                 <a href="#0" class="cd-read-more">Leer más</a>
-                <span class="cd-date">01/11 - 31/11 2016</span>
+                <span class="cd-date">01/11/2016 - 31/11/2016</span>
             </div>
             <!-- cd-timeline-content -->
         </div>
@@ -460,7 +460,7 @@
             <div class="cd-timeline-img"></div>
 
             <div class="cd-timeline-content">
-                <div class="row">
+                <div class="row center-xs">
                     <div class="col-xs-12">
                         <h2>Asesoría en presentación de Línea 3 PDT</h2>
                     </div>
@@ -477,7 +477,7 @@
                     </div>
                 </div>
                 <a href="#0" class="cd-read-more">Leer más</a>
-                <span class="cd-date">Dic 2016</span>
+                <span class="cd-date">12/2016</span>
             </div>
             <!-- cd-timeline-content -->
         </div>
@@ -487,7 +487,7 @@
             <div class="cd-timeline-img"></div>
 
             <div class="cd-timeline-content">
-                <div class="row">
+                <div class="row center-xs">
                     <div class="col-xs-12">
                         <h2>Seminario final</h2>
                     </div>
@@ -503,7 +503,7 @@
                     </div>
                 </div>
                 <a href="#0" class="cd-read-more">Leer más</a>
-                <span class="cd-date">Dic 2016</span>
+                <span class="cd-date">12/2016</span>
             </div>
             <!-- cd-timeline-content -->
         </div>
