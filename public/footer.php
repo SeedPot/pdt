@@ -10,25 +10,19 @@
                     <li class="footer-li">
                         <img src="icon/address.png" alt="">
                         <a href="#">
-                            Dirección
+                            Sotomayor #575
                         </a>
                     </li>
                     <li class="footer-li">
-                        <img src="icon/phone.png" alt="">
+                        <img src="icon/address.png" alt="">
                         <a href="#">
-                            Teléfono1
+                            Edificio Dharma, 5° piso
                         </a>
                     </li>
                     <li class="footer-li">
                         <img src="icon/phone.png" alt="">
                         <a href="#">
                             Teléfono2
-                        </a>
-                    </li>
-                    <li class="footer-li">
-                        <img src="icon/email.png" alt="">
-                        <a href="#">
-                            Enviar mensaje
                         </a>
                     </li>
                 </ul>
@@ -44,9 +38,9 @@
                         </a>
                     </li>
                     <li class="footer-li">
-                        <img src="icon/panel.png" alt="">
-                        <a href="programa.php">
-                            Programa
+                        <img src="icon/email.png" alt="">
+                        <a href="contacto.php">
+                            Contacto
                         </a>
                     </li>
                     <li class="footer-li">
@@ -62,25 +56,25 @@
                 <p class="footer-title">MÁS SOBRE EL PDT</p>
                 <ul>
                     <li class="footer-li">
-                        <img src="icon/home.png" alt="">
+                        <img src="icon/news.png" alt="">
                         <a href="#">
                             Enertar Iquique 2016
                         </a>
                     </li>
                     <li class="footer-li">
-                        <img src="icon/panel.png" alt="">
+                        <img src="icon/news.png" alt="">
                         <a href="#">
                             La Estrella de Iquique
                         </a>
                     </li>
                     <li class="footer-li">
-                        <img src="icon/timeline.png" alt="">
+                        <img src="icon/news.png" alt="">
                         <a href="#">
                             El Longino
                         </a>
                     </li>
                     <li class="footer-li">
-                        <img src="icon/timeline.png" alt="">
+                        <img src="icon/news.png" alt="">
                         <a href="#">
                             Ministerio de Energía
                         </a>
@@ -92,7 +86,7 @@
                 <img class="footer-logo" src="images/logo_support.png" alt="">
             </div>            
         </div>
-        <div class="row center-xs">
+        <div class="row center-xs footer-visitas">
             <div class="col-xs-12">
                 <p>Visitas: <?php echo visitas() ?></p>
             </div>

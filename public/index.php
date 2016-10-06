@@ -51,7 +51,7 @@
 <main class="principal">
     <section id="seccion1">
 
-        <div class="row no-margin">
+        <div class="row no-margin middle-xs">
             <!-- contenido -->
             <div class="pdt-container col-sm-12 col-md-6 col-lg-6">
 
@@ -75,9 +75,9 @@
                         <p class="pdt-content">El programa es impulsado por Support Consultores y apoyado por INNOVACHILE CORFO.
                         </p>
                     </div>
-                    <div class="col-xs-10 col-sm-6 col-md-6 col-lg-6">
+                    <!-- <div class="col-xs-10 col-sm-6 col-md-6 col-lg-6">
                         <aside class="arrow"><span class="aside-text">Saber más</span></aside>
-                    </div>    
+                    </div>  -->   
                 </div>
 
             </div>
@@ -94,11 +94,11 @@
     <section id="#seccion2" class="act-seccion">
         <div class="row no-margin">
             <!-- imagen -->
-            <div class="col-sm-12 col-md-6 col-lg-6 no-padding">
+            <div class="col-sm-12 col-md-6 no-padding">
                 <img src="images/grupo_opt.jpg" class="act-img" alt="">
             </div>
 
-            <div class="act-container col-sm-12 col-md-6 col-lg-6">
+            <div class="act-container col-sm-12 col-md-6">
                 <div class="row center-xs">
                     <div class="col-xs-12 pdt-title">
                         <h1>Cronograma de actividades</h1>
@@ -181,9 +181,7 @@
 </main>
 
 <footer id="footer">
-
-    <?php include_once 'footer.php'; ?>
-    
+    <?php include_once 'footer.php'; ?>    
 </footer>
 
 <section class="pretzel no-margin row center-xs middle-xs">

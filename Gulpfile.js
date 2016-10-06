@@ -18,4 +18,8 @@ gulp.task('sync', function(){
     });
 });
 
+gulp.task('watch-sass', function(){
+    gulp.watch('./src/sass/partials/*.scss', ['sass']);
+});
+
 gulp.task('default', ['sync', 'watch']);
