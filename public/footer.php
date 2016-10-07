@@ -2,9 +2,9 @@
     include_once 'contador.php';
 ?>
 <div class="footer-container">
-        <div class="row around-xs">
+        <div class="row center-xs">
 
-            <div class="footer-ul col-xs-6 col-sm-3 col-md-3 col-lg-3">
+            <div class="footer-ul col-xs-6 col-sm-6 col-md-3 col-lg-3">
                 <p class="footer-title">CONTÁCTANOS</p>
                 <ul>
                     <li class="footer-li">
@@ -16,19 +16,25 @@
                     <li class="footer-li">
                         <img src="icon/building.png" alt="">
                         <span class="li-text">
-                            Edificio Dharma, 5° piso, oficina 504
+                            Edif. Dharma, 5° piso, of. 504
                         </span>
                     </li>
                     <li class="footer-li">
                         <img src="icon/phone.png" alt="">
                         <span class="li-text">
-                            56-057-2717379
+                            (57) 2717379
+                        </span>
+                    </li>
+                    <li class="footer-li">
+                        <img src="icon/cellphone.png" alt="">
+                        <span class="li-text">
+                            4 259 4985
                         </span>
                     </li>
                 </ul>
             </div>
 
-            <div class="footer-ul col-xs-6 col-sm-3 col-md-3 col-lg-3">
+            <div class="footer-ul col-xs-6 col-sm-6 col-md-3 col-lg-3">
                 <p class="footer-title">NAVEGACIÓN</p>
                 <ul>
                     <li class="footer-li">
@@ -38,9 +44,9 @@
                         </a>
                     </li>
                     <li class="footer-li">
-                        <img src="icon/email.png" alt="">
+                        <img src="icon/panel.png" alt="">
                         <a class="li-text" href="contacto.php">
-                            Contacto
+                            Programa
                         </a>
                     </li>
                     <li class="footer-li">
@@ -49,10 +55,17 @@
                             Actividades
                         </a>
                     </li>
+
+                    <li class="footer-li">
+                        <img src="icon/email.png" alt="">
+                        <a class="li-text" href="contacto.php">
+                            Contacto
+                        </a>
+                    </li>
                 </ul>
             </div>
 
-            <div class="footer-ul col-xs-6 col-sm-3 col-md-3 col-lg-3">
+            <div class="footer-ul col-xs-6 col-sm-6 col-md-3 col-lg-3">
                 <p class="footer-title">MÁS SOBRE EL PDT</p>
                 <ul>
                     <li class="footer-li">
@@ -82,7 +95,7 @@
                 </ul>
             </div>
 
-            <div class="footer-ul col-xs-6 col-sm-3 col-md-3 col-lg-3">
+            <div class="footer-ul col-xs-6 col-sm-6 col-md-3 col-lg-3">
                 <img class="footer-logo" src="images/logo_support.png" alt="">
             </div>            
         </div>

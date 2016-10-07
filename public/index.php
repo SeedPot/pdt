@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Programa de difusión tecnológica</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/flexboxgrid.min.css">
@@ -51,9 +52,9 @@
 <main class="principal">
     <section id="seccion1">
 
-        <div class="row no-margin middle-xs">
+        <div class="row no-margin">
             <!-- contenido -->
-            <div class="pdt-container col-sm-12 col-md-6 col-lg-6">
+            <div class="pdt-container col-xs-12 col-md-6 col-lg-6">
 
                 <div class="row center-xs">
                     <div class="col-xs-12 pdt-title">
@@ -75,16 +76,16 @@
                         <p class="pdt-content">El programa es impulsado por Support Consultores y apoyado por INNOVACHILE CORFO.
                         </p>
                     </div>
-                    <!-- <div class="col-xs-10 col-sm-6 col-md-6 col-lg-6">
+                    <div class="col-xs-10 col-sm-6 col-md-6 col-lg-6">
                         <aside class="arrow"><span class="aside-text">Saber más</span></aside>
-                    </div>  -->   
+                    </div>
                 </div>
 
             </div>
             <!-- imagen -->
-            <!-- <div class="pdt-image col-sm-12 col-md-6 col-lg-6">
-
-            </div> -->
+            <div class="pdt-image col-sm-12 col-md-6 col-lg-6">
+                <!-- <img src="images/cover2_opt.png" alt=""> -->
+            </div>
 
         </div>        
 
@@ -138,7 +139,7 @@
 
             <div class="row center-xs">
                 <div class="col-xs-12 logo-titulo">
-                    <h2>Éstas son las empresas protagonistas del PDT</h2>
+                    <h2>Empresas protagonistas del PDT</h2>
                 </div>  
             </div>
 
@@ -150,20 +151,20 @@
 
             <div class="row no-margin around-xs middle-xs">
 
-                <div class="col-xs-6 col-sm-5 col-md-3 col-lg-3 logo-img-contenedor">
+                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 logo-img-contenedor">
                     <a href="http://www.corfo.cl/"><img src="images/logo/corfo.png" class="logo-img" alt="">
                 </div>
-                <div class="col-xs-6 col-sm-5 col-md-3 col-lg-3 logo-img-contenedor">
+                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 logo-img-contenedor">
                     <a href="http://www.corfo.cl/">
                         <img src="images/logo/innovachile.png" class="logo-img" alt="">
                     </a>
                 </div>
-                <div class="col-xs-6 col-sm-5 col-md-3 col-lg-3 logo-img-contenedor">
+                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 logo-img-contenedor">
                     <a href="http://www.estudiosolar.cl/">
                     <img src="images/logo/estudio_solar.png" class="logo-img" alt="">
                     </a>
                 </div>
-                <div class="col-xs-6 col-sm-5 col-md-3 col-lg-3 logo-img-contenedor">
+                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 logo-img-contenedor">
                     <a href="http://www.gaa.cl/">
                         <img src="images/logo/gaa.png" class="logo-img" alt="">
                     </a>
@@ -212,7 +213,6 @@
 <script src="js/jquery-3.1.1.min.js"></script>
 <script src="js/slick.min.js"></script>
 <script src="js/jquery.waypoints.min.js"></script>
-<script src="js/parallax.min.js"></script>
 
 <script>
     // Slider
@@ -228,10 +228,6 @@
             pauseOnFocus: false,
             pauseOnHover: false,
             cssEase: 'linear'
-        });
-
-        $('#seccion1').parallax({
-            imageSrc: 'images/cover_opt.png'
         });
     });
 

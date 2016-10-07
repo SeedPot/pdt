@@ -12,3 +12,9 @@
 .act-container{    
     padding: 30px 60px 30px;  
 }
+
+@media (max-width: 1124px) {
+    .act-container{
+        padding: 30px 20px 30px; 
+    }
+}
