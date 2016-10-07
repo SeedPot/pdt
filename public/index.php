@@ -52,7 +52,7 @@
 <main class="principal">
     <section id="seccion1">
 
-        <div class="row no-margin middle-xs">
+        <div class="row no-margin">
             <!-- contenido -->
             <div class="pdt-container col-xs-12 col-md-6 col-lg-6">
 
@@ -139,7 +139,7 @@
 
             <div class="row center-xs">
                 <div class="col-xs-12 logo-titulo">
-                    <h2>Éstas son las empresas protagonistas del PDT</h2>
+                    <h2>Empresas protagonistas del PDT</h2>
                 </div>  
             </div>
 
@@ -151,20 +151,20 @@
 
             <div class="row no-margin around-xs middle-xs">
 
-                <div class="col-xs-6 col-sm-5 col-md-3 col-lg-3 logo-img-contenedor">
+                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 logo-img-contenedor">
                     <a href="http://www.corfo.cl/"><img src="images/logo/corfo.png" class="logo-img" alt="">
                 </div>
-                <div class="col-xs-6 col-sm-5 col-md-3 col-lg-3 logo-img-contenedor">
+                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 logo-img-contenedor">
                     <a href="http://www.corfo.cl/">
                         <img src="images/logo/innovachile.png" class="logo-img" alt="">
                     </a>
                 </div>
-                <div class="col-xs-6 col-sm-5 col-md-3 col-lg-3 logo-img-contenedor">
+                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 logo-img-contenedor">
                     <a href="http://www.estudiosolar.cl/">
                     <img src="images/logo/estudio_solar.png" class="logo-img" alt="">
                     </a>
                 </div>
-                <div class="col-xs-6 col-sm-5 col-md-3 col-lg-3 logo-img-contenedor">
+                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 logo-img-contenedor">
                     <a href="http://www.gaa.cl/">
                         <img src="images/logo/gaa.png" class="logo-img" alt="">
                     </a>
@@ -213,7 +213,6 @@
 <script src="js/jquery-3.1.1.min.js"></script>
 <script src="js/slick.min.js"></script>
 <script src="js/jquery.waypoints.min.js"></script>
-<script src="js/parallax.min.js"></script>
 
 <script>
     // Slider
@@ -230,10 +229,6 @@
             pauseOnHover: false,
             cssEase: 'linear'
         });
-
-        // $('#seccion1').parallax({
-        //     imageSrc: 'images/cover_opt.png'
-        // });
     });
 
     // Scroll suave hacia seccion1 al hacer click en la flecha

@@ -2,7 +2,7 @@
     include_once 'contador.php';
 ?>
 <div class="footer-container">
-        <div class="row around-xs">
+        <div class="row center-xs">
 
             <div class="footer-ul col-xs-6 col-sm-6 col-md-3 col-lg-3">
                 <p class="footer-title">CONTÁCTANOS</p>

@@ -247,6 +247,10 @@ aside {
 .act-container {
   padding: 30px 60px 30px; }
 
+@media (max-width: 1124px) {
+  .act-container {
+    padding: 30px 20px 30px; } }
+
 .logo-seccion {
   width: 100%;
   background-color: #ecf0f1;
@@ -255,10 +259,6 @@ aside {
 .logo-contenedor {
   width: 80%;
   margin: auto; }
-
-@media (max-width: 826px) {
-  .logo-contenedor {
-    width: 100%; } }
 
 .logo-titulo {
   color: #34495e;
@@ -271,6 +271,12 @@ aside {
 
 .logo-img-contenedor {
   padding: 30px; }
+
+@media (max-width: 1124px) {
+  .logo-contenedor {
+    width: 100%; }
+  .logo-img-contenedor {
+    padding: 30px 10px; } }
 
 .logo-hr {
   height: 30px;
@@ -308,6 +314,12 @@ aside {
   margin: auto;
   padding: 40px 30px 0px; }
 
+@media (max-width: 1124px) {
+  .footer-container {
+    width: 100%;
+    margin: auto;
+    padding: 40px 20px 0px; } }
+
 .footer-logo {
   display: block;
   width: 100%;
@@ -321,7 +333,8 @@ aside {
   font-size: 16px;
   color: #EFEFEF;
   font-weight: 300;
-  margin-bottom: 8px; }
+  margin-bottom: 8px;
+  text-align: left; }
 
 .footer-ul {
   margin-bottom: 40px; }
@@ -330,7 +343,8 @@ aside {
   font-size: 16px;
   color: #EFEFEF;
   padding: 6px 0;
-  list-style-type: none; }
+  list-style-type: none;
+  text-align: left; }
   .footer-li img {
     width: 18px;
     vertical-align: bottom; }
