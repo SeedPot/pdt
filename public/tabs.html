@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>tabs</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/tabs.css" rel="stylesheet">
+    <link href="css/flexboxgrid.min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <script src="js/modernizr.js"></script>
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-xs-12">
+
+            <a id="demo01" href="#animatedModal">DEMO01</a>
+
+            <!--DEMO01-->
+            <div id="animatedModal">
+                <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
+                <div class="close-animatedModal">
+                    CLOSE MODAL
+                </div>
+
+                <div class="modal-content">
+                    <!--Your modal content goes here-->
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div id="tabs" class="c-tabs no-js">
+        <div class="c-tabs-nav">
+            <a href="#" class="c-tabs-nav__link is-active">Módulo 1</a>
+            <a href="#" class="c-tabs-nav__link">Módulo 2</a>
+            <a href="#" class="c-tabs-nav__link">Módulo 3</a>
+            <a href="#" class="c-tabs-nav__link">Módulo 4</a>
+        </div>
+
+        <div class="c-tab is-active">
+            <div class="c-tab__content"></div>
+        </div>
+
+        <div class="c-tab">
+            <div class="c-tab__content"></div>
+        </div>
+
+        <div class="c-tab">
+            <div class="c-tab__content"></div>
+        </div>
+
+        <div class="c-tab">
+            <div class="c-tab__content"></div>
+        </div>
+    </div>
+    <footer></footer>
+    <script src="js/jquery-3.1.1.min.js"></script>
+     <script src="js/animatedModal.min.js"></script>
+    <script src="js/tabsinit.js"></script>
+    <script>
+        $("#demo01").animatedModal();
+        var myTabs = tabs({
+            el: '#tabs',
+            tabNavigationLinks: '.c-tabs-nav__link',
+            tabContentContainers: '.c-tab'
+        });
+        myTabs.init();
+        </script>
+</body>
+
+</html>
