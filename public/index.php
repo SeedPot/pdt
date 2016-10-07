@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Programa de difusión tecnológica</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/flexboxgrid.min.css">
@@ -53,7 +54,7 @@
 
         <div class="row no-margin middle-xs">
             <!-- contenido -->
-            <div class="pdt-container col-sm-12 col-md-6 col-lg-6">
+            <div class="pdt-container col-xs-12 col-md-6 col-lg-6">
 
                 <div class="row center-xs">
                     <div class="col-xs-12 pdt-title">
@@ -75,16 +76,16 @@
                         <p class="pdt-content">El programa es impulsado por Support Consultores y apoyado por INNOVACHILE CORFO.
                         </p>
                     </div>
-                    <!-- <div class="col-xs-10 col-sm-6 col-md-6 col-lg-6">
+                    <div class="col-xs-10 col-sm-6 col-md-6 col-lg-6">
                         <aside class="arrow"><span class="aside-text">Saber más</span></aside>
-                    </div>  -->   
+                    </div>
                 </div>
 
             </div>
             <!-- imagen -->
-            <!-- <div class="pdt-image col-sm-12 col-md-6 col-lg-6">
-
-            </div> -->
+            <div class="pdt-image col-sm-12 col-md-6 col-lg-6">
+                <!-- <img src="images/cover2_opt.png" alt=""> -->
+            </div>
 
         </div>        
 
@@ -230,9 +231,9 @@
             cssEase: 'linear'
         });
 
-        $('#seccion1').parallax({
-            imageSrc: 'images/cover_opt.png'
-        });
+        // $('#seccion1').parallax({
+        //     imageSrc: 'images/cover_opt.png'
+        // });
     });
 
     // Scroll suave hacia seccion1 al hacer click en la flecha
