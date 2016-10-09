@@ -71,7 +71,7 @@
                 <div class="row center-xs">
                     <div class="col-xs-10 col-md-11 col-lg-11">
                         <p class="pdt-content">
-                        El PDT es un programa de tecnología y e innovación destinado a apoyar el desarrollo de
+                        El PDT es un programa de tecnología e innovación destinado a apoyar el desarrollo de
                         soluciones que operan con energía solar.</p>
                         <p class="pdt-content">El programa es impulsado por Support Consultores y apoyado por INNOVACHILE CORFO.
                         </p>

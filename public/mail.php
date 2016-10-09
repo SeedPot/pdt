@@ -17,7 +17,7 @@
         }
 
         // CAMBIAR POR EL MAIL DE CONTACTO DEL PDT
-        $to = 'daza.camilos@gmail.com';
+        $to = 'gerencia@supportconsultores.cl';
         // $to = 'julio.caruncho.a@gmail.com';
 
         $pdtEmail = 'contacto@industriasolartarapaca.cl';
