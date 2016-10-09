@@ -22,7 +22,7 @@
                     <li class="footer-li">
                         <img src="icon/phone.png" alt="">
                         <span class="li-text">
-                            (57) 2717379
+                            (57) 2 717379
                         </span>
                     </li>
                     <li class="footer-li">
