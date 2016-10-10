@@ -28,6 +28,13 @@
     border-bottom: 4px solid #fff;
     padding-bottom: 21px; }
 
+@media (max-width: 1124px) {
+  .header-logo {
+    padding: 10px 10px; }
+  .header-link {
+    font-size: 14px;
+    padding: 10px 10px 10px; } }
+
 .home-area {
   position: relative;
   width: 100%;

@@ -4,7 +4,7 @@
     </div>
 
     <div class="col-sm-6 col-xs-12">
-        <div class="row center-xs end-sm">
+        <div class="row around-xs end-sm">
 
             <div class="col-md-2 col-sm-4">
                 <a class="header-link" href="programa.php">Programa</a>

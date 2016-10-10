@@ -16,7 +16,7 @@
                     <li class="footer-li">
                         <img src="icon/building.png" alt="">
                         <span class="li-text">
-                            Edif. Dharma, 5° piso, of. 504
+                            Oficina 504 - Edificio Dharma
                         </span>
                     </li>
                     <li class="footer-li">
