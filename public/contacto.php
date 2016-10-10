@@ -32,7 +32,7 @@
                         Nombre:
                     </div>
                     <div class="col-xs-10 col-xs-offset-1 col-md-7">
-                        <input name="name" id="name" type="text">
+                        <input name="name" id="name" type="text" required>
                     </div>
                 </div>
 
@@ -41,7 +41,8 @@
                         Email:
                     </div>
                     <div class="col-xs-10 col-xs-offset-1 col-md-7">
-                        <input name="email" id="email" type="email">
+                        <input name="email" id="email" type="email" required>
+                        <div class="oculto">Ingresa un email válido</div>
                     </div>
                 </div>
 
@@ -50,7 +51,7 @@
                         Pregunta:
                     </div>
                     <div class="col-xs-10 col-xs-offset-1 col-md-7">
-                        <textarea name="message" id="message" name="consulta" rows="5"></textarea>
+                        <textarea name="message" id="message" name="consulta" rows="5" required=""></textarea>
                     </div>
                 </div>
                 <div class="row center-xs box-boton">

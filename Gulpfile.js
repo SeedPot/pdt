@@ -2,7 +2,7 @@ const gulp = require('gulp'), sass = require('gulp-sass'), browser = require('br
 
 gulp.task('sass', function(){
     return gulp.src('./src/sass/styles.scss')
-    .pipe(sass.sync().on('error', sass.logError))
+    .pipe(sass().on('error', sass.logError))
     .pipe(gulp.dest('./public/css'));
 });
 
