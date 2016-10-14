@@ -1,0 +1,70 @@
+body{
+	background-color: #041744;
+}
+
+.pro-container{
+	width: 90%;
+	margin: auto;
+	color: #EFEFEF;
+	overflow: hidden;
+	padding-bottom: 20px;
+}
+
+@media (max-width: 1124px) {
+    .pro-container{
+    	width: 100%;
+    }
+    .pro-text{
+    	width: 85%;
+    	margin: auto;
+    }
+    .pro-img{
+		padding: 0 0 30px;
+    }
+}
+
+.pro-title{
+	margin-top: 100px;
+}
+
+.pro-img{
+	width: 100%;
+	height: auto;
+}
+
+.pro-text{
+	text-align: justify;
+	padding: 0 0 30px;
+	font-size: 16px;
+	color: #EFEFEF;
+}
+
+.pro-text-bold{
+	font-weight: 700;
+}
+
+.pro-hr-title {
+  margin: 20px 0;
+  height: 30px;
+  border-style: solid;
+  border-width: 1px 0 0 0;
+  border-radius: 20px; }
+  .pro-hr-title:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    border-radius: 20px; }
+  .pro-hr-title:after {
+    content: url("../icon/solar_panel.png");
+    display: inline-block;
+    position: relative;
+    top: -20px;
+    padding: 5px 10px 0;
+    background: transparent;
+    font-size: 18px; }
+
+  .azul:after {
+    background: #041744; }
