@@ -1,5 +1,5 @@
 .contacto-img{
-    background: url('../images/contacto1.1.jpg');
+    background: url('../images/contacto1.png');
     background-size: cover;
     background-repeat: no-repeat;
     /*filter: brightness(80%);
@@ -8,8 +8,8 @@
 
 input,textarea{
     width: 100%;
-    padding: 3px;
     border-radius: 5px;
+    padding: 5px;
     
 }
 textarea{
@@ -37,7 +37,7 @@ textarea{
 }
 
 .text-margin{
-    margin-bottom: 8px;
+    /*margin-bottom: 8px;*/
 }
 
 body{

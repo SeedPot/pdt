@@ -92,7 +92,7 @@
                             para generar y gestionar innovación.</p>
                     </div>
                     <div class="col-xs-12 col-md-6">
-                        <img class="content-img" src="images/grupo.jpg" alt="visita huayca">
+                        <img class="content-img" src="images/grupo_opt.jpg" alt="visita huayca">
                     </div>
                 </div>
                 <a href="#0" class="cd-read-more" data-cta-target="#js-modal-diagnostico" data-disable-scroll=true>Leer más</a>
@@ -546,11 +546,23 @@
                 <div class="col-xs-11">
                     <div class="row center-xs">
                         <div class="col-md-10 pdt-content justify-text texto-galeria">
-                            Lorem ipsum dolor sit amet, quodsi deseruisse sit in. Tale ridens diceret ius ea, id nec stet postulant interesset. Option invidunt theophrastus vix ut, his vidisse dolorem facilisi ex. Eos mucius complectitur in. Ut equidem molestiae sea, no per justo alterum.
-
-                            Quot malorum quo at, qui ne latine placerat. Ei magna democritum mea, has at nisl enim pertinax, legere labore ad eum. Aeque electram qui eu. Usu lorem ludus te, aliquando sententiae nec ne. At usu rebum elitr commodo, vel in labores gloriatur. Sea ne quem malorum, suscipiantur consequuntur ei vix. Ei probo quando democritum mea, ei eam appareat constituam, probo debet fabulas ad qui.
-
-                            Detracto eligendi scripserit ei pri, an partem legere his. Tollit soluta signiferumque an his. Nam viderer utroque ne, an mea tota debitis, quas maiorum ad vis. Tale aeterno cu sit, decore eripuit patrioque ut ius. Vitae fierent et nec, ius ea iusto possim. Vis posse sanctus expetendis ut, et eum intellegam definitionem, vix at eligendi menandri. At equidem patrioque has, lorem adversarium in duo.
+                            El objetivo del diagnóstico, que será realizado mediante la ejecución de
+                            entrevistas  en profundidad, es conocer su historia, el modelo de
+                            negocios actual, los procesos de gestión, los desafíos a trabajar que la
+                            empresa identifica y la visión estratégica de la misma, así como la
+                            detección de brechas, nivel de competitividad y capacidades para generar
+                            y gestionar innovación.
+                            <br><br>
+                            El Diagnóstico constituye una actividad crítica en el marco del Programa
+                            de Difusión Tecnológica denominado “Tecnología e innovación para el
+                            desarrollo de la industria auxiliar proveedora de proyectos de
+                            generación y soluciones que operan con energía solar”. El Diagnóstico
+                            representa el punto de partida, puesto que en este documento se expresa
+                            la situación actual centrada en los análisis de variables internas y
+                            externas, lo que permite establecer las fortalezas, debilidades,
+                            amenazas y oportunidades encontradas e identificar brechas que serán
+                            determinantes para generar nuevas líneas o negocio en el ámbito de la
+                            energía solar.
                         </div>
                     </div>
                 </div>
@@ -605,22 +617,43 @@
             </div>
             <div class="row center-xs">            
                 <div class="col-xs-11">
-                    <div class="modal-fecha">Del Miercoles 13 al Miercoles 20 de Abril del 2016</div>
+                    <div class="modal-fecha">Del Miercoles 13 y Miercoles 20 de Abril del 2016</div>
                 </div>
             </div>
             <div class="row center-xs">
                 <div class="col-xs-11">
                     <div class="row center-xs">
                         <div class="col-md-10 pdt-content justify-text texto-galeria">
-                            Lorem ipsum dolor sit amet, quodsi deseruisse sit in. Tale ridens diceret ius ea, id nec stet postulant interesset. Option invidunt theophrastus vix ut, his vidisse dolorem facilisi ex. Eos mucius complectitur in. Ut equidem molestiae sea, no per justo alterum.
-
-                            Quot malorum quo at, qui ne latine placerat. Ei magna democritum mea, has at nisl enim pertinax, legere labore ad eum. Aeque electram qui eu. Usu lorem ludus te, aliquando sententiae nec ne. At usu rebum elitr commodo, vel in labores gloriatur. Sea ne quem malorum, suscipiantur consequuntur ei vix. Ei probo quando democritum mea, ei eam appareat constituam, probo debet fabulas ad qui.
-
-                            Detracto eligendi scripserit ei pri, an partem legere his. Tollit soluta signiferumque an his. Nam viderer utroque ne, an mea tota debitis, quas maiorum ad vis. Tale aeterno cu sit, decore eripuit patrioque ut ius. Vitae fierent et nec, ius ea iusto possim. Vis posse sanctus expetendis ut, et eum intellegam definitionem, vix at eligendi menandri. At equidem patrioque has, lorem adversarium in duo.
+                            VISITA TÉCNICA ZOFRI S.A 
+                            <br><br>
+                            A CONTINUACIÓN LOS DATOS DE LAS PERSONAS DE ZOFRI QUE COLABORARON CON LA REALIZACIÓN DE LA ACTIVIDAD:
+                            <br><br>
+                            LORENZO ZAMBRANO RIVERA
+                            SUBGERENTE DE MANTENIMIENTO
+                            <br><br>
+                            CHARLES PANAQUE DE LA CRUZ
+                            SUPERVISOR DE MANTENIMIENTO
+                            <br><br>
+                            Planta de 250 KV, fue construida 2013 con subsidio Corfo, aportes de Zofri y ejecutada por Andes Solar cuyo gerente fue Cesar Gimeno y Consultor Paris Salgado.
+                            <br><br>
+                            VISITA TÉCNICA A LA HUAYCA
+                            <br><br>
+                            SPS LA HUAYCA S.A.
+                            Humberto Romero Ugarte
+                            Gerente General
+                            Via5, Manz F, Sitio2, Bajo Molle , Iquique
+                            <br><br>
+                            Proyecto SPS La Huayca II. Planta fotovoltaica ubicada en el Norte de Chile, al Sur-Este de Iquique, en la comuna de Pozo Almonte, localidad de La Huayca. El proyecto contempla inyectar 30,5MW al Sistema Interconectado del Norte Grande (SING) y considera una inversión total de 67,3 Millones de dólares. Se instalarán de más de 128 mil paneles solares, emplazados en una superficie de 50 hectáreas.
+                            <br><br>
+                            Este proyecto marca un hito importante en el desarrollo fotovoltaico en Chile pues en su primera etapa fue la primera central fotovoltaica en inyectar energía en el SING.
+                            <br><br>
+                            La puesta en servicio definitiva está prevista para Julio de 2014.
+                            <br><br>
+                            En el proyecto La Huyaca MT Mecatronica SPA está a cargo de las instalaciones eléctricas de baja y media tensión, incluyendo la conexión de las subestaciones, así como instalaciones de fibra óptica.
                         </div>
                     </div>
                     <div class="row center-xs">
-                        <div class="col-md-8 galeria">                
+                        <div class="col-md-8">                
                             <img src="images/revisionesTecnicas/huayca/1.jpg" alt="huayca 1">
                             <img src="images/revisionesTecnicas/huayca/2.jpg" alt="huayca 2">
                             <img src="images/revisionesTecnicas/huayca/3.jpg" alt="huayca 3">

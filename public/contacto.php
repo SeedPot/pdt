@@ -27,7 +27,7 @@
                         <h1>CONTÁCTANOS</h1>
                     </div>
                 </div>
-                <div class="row start-xs center-md box">
+                <div class="row middle-xs start-xs center-md box">
                     <div class="col-xs-10 col-xs-offset-1 col-md-1 col-md-offset-0 text-margin">
                         Nombre:
                     </div>
@@ -36,7 +36,7 @@
                     </div>
                 </div>
 
-                <div class="row start-xs center-md box">
+                <div class="row middle-xs start-xs center-md box">
                     <div class="col-xs-10 col-xs-offset-1 col-md-1 col-md-offset-0 text-margin">
                         Email:
                     </div>
