@@ -18,6 +18,8 @@ ul.resp-tabs-list, p {
     padding: 0px;
     background-color: #fff;
     clear: left;
+    margin-left: 0;
+    margin-right: 0;
     border-radius: 0px 5px 5px 5px;
 }
 

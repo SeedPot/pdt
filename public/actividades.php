@@ -693,6 +693,7 @@
                         <li><a href="#">Módulo 1</a></li>
                         <li><a href="#">Módulo 2</a></li>
                         <li><a href="#">Módulo 3</a></li>
+                        <li><a href="#">Módulo 4</a></li>
                     </ul>
                     <div class="row center-xs resp-tabs-container ver_1">
                         <div class="col-md-11">  
@@ -709,6 +710,11 @@
                             <div class="row">
                                 <div class="col-xs-12">
                                     <span>Duración: 8Hrs</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <span>Expositor: preguntar</span>
                                 </div>
                             </div> 
                             <div class="row">
@@ -742,13 +748,34 @@
                                 </div>
                             </div> 
                             <div class="row">
+                                <div class="col-xs-12">
+                                    <h3>Instalación de Sistemas Solares Térmicos</h3>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <span>Duración: 8Hrs</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <span>Expositor: preguntar</span>
+                                </div>
+                            </div> 
+                            <div class="row">
                                 <div class="col-xs-12 justify-text">
-                                    <p>Irure incididunt mollit aute enim consequat ipsum proident nisi officia. Tempor et consequat in enim et est
-                                    non ex. Ex officia duis ipsum exercitation est aute culpa eiusmod. Duis amet officia qui Lorem magna
-                                    ullamco voluptate adipisicing et duis est nulla dolor exercitation. Dolore dolore do est exercitation
-                                    adipisicing eiusmod id occaecat enim qui anim adipisicing. Irure id aute qui excepteur eiusmod ad ea
-                                    ea id mollit tempor laborum reprehenderit. Elit sint aute sunt cupidatat ipsum eu esse exercitation laborum
-                                    elit excepteur do veniam do.</p>
+                                    <p>Este módulo capacitará sobre el dimensionamiento, instalación, mantención y puesta en marcha
+                                    de sistemas solares térmicos en módulos presurizados y atmosféricos, heat pipe, tubo al vacío y
+                                    planos; identificando los procedimientos en una planificación adecuada; reconociendo y ubicando
+                                    los distintos componentes del sistema solar; instalando de acuerdo a los procedimientos
+                                    establecidos y cumpliendo todas las exigencias de seguridad con mención a la legislación actual
+                                    que regule o beneficie este tipo de tecnologías.</p>
+                                    <p>Este módulo estará a cargo del Centro de Capacitación de Energías Renovables, empresa
+                                    privada con sede en Santiago de Chile, integrada por profesionales de gran experiencia y
+                                    estudios formales en áreas de la ingeniería, electricidad, mecánica y ERNC. Se trata de una
+                                    empresa con Certificación en Sistema de Gestión de la Calidad ISO 9001:2008 y la Norma
+                                    Chilena NCh 2728:2003, registrada como OTEC y orientada en específico a temas de energías
+                                    renovables.</p>
                                 </div>
                             </div> 
                         </div>
@@ -757,13 +784,84 @@
                                 <div class="col-xs-12">
                                     <h3>Módulo 3</h3>
                                 </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <h3>Diseño y fabricación de componentes para la industria solar</h3>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <span>Duración: 8Hrs</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <span>Expositor: preguntar</span>
+                                </div>
                             </div> 
                             <div class="row">
                                 <div class="col-xs-12 justify-text">
-                                    <p>Ex et veniam commodo in nostrud sint cupidatat adipisicing adipisicing sunt. Qui anim laboris laboris est
-                                    enim adipisicing sint amet eu occaecat. Officia fugiat pariatur laborum aliqua ad est proident.</p>
+                                    <p>En este contexto, donde se requiere integrar tecnología y conocimientos para innovar, Alemania
+                                    es un ejemplo en innovación, cuenta con universidades de primera línea e instituciones de
+                                    investigación, además de importantes industrias de ingeniería, informática y fabricación, se
+                                    presenta como un país líder en muchas tecnologías de vanguardia, incluyendo la energía eólica,
+                                    solar fotovoltaica y biomasa. En el caso de la energía solar, tiene instaladas centrales de energía
+                                    solar fotovoltaica que pueden dar electricidad a 5,1 millones de personas (38,6 MW de
+                                    potencia instalada) y viene realizando una destacada cooperación científico-tecnológica en
+                                    materia energética con Chile, lo cual se refleja en que el año 2014 inició su trabajo en nuestro
+                                    país el centro de excelencia solar de Fraunhofer.</p>
+                                    <p>El programa recurre a expertos internacionales a objeto de transferir la experiencia y expertis de
+                                    la industria Alemana, en específico a la empresa Alemana MCA Innovation que será responsable
+                                    de realizar la capacitación en materia de diseño y construcción de componentes para la industria
+                                    solar, MCA Innovation está lideradas por Carlos Meneses, chileno con estudios en Ingeniería,
+                                    radicado hace más de 35 años en Alemania. Han construido más de 500 MW en Parques de
+                                    Energía solar y es representante de tecnologías como Krinner (sistemas de sujeción de paneles
+                                    solares donde no se emplean el concreto para fijar paneles a piso) y otros desarrollos.</p>
                                 </div>
                             </div>
+                        </div>
+                        <div class="col-md-11">
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <h3>Módulo 4</h3>
+                                </div>
+                            </div> 
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <h3>Sistemas para el almacenamiento de energía renovable</h3>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <span>Duración: 8Hrs</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <span>Expositor: preguntar</span>
+                                </div>
+                            </div> 
+                            <div class="row">
+                                <div class="col-xs-12 justify-text">
+                                    <p>El almacenamiento de energía tiene un rol crítico en asegurar el futuro energético y esto se debe
+                                    a que servirán como una “reserva de electricidad” de mucho mayor capacidad que cualquier
+                                    reserva de combustibles fósiles, estabiliza la red de distribución y transmisión, permite un uso
+                                    más eficiente de la generación existente, hace viable económicamente las energías renovables,
+                                    es un elemento para suministrar energía cuando los costos de electricidad son altos, como por
+                                    ejemplo, en las horas punta, reduce o disminuye la necesidad de instalar nuevas generadoras,
+                                    realiza un seguimiento de la carga, permite tener una capacidad de reserva, realiza un soporte de
+                                    estabilidad de voltaje y de los sistemas de transmisión y distribución, da una asistencia a lo que
+                                    es la integración de fuentes solares reduciendo la volatidad de la salida y su variabilidad,
+                                    mejorando la calidad de la energía, reduciendo los problemas de congestión, entre otras.</p>
+                                    <p>Este módulo de capacitación también será desarrollado por la empresa Alemana MCA Innovation
+                                    siendo el oobjeto principal el estudiar las diversas formas de almacenamiento de energía, su
+                                    importancia, su descripción teórica, modelamiento y simulación. Mostrar la importancia del
+                                    almacenamiento de energía, clasificar las diversas formas de almacenamiento de energía
+                                    existentes, estudiar los tipos de almacenamiento más usado, crear capacidades humanas e
+                                    identificar potenciales temas de investigación en el área focalizados a la realidad nacional.</p>
+                                </div>
+                            </div> 
                         </div>
                     </div>
                 </div>

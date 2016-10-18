@@ -217,7 +217,7 @@ Main components
 .cd-timeline-content h2 {
   color: #303e49;
 }
-.cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date .cd-timeline-content ol{
+.cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date{
   font-size: 13px;
   font-size: 0.8125rem;
 }
@@ -449,6 +449,7 @@ Main components
 }
 .cd-timeline-content li{
   margin-left: 30px;
+  font-size: inherit;
 }
 .content-img{
   float: left;
