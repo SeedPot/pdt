@@ -53,12 +53,12 @@
 			<h3>Material complementario</h3>
 		</div>
 	</div>
-	<div class="row">
+	<div class="row start-xs">
 		<div class="col-md-12">
-			
+			<a class="" href="modulos/mod1/clase1.pdf" target="_blank">clase 1</a>
 		</div>
 		<div class="col-md-12">
-			
+			<a href="modulos/mod1/clase2.pdf" target="_blank">clase 2</a>
 		</div>
 	</div>
 	<!--fin material-->
