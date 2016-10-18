@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/timeline.css">
     <link rel="stylesheet" href="css/modales.css">
     <link rel="stylesheet" href="css/modulo.css">
+    <link rel="stylesheet" href="css/easy-responsive-tabs.css">
     <script src="js/modernizr.js"></script>
     <!-- Modernizr -->
 
@@ -687,92 +688,80 @@
                 </div>
             </div>
             <div class="row center-xs">
-                <div class="col-xs-12 pdt-title">
-                   <div class="row center-xs">
-                        <ul class="tab">
-                            <li><a href="#" class="tablinks active" onclick="openCity(event, 'Modulo1')">Módulo 1</a></li>
-                            <li><a href="#" class="tablinks" onclick="openCity(event, 'Modulo2')">Módulo 2</a></li>
-                            <li><a href="#" class="tablinks" onclick="openCity(event, 'Modulo3')">Módulo 3</a></li>
-                        </ul>
-                    </div>
-                    <div class="row center-xs">
-                        <div class="col-md-11">            
-                            <div id="Modulo1" class="tabcontent">
-                                <div class="row">
-                                    <div class="col-xs-12">
-                                        <h3>Módulo 1</h3>
-                                    </div>
+                <div id="tabModulos" class="col-xs-11 pdt-title">
+                    <ul class="resp-tabs-list ver_1">
+                        <li><a href="#">Módulo 1</a></li>
+                        <li><a href="#">Módulo 2</a></li>
+                        <li><a href="#">Módulo 3</a></li>
+                    </ul>
+                    <div class="row center-xs resp-tabs-container ver_1">
+                        <div class="col-md-11">  
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <h3>Módulo 1</h3>
                                 </div>
-                                <div class="row">
-                                    <div class="col-xs-12">
-                                        <h3>Instalación de sistemas fotovoltaicos y conexión a la red</h3>
-                                    </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <h3>Instalación de sistemas fotovoltaicos y conexión a la red</h3>
                                 </div>
-                                <div class="row">
-                                    <div class="col-xs-12">
-                                        <span>Duración: 8Hrs</span>
-                                    </div>
-                                </div> 
-                                <div class="row">
-                                    <div class="col-xs-12 justify-text">                              
-                                        <p>El participante quedará capacitado para realizar el dimensionamiento, instalación, mantención y puesta en
-                                            marcha de sistemas solares fotovoltaicos para la generación de electricidad; identificando los procedimientos
-                                            en una planificación adecuada; reconociendo y ubicando los distintos componentes del sistema solar; instalando
-                                            de acuerdo a los procedimientos establecidos y cumpliendo todas las exigencias de seguridad con mención
-                                            a la legislación actual que regula o beneficia este tipo de tecnologías.</p><br>
-                                        <p>Este módulo estará a cargo del Centro de Capacitación de Energías Renovables, empresa privada con sede en
-                                            Santiago de Chile, integrada por profesionales de gran experiencia y estudios formales en áreas de la
-                                            ingeniería, electricidad, mecánica y ERNC. Se trata de una empresa con Certificación en Sistema de Gestión
-                                            de la Calidad ISO 9001:2008 y la Norma Chilena NCh 2728:2003, registrada como OTEC y orientada en específico
-                                            a temas de energías renovables.
-                                        </p>                                        
-                                    </div>
-                                </div>  
                             </div>
-                            <div id="Modulo2" class="tabcontent">
-                                <div class="row">
-                                    <div class="col-xs-12">
-                                        <h3>Módulo 2</h3>
-                                    </div>
-                                </div> 
-                                <div class="row">
-                                    <div class="col-xs-12 justify-text">
-                                        <p>Irure incididunt mollit aute enim consequat ipsum proident nisi officia. Tempor et consequat in enim et est
-                                        non ex. Ex officia duis ipsum exercitation est aute culpa eiusmod. Duis amet officia qui Lorem magna
-                                        ullamco voluptate adipisicing et duis est nulla dolor exercitation. Dolore dolore do est exercitation
-                                        adipisicing eiusmod id occaecat enim qui anim adipisicing. Irure id aute qui excepteur eiusmod ad ea
-                                        ea id mollit tempor laborum reprehenderit. Elit sint aute sunt cupidatat ipsum eu esse exercitation laborum
-                                        elit excepteur do veniam do.</p>
-                                    </div>
-                                </div> 
-                            </div>
-                            
-                            <div id="Modulo3" class="tabcontent">
-                                <div class="row">
-                                    <div class="col-xs-12">
-                                        <h3>Módulo 3</h3>
-                                    </div>
-                                </div> 
-                                <div class="row">
-                                    <div class="col-xs-12 justify-text">
-                                        <p>Ex et veniam commodo in nostrud sint cupidatat adipisicing adipisicing sunt. Qui anim laboris laboris est
-                                        enim adipisicing sint amet eu occaecat. Officia fugiat pariatur laborum aliqua ad est proident.</p>
-                                    </div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <span>Duración: 8Hrs</span>
+                                </div>
+                            </div> 
+                            <div class="row">
+                                <div class="col-xs-12 justify-text">
+                                    <p>El participante quedará capacitado para realizar el dimensionamiento, instalación, mantención y puesta en
+                                        marcha de sistemas solares fotovoltaicos para la generación de electricidad; identificando los procedimientos
+                                        en una planificación adecuada; reconociendo y ubicando los distintos componentes del sistema solar; instalando
+                                        de acuerdo a los procedimientos establecidos y cumpliendo todas las exigencias de seguridad con mención
+                                        a la legislación actual que regula o beneficia este tipo de tecnologías.</p><br>
+                                    <p>Este módulo estará a cargo del Centro de Capacitación de Energías Renovables, empresa privada con sede en
+                                        Santiago de Chile, integrada por profesionales de gran experiencia y estudios formales en áreas de la
+                                        ingeniería, electricidad, mecánica y ERNC. Se trata de una empresa con Certificación en Sistema de Gestión
+                                        de la Calidad ISO 9001:2008 y la Norma Chilena NCh 2728:2003, registrada como OTEC y orientada en específico
+                                        a temas de energías renovables.
+                                    </p>                                        
+                                </div>
+                            </div>  
+                            <div class="row">
+                                <div class="col-md-6">                     
+                                    <img src="images/modulos/2.jpg" alt="modulos 2">
+                                </div>
+                                <div class="col-md-6"> 
+                                    <img src="images/modulos/8.jpg" alt="modulos 8">
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="row center-xs">
-                        <div class="col-md-11">  
-                            <div class="row center-xs">
-                                <div class="col-md-8 galeria">                     
-                                    <img src="images/modulos/1.jpg" alt="modulos 1">
-                                    <img src="images/modulos/2.jpg" alt="modulos 2">
-                                    <img src="images/modulos/3.jpg" alt="modulos 3">
-                                    <img src="images/modulos/5.jpg" alt="modulos 5">
-                                    <img src="images/modulos/6.jpg" alt="modulos 6">
-                                    <img src="images/modulos/7.jpg" alt="modulos 7">
-                                    <img src="images/modulos/8.jpg" alt="modulos 8">
+                        <div class="col-md-11">
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <h3>Módulo 2</h3>
+                                </div>
+                            </div> 
+                            <div class="row">
+                                <div class="col-xs-12 justify-text">
+                                    <p>Irure incididunt mollit aute enim consequat ipsum proident nisi officia. Tempor et consequat in enim et est
+                                    non ex. Ex officia duis ipsum exercitation est aute culpa eiusmod. Duis amet officia qui Lorem magna
+                                    ullamco voluptate adipisicing et duis est nulla dolor exercitation. Dolore dolore do est exercitation
+                                    adipisicing eiusmod id occaecat enim qui anim adipisicing. Irure id aute qui excepteur eiusmod ad ea
+                                    ea id mollit tempor laborum reprehenderit. Elit sint aute sunt cupidatat ipsum eu esse exercitation laborum
+                                    elit excepteur do veniam do.</p>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="col-md-11">
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <h3>Módulo 3</h3>
+                                </div>
+                            </div> 
+                            <div class="row">
+                                <div class="col-xs-12 justify-text">
+                                    <p>Ex et veniam commodo in nostrud sint cupidatat adipisicing adipisicing sunt. Qui anim laboris laboris est
+                                    enim adipisicing sint amet eu occaecat. Officia fugiat pariatur laborum aliqua ad est proident.</p>
                                 </div>
                             </div>
                         </div>
@@ -1188,21 +1177,9 @@
     <script src="js/main.js"></script>
     <script src="js/cta.min.js"></script>
     <script src="js/slick.min.js"></script>
+    <script src="js/easyResponsiveTabs.js"></script>
     <!-- Resource jQuery -->
     <script type="text/javascript">
-        function openCity(evt, cityName) {
-            var i, tabcontent, tablinks;
-            tabcontent = document.getElementsByClassName("tabcontent");
-            for (i = 0; i < tabcontent.length; i++) {
-                tabcontent[i].style.display = "none";
-            }
-            tablinks = document.getElementsByClassName("tablinks");
-            for (i = 0; i < tablinks.length; i++) {
-                tablinks[i].className = tablinks[i].className.replace(" active", "");
-            }
-            document.getElementById(cityName).style.display = "block";
-            evt.currentTarget.className += " active";
-        }
         var closeFn;
         function closeShowingModal() {
             var showingModal = document.querySelector('.modal.show');
@@ -1249,6 +1226,16 @@
                 pauseOnFocus: false,
                 pauseOnHover: false,
                 cssEase: 'linear'
+            });
+            $('#tabModulos').easyResponsiveTabs({
+                type: 'horizontal',
+                width: 'auto',
+                fit: true,
+                tabidentify: 'ver_1', // The tab groups identifier
+                activetab_bg: '#fff', // background color for active tabs in this group
+                inactive_bg: '#F5F5F5', // background color for inactive tabs in this group
+                active_border_color: '#c1c1c1', // border color for active tabs heads in this group
+                active_content_border_color: '#5AB1D0' // border color for active tabs contect in this group so that it matches the tab head border
             });
         });
     </script>

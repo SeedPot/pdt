@@ -17,7 +17,12 @@ body section .row{
 	pointer-events: none;
     transition: 200ms ease;
 	overflow-x: hidden;
-	overflow-y: auto;
+	overflow-y: auto;	
+}
+
+.modal .row{
+	margin-left: 0;
+	margin-right: 0;
 }
 
 .modal-close-btn {
