@@ -1,1283 +1,1095 @@
 <!doctype html>
-<html lang="es" class="no-js"> 
+<html lang="es" class="no-js">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/flexboxgrid.min.css">
-    <link rel="stylesheet" href="css/slick.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/timeline.css">
-    <link rel="stylesheet" href="css/modales.css">
-    <link rel="stylesheet" href="css/modulo.css">
-    <link rel="stylesheet" href="css/easy-responsive-tabs.css">
-    <script src="js/modernizr.js"></script>
-    <!-- Modernizr -->
+	<link rel="stylesheet" href="css/flexboxgrid.min.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/timeline.css">
+	<link rel="stylesheet" href="css/modales.css">
+	<link rel="stylesheet" href="css/modulo.css">
+	<link rel="stylesheet" href="css/easy-responsive-tabs.css">
+	<script src="js/modernizr.js"></script>
+	<!-- Modernizr -->
 
-    <title>Actividades</title>
+	<title>Actividades</title>
 </head>
 
 <body>
-    <header>
-        <div id="header" style="background-color: rgba(0,0,0,.4);">
-            <?php include_once 'header.php'; ?>
-        </div>
-    </header>
+	<header>
+		<div id="header" style="background-color: rgba(0,0,0,.4);">
+			<?php include_once 'header.php'; ?>
+		</div>
+	</header>
 
-    <section class="title-container">
-        <div class="row center-xs">
-            <div class="col-xs-12">
-                <h1>Cronograma de actividades</h1>
-            </div>
-            <div class="col-xs-10 col-sm-10 col-md-6">
-                <hr class="pdt-hr-title azul">
-            </div>
-        </div>
-    </section>   
+	<section class="title-container">
+		<div class="row center-xs">
+			<div class="col-xs-12">
+				<h1>Cronograma de actividades</h1>
+			</div>
+			<div class="col-xs-10 col-sm-10 col-md-6">
+				<hr class="pdt-hr-title azul">
+			</div>
+		</div>
+	</section>
 
-    <section id="cd-timeline" class="cd-container">
-        <div class="cd-timeline-block">
-            <div class="cd-timeline-img"></div>
+	<section id="cd-timeline" class="cd-container">
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img"></div>
 
-            <div class="cd-timeline-content">
-                <div class="row center-xs">
-                    <div class="col-xs-12">
-                        <h2>Seminario inicial</h2>
-                    </div>
-                </div>
-                <div class="row center-xs">
-                    <div class="col-xs-12">
-                        <hr class="pdt-hr-activity blanco">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-6 col-sm-6 col-md-6">
-                        <img class="content-img" src="images/seminarioInicial/1.jpg" alt="seminario inicial 1">
-                    </div>
-                    <div class="col-xs-6 col-sm-6 col-md-6">
-                        <img class="content-img" src="images/seminarioInicial/2.jpg" alt="seminario inicial 2">
-                    </div>
-                    <div class="col-xs-6 col-sm-6 col-md-6">
-                        <img class="content-img" src="images/seminarioInicial/3.jpg" alt="seminario inicial 3">
-                    </div>
-                    <div class="col-xs-6 col-sm-6 col-md-6">
-                        <img class="content-img" src="images/seminarioInicial/4.jpg" alt="seminario inicial 4">
-                    </div>
-                </div>
-                <span class="cd-date">17/04/2016</span>
-            </div>
+			<div class="cd-timeline-content">
+				<div class="row center-xs">
+					<div class="col-xs-12">
+						<h2>Seminario inicial</h2>
+					</div>
+				</div>
+				<div class="row center-xs">
+					<div class="col-xs-12">
+						<hr class="pdt-hr-activity blanco">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-6 col-sm-6 col-md-6">
+						<img class="content-img" src="images/seminarioInicial/1.jpg" alt="seminario inicial 1">
+					</div>
+					<div class="col-xs-6 col-sm-6 col-md-6">
+						<img class="content-img" src="images/seminarioInicial/2.jpg" alt="seminario inicial 2">
+					</div>
+					<div class="col-xs-6 col-sm-6 col-md-6">
+						<img class="content-img" src="images/seminarioInicial/3.jpg" alt="seminario inicial 3">
+					</div>
+					<div class="col-xs-6 col-sm-6 col-md-6">
+						<img class="content-img" src="images/seminarioInicial/4.jpg" alt="seminario inicial 4">
+					</div>
+				</div>
+				<span class="cd-date">17/04/2016</span>
+			</div>
 
-        </div>
+		</div>
 
-        <div class="cd-timeline-block">
-            <div class="cd-timeline-img"></div>
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img"></div>
 
-            <div class="cd-timeline-content">
-                <div class="row center-xs">
-                    <div class="col-xs-12">
-                        <h2>Diagnóstico en profundidad</h2>
-                    </div>
-                </div>
-                <div class="row center-xs">
-                    <div class="col-xs-12">
-                        <hr class="pdt-hr-activity blanco">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12 col-md-6">
-                        <p>Entrevista en profundidad por parte del equipo ejecutor del programa para conocer historia, modelo
-                            de negocios, procesos, desafíos, visión estratégica, brechas, nivel de competitividad y capacidades
-                            para generar y gestionar innovación.</p>
-                    </div>
-                    <div class="col-xs-12 col-md-6">
-                        <img class="content-img" src="images/grupo_opt.jpg" alt="visita huayca">
-                    </div>
-                </div>
-                <a href="#0" class="cd-read-more" data-cta-target="#js-modal-diagnostico" data-disable-scroll=true>Leer más</a>
-                <span class="cd-date">06/04/2016</span>
-            </div>
+			<div class="cd-timeline-content">
+				<div class="row center-xs">
+					<div class="col-xs-12">
+						<h2>Diagnóstico en profundidad</h2>
+					</div>
+				</div>
+				<div class="row center-xs">
+					<div class="col-xs-12">
+						<hr class="pdt-hr-activity blanco">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 col-md-6">
+						<p>Entrevista en profundidad por parte del equipo ejecutor del programa para conocer historia, modelo de negocios, procesos,
+							desafíos, visión estratégica, brechas, nivel de competitividad y capacidades para generar y gestionar innovación.</p>
+					</div>
+					<div class="col-xs-12 col-md-6">
+						<img class="content-img" src="images/grupo_opt.jpg" alt="visita huayca">
+					</div>
+				</div>
+				<a href="#0" class="cd-read-more" data-cta-target="#js-modal-diagnostico" data-disable-scroll=true>Leer más</a>
+				<span class="cd-date">06/04/2016</span>
+			</div>
 
-        </div>
+		</div>
 
-        <div class="cd-timeline-block">
-            <div class="cd-timeline-img"></div>
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img"></div>
 
-            <div class="cd-timeline-content">
-                <div class="row center-xs">
-                    <div class="col-xs-12">
-                        <h2>Investigación de cadena de valor</h2>
-                    </div>
-                </div>
-                <div class="row center-xs">
-                    <div class="col-xs-12">
-                        <hr class="pdt-hr-activity blanco">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12">
-                        <p>Investigación con asesoría especializada tendente a identificar la cadena del valor de las distintas
-                            tecnologías con últimas innovaciones desarrolladas y/o en avance, análisis de gaps dentro de
-                            la cadena de valor y la identificación y creación de una base de datos con empresas y soluciones
-                            en el ámbito nacional e internacional para identificar nichos para el desarrollo de tecnologías
-                            y soluciones innovadoras en el ámbito local.</p>
-                    </div>
-                </div>
-                <a href="#0" class="cd-read-more" data-cta-target="#js-modal-investigacion" data-disable-scroll=true>Leer más</a>
-                <span class="cd-date">04/2016 - 07/2016</span>
-            </div>
-        </div>
+			<div class="cd-timeline-content">
+				<div class="row center-xs">
+					<div class="col-xs-12">
+						<h2>Investigación de cadena de valor</h2>
+					</div>
+				</div>
+				<div class="row center-xs">
+					<div class="col-xs-12">
+						<hr class="pdt-hr-activity blanco">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12">
+						<p>Investigación con asesoría especializada tendente a identificar la cadena del valor de las distintas tecnologías con
+							últimas innovaciones desarrolladas y/o en avance, análisis de gaps dentro de la cadena de valor y la identificación
+							y creación de una base de datos con empresas y soluciones en el ámbito nacional e internacional para identificar nichos
+							para el desarrollo de tecnologías y soluciones innovadoras en el ámbito local.</p>
+					</div>
+				</div>
+				<a href="#0" class="cd-read-more" data-cta-target="#js-modal-investigacion" data-disable-scroll=true>Leer más</a>
+				<span class="cd-date">04/2016 - 07/2016</span>
+			</div>
+		</div>
 
-        <div class="cd-timeline-block">
-            <div class="cd-timeline-img"></div>
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img"></div>
 
-            <div class="cd-timeline-content">
-                <div class="row center-xs">
-                    <div class="col-xs-12">
-                        <h2>Visitas Técnicas</h2>
-                    </div>
-                </div>
-                <div class="row center-xs">
-                    <div class="col-xs-12">
-                        <hr class="pdt-hr-activity blanco">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12">
-                        <p>2 Visitas técnicas a proyectos de generación de energía con energía solar. Los proyectos a visitar
-                            son:
-                            <ol>
-                                <li>Parque Fotovoltaico de la empresa Alemana SELRAY de 29MW.</li>
-                                <li>ZOFRI S.A., específicamente se realizará una visita técnica al sistema de abastecimiento
-                                    de servicios comunes que genera el 32% de la energía empleada.</li>
-                            </ol>
-                        </p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12 col-md-6">
-                        <img class="content-img" src="images/revisionesTecnicas/huayca/1.jpg" alt="huayca 1">
-                    </div>
-                    <div class="col-xs-12 col-md-6">
-                        <img class="content-img" src="images/revisionesTecnicas/zofri/1.jpg" alt="zofri 1">
-                    </div>
-                </div>
-                <a href="#0" class="cd-read-more" data-cta-target="#js-modal-visitas" data-disable-scroll=true>Leer más</a>
-                <span class="cd-date">13/04/2016 - 20/04/2016</span>
-            </div>
-        </div>
+			<div class="cd-timeline-content">
+				<div class="row center-xs">
+					<div class="col-xs-12">
+						<h2>Visitas Técnicas</h2>
+					</div>
+				</div>
+				<div class="row center-xs">
+					<div class="col-xs-12">
+						<hr class="pdt-hr-activity blanco">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12">
+						<p>2 Visitas técnicas a proyectos de generación de energía con energía solar. Los proyectos a visitar son:
+							<ol>
+								<li>Parque Fotovoltaico de la empresa Alemana SELRAY de 29MW.</li>
+								<li>ZOFRI S.A., específicamente se realizará una visita técnica al sistema de abastecimiento de servicios comunes que
+									genera el 32% de la energía empleada.</li>
+							</ol>
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 col-md-6">
+						<img class="content-img" src="images/revisionesTecnicas/huayca/1.jpg" alt="huayca 1">
+					</div>
+					<div class="col-xs-12 col-md-6">
+						<img class="content-img" src="images/revisionesTecnicas/zofri/1.jpg" alt="zofri 1">
+					</div>
+				</div>
+				<a href="#0" class="cd-read-more" data-cta-target="#js-modal-visitas" data-disable-scroll=true>Leer más</a>
+				<span class="cd-date">13/04/2016 - 20/04/2016</span>
+			</div>
+		</div>
 
-        <div class="cd-timeline-block">
-            <div class="cd-timeline-img"></div>
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img"></div>
 
-            <div class="cd-timeline-content">
-                <div class="row center-xs">
-                    <div class="col-xs-12">
-                        <h2>4 Módulos de capacitación</h2>
-                    </div>
-                </div>
-                <div class="row center-xs">
-                    <div class="col-xs-12">
-                        <span>Duración: 8 horas c/u</span>
-                    </div>
-                </div>
-                <div class="row center-xs">
-                    <div class="col-xs-12">
-                        <hr class="pdt-hr-activity blanco">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12">
-                        <p>Las capacitaciones con expertos en energía solas de Chile y alemania con la modalidad de clase magistral
-                            en donde asistirán todos los participantes del programa. De enfrentarse inconvenientes de horario
-                            será vía on-line.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12 col-md-6">
-                        <img class="content-img" src="images/modulos/2.jpg" alt="modulos 2">
-                    </div>
-                    <div class="col-xs-12 col-md-6">
-                        <img class="content-img" src="images/modulos/8.jpg" alt="modulos 8">
-                </div>
-                </div>
-                <a href="#0" class="cd-read-more" data-cta-target="#js-modal-modulos" data-disable-scroll=true>Leer más</a>
-                <span class="cd-date">10/05/2016 - 26/05/2016</span>
-                <!-- cd-timeline-content -->
-            </div>
-        </div>
-        <!-- cd-timeline-block -->
+			<div class="cd-timeline-content">
+				<div class="row center-xs">
+					<div class="col-xs-12">
+						<h2>4 Módulos de capacitación</h2>
+					</div>
+				</div>
+				<div class="row center-xs">
+					<div class="col-xs-12">
+						<span>Duración: 8 horas c/u</span>
+					</div>
+				</div>
+				<div class="row center-xs">
+					<div class="col-xs-12">
+						<hr class="pdt-hr-activity blanco">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12">
+						<p>Las capacitaciones con expertos en energía solas de Chile y alemania con la modalidad de clase magistral en donde asistirán
+							todos los participantes del programa. De enfrentarse inconvenientes de horario será vía on-line.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 col-md-6">
+						<img class="content-img" src="images/modulos/2.jpg" alt="modulos 2">
+					</div>
+					<div class="col-xs-12 col-md-6">
+						<img class="content-img" src="images/modulos/8.jpg" alt="modulos 8">
+					</div>
+				</div>
+				<a href="#0" class="cd-read-more" data-cta-target="#js-modal-modulos" data-disable-scroll=true>Leer más</a>
+				<span class="cd-date">10/05/2016 - 26/05/2016</span>
+				<!-- cd-timeline-content -->
+			</div>
+		</div>
+		<!-- cd-timeline-block -->
 
-        <div class="cd-timeline-block">
-            <div class="cd-timeline-img"></div>
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img"></div>
 
-            <div class="cd-timeline-content">
-                <div class="row center-xs">
-                    <div class="col-xs-12">
-                        <h2>3 Talleres</h2>
-                    </div>
-                </div>
-                <div class="row center-xs">
-                    <div class="col-xs-12">
-                        <span>Duración: 3 horas c/u</span>
-                    </div>
-                </div>
-                <div class="row center-xs">
-                    <div class="col-xs-12">
-                        <hr class="pdt-hr-activity blanco">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12">
-                        <p>Las capacitaciones con expertos en energía solas de Chile y alemania con la modalidad de clase magistral
-                            en donde asistirán todos los participantes del programa. De enfrentarse inconvenientes de horario
-                            será vía on-line.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12 col-md-6">
-                        <img class="content-img" src="images/talleres/1-1.jpg" alt="taller 1">
-                    </div>                    
-                    <div class="col-xs-12 col-md-6">
-                        <img class="content-img" src="images/talleres/3-1.jpg" alt="taller 3">
-                    </div><!--
+			<div class="cd-timeline-content">
+				<div class="row center-xs">
+					<div class="col-xs-12">
+						<h2>3 Talleres</h2>
+					</div>
+				</div>
+				<div class="row center-xs">
+					<div class="col-xs-12">
+						<span>Duración: 3 horas c/u</span>
+					</div>
+				</div>
+				<div class="row center-xs">
+					<div class="col-xs-12">
+						<hr class="pdt-hr-activity blanco">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12">
+						<p>Las capacitaciones con expertos en energía solas de Chile y alemania con la modalidad de clase magistral en donde asistirán
+							todos los participantes del programa. De enfrentarse inconvenientes de horario será vía on-line.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 col-md-6">
+						<img class="content-img" src="images/talleres/1-1.jpg" alt="taller 1">
+					</div>
+					<div class="col-xs-12 col-md-6">
+						<img class="content-img" src="images/talleres/3-1.jpg" alt="taller 3">
+					</div>
+					<!--
                     <div class="col-xs-12 col-md-6">
                         <img class="content-img" src="images/talleres/2-1.jpg" alt="taller 2">
                     </div>-->
-                </div>
-                <a href="#0" class="cd-read-more" data-cta-target="#js-modal-talleres" data-disable-scroll=true>Leer más</a>
-                <span class="cd-date">08/06/2016 - 22/06/2016</span>
-            </div>
-            <!-- cd-timeline-content -->
-        </div>
-        <!-- cd-timeline-block -->
+				</div>
+				<a href="#0" class="cd-read-more" data-cta-target="#js-modal-talleres" data-disable-scroll=true>Leer más</a>
+				<span class="cd-date">08/06/2016 - 22/06/2016</span>
+			</div>
+			<!-- cd-timeline-content -->
+		</div>
+		<!-- cd-timeline-block -->
 
-        <div class="cd-timeline-block">
-            <div class="cd-timeline-img"></div>
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img"></div>
 
-            <div class="cd-timeline-content">
-                <div class="row center-xs">
-                    <div class="col-xs-12">
-                        <h2>Laboratorio</h2>
-                    </div>
-                </div>
-                <div class="row center-xs">
-                    <div class="col-xs-12">
-                        <hr class="pdt-hr-activity blanco">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12">
-                        <p>En esta etapa y sobre la base de los nichos para innovar o incorporar tecnología investigados en
-                            la primera etapa del programa, se contempla la ejecución de un laboratorio tendiente conocer
-                            casos de éxito y generar un portafolio de ideas de negocio de alto impacto y/o proyectos tecnológicos
-                            - innovación para cada una de las empresas participantes.</p>
-                    </div>
-                </div>
-                <a href="#0" class="cd-read-more" data-cta-target="#js-modal-laboratorio" data-disable-scroll=true>Leer más</a>
-                <span class="cd-date">03/08/2016</span>
-            </div>
-            <!-- cd-timeline-content -->
-        </div>
-        <!-- cd-timeline-block -->
+			<div class="cd-timeline-content">
+				<div class="row center-xs">
+					<div class="col-xs-12">
+						<h2>Laboratorio</h2>
+					</div>
+				</div>
+				<div class="row center-xs">
+					<div class="col-xs-12">
+						<hr class="pdt-hr-activity blanco">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12">
+						<p>En esta etapa y sobre la base de los nichos para innovar o incorporar tecnología investigados en la primera etapa del
+							programa, se contempla la ejecución de un laboratorio tendiente conocer casos de éxito y generar un portafolio de
+							ideas de negocio de alto impacto y/o proyectos tecnológicos - innovación para cada una de las empresas participantes.</p>
+					</div>
+				</div>
+				<a href="#0" class="cd-read-more" data-cta-target="#js-modal-laboratorio" data-disable-scroll=true>Leer más</a>
+				<span class="cd-date">03/08/2016</span>
+			</div>
+			<!-- cd-timeline-content -->
+		</div>
+		<!-- cd-timeline-block -->
 
-        <div class="cd-timeline-block">
-            <div class="cd-timeline-img"></div>
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img"></div>
 
-            <div class="cd-timeline-content">
-                <div class="row center-xs">
-                    <div class="col-xs-12">
-                        <h2>Trabajo con antenas</h2>
-                    </div>
-                </div>
-                <div class="row center-xs">
-                    <div class="col-xs-12">
-                        <hr class="pdt-hr-activity blanco">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12">
-                        <p>En orden a los proyectos definidos por parte de las empresas participantes, se contratarán los servicios
-                            por una ventana de 90 días de antenas tecnológicas en EEUU, Alemania y España cuya función será:
-                            <ol>
-                                <li>Emitir informe sobre las tecnologías disponibles.</li>
-                                <li>Generar listado de empresas con perfil para proveedor o potencial socios estratégico.</li>
-                                <li>vincular a las empresas participantes con potencial proveedor, socio estratégico o inversionista.</li>
-                                <li>Agendas de visita de ser requeridas.</li>
-                            </ol>
-                        </p>
-                    </div>
-                </div>
-                <a href="#0" class="cd-read-more" data-cta-target="#js-modal-antenas" data-disable-scroll=true>Leer más</a>
-                <span class="cd-date">01/08/2016 - 30/09/2016</span>
-            </div>
-            <!-- cd-timeline-content -->
-        </div>
-        <!-- cd-timeline-block -->
+			<div class="cd-timeline-content">
+				<div class="row center-xs">
+					<div class="col-xs-12">
+						<h2>Trabajo con antenas</h2>
+					</div>
+				</div>
+				<div class="row center-xs">
+					<div class="col-xs-12">
+						<hr class="pdt-hr-activity blanco">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12">
+						<p>En orden a los proyectos definidos por parte de las empresas participantes, se contratarán los servicios por una ventana
+							de 90 días de antenas tecnológicas en EEUU, Alemania y España cuya función será:
+							<ol>
+								<li>Emitir informe sobre las tecnologías disponibles.</li>
+								<li>Generar listado de empresas con perfil para proveedor o potencial socios estratégico.</li>
+								<li>vincular a las empresas participantes con potencial proveedor, socio estratégico o inversionista.</li>
+								<li>Agendas de visita de ser requeridas.</li>
+							</ol>
+						</p>
+					</div>
+				</div>
+				<a href="#0" class="cd-read-more" data-cta-target="#js-modal-antenas" data-disable-scroll=true>Leer más</a>
+				<span class="cd-date">01/08/2016 - 30/09/2016</span>
+			</div>
+			<!-- cd-timeline-content -->
+		</div>
+		<!-- cd-timeline-block -->
 
-        <div class="cd-timeline-block">
-            <div class="cd-timeline-img"></div>
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img"></div>
 
-            <div class="cd-timeline-content">
-                <div class="row center-xs">
-                    <div class="col-xs-12">
-                        <h2>Reunión y acuerdos</h2>
-                    </div>
-                </div>
-                <div class="row center-xs">
-                    <div class="col-xs-12">
-                        <hr class="pdt-hr-activity blanco">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12">
-                        <p>El equipo ejecutor del programa coordinará reuniones y la generación de acuerdos entre universidades
-                            y las empresas integrantes del programa tendiente a generar vínculos de colaboración y dar soporte
-                            para la investigación y el desarrollo de proyectos.
-                        </p>
-                    </div>
-                </div>
-                <a href="#0" class="cd-read-more" data-cta-target="#js-modal-reunion" data-disable-scroll=true>Leer más</a>
-                <span class="cd-date">30/09/2016</span>
-            </div>
-            <!-- cd-timeline-content -->
-        </div>
-        <!-- cd-timeline-block -->
+			<div class="cd-timeline-content">
+				<div class="row center-xs">
+					<div class="col-xs-12">
+						<h2>Reunión y acuerdos</h2>
+					</div>
+				</div>
+				<div class="row center-xs">
+					<div class="col-xs-12">
+						<hr class="pdt-hr-activity blanco">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12">
+						<p>El equipo ejecutor del programa coordinará reuniones y la generación de acuerdos entre universidades y las empresas
+							integrantes del programa tendiente a generar vínculos de colaboración y dar soporte para la investigación y el desarrollo
+							de proyectos.
+						</p>
+					</div>
+				</div>
+				<a href="#0" class="cd-read-more" data-cta-target="#js-modal-reunion" data-disable-scroll=true>Leer más</a>
+				<span class="cd-date">30/09/2016</span>
+			</div>
+			<!-- cd-timeline-content -->
+		</div>
+		<!-- cd-timeline-block -->
 
-        <div class="cd-timeline-block">
-            <div class="cd-timeline-img"></div>
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img"></div>
 
-            <div class="cd-timeline-content">
-                <div class="row center-xs">
-                    <div class="col-xs-12">
-                        <h2>Construcción y habilitación de portal web</h2>
-                    </div>
-                </div>
-                <div class="row center-xs">
-                    <div class="col-xs-12">
-                        <hr class="pdt-hr-activity blanco">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12">
-                        <p>Diseño, construcción y puesta en marcha de Portal Web Conformación de una red - plataforma con empresas
-                            con investigadores, instrumentos de apoyo y entidades relevantes en energías renovables como
-                            el CIFES), Centro de Investigación Hanoffer, Programa Cluster de Compañías Mineras y otros.</p>
-                    </div>
-                </div>
-                <a href="#0" class="cd-read-more" data-cta-target="#js-modal-construccion" data-disable-scroll=true>Leer más</a>
-                <span class="cd-date">30/09/2016</span>
-            </div>
-            <!-- cd-timeline-content -->
-        </div>
-        <!-- cd-timeline-block -->
+			<div class="cd-timeline-content">
+				<div class="row center-xs">
+					<div class="col-xs-12">
+						<h2>Construcción y habilitación de portal web</h2>
+					</div>
+				</div>
+				<div class="row center-xs">
+					<div class="col-xs-12">
+						<hr class="pdt-hr-activity blanco">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12">
+						<p>Diseño, construcción y puesta en marcha de Portal Web Conformación de una red - plataforma con empresas con investigadores,
+							instrumentos de apoyo y entidades relevantes en energías renovables como el CIFES), Centro de Investigación Hanoffer,
+							Programa Cluster de Compañías Mineras y otros.</p>
+					</div>
+				</div>
+				<a href="#0" class="cd-read-more" data-cta-target="#js-modal-construccion" data-disable-scroll=true>Leer más</a>
+				<span class="cd-date">30/09/2016</span>
+			</div>
+			<!-- cd-timeline-content -->
+		</div>
+		<!-- cd-timeline-block -->
 
-        <div class="cd-timeline-block">
-            <div class="cd-timeline-img"></div>
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img"></div>
 
-            <div class="cd-timeline-content">
-                <div class="row center-xs">
-                    <div class="col-xs-12">
-                        <h2>Realizar un Seminario de energía solar renovable en Tarapacá</h2>
-                    </div>
-                </div>
-                <div class="row center-xs">
-                    <div class="col-xs-12">
-                        <hr class="pdt-hr-activity blanco">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12">
-                        <p>En esta etapa el programa considera un seminario para vincular a las empresas con actores de la industria
-                            incluyendo: CIFES, Centro de Investigación de Hanoffer, Universidades, fuentes de financiamiento
-                            e Instrumentos de apoyo a proyectos y casos de éxito en el ámbito nacional.</p>
-                    </div>
-                </div>
-                <a href="#0" class="cd-read-more" data-cta-target="#js-modal-seminario" data-disable-scroll=true>Leer más</a>
-                <span class="cd-date">27/09/2016</span>
-            </div>
-            <!-- cd-timeline-content -->
-        </div>
-        <!-- cd-timeline-block -->
+			<div class="cd-timeline-content">
+				<div class="row center-xs">
+					<div class="col-xs-12">
+						<h2>Realizar un Seminario de energía solar renovable en Tarapacá</h2>
+					</div>
+				</div>
+				<div class="row center-xs">
+					<div class="col-xs-12">
+						<hr class="pdt-hr-activity blanco">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12">
+						<p>En esta etapa el programa considera un seminario para vincular a las empresas con actores de la industria incluyendo:
+							CIFES, Centro de Investigación de Hanoffer, Universidades, fuentes de financiamiento e Instrumentos de apoyo a proyectos
+							y casos de éxito en el ámbito nacional.</p>
+					</div>
+				</div>
+				<a href="#0" class="cd-read-more" data-cta-target="#js-modal-seminario" data-disable-scroll=true>Leer más</a>
+				<span class="cd-date">27/09/2016</span>
+			</div>
+			<!-- cd-timeline-content -->
+		</div>
+		<!-- cd-timeline-block -->
 
-        <div class="cd-timeline-block">
-            <div class="cd-timeline-img"></div>
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img"></div>
 
-            <div class="cd-timeline-content">
-                <div class="row center-xs">
-                    <div class="col-xs-12">
-                        <h2>Realizar actividades de difusión</h2>
-                    </div>
-                </div>
-                <div class="row center-xs">
-                    <div class="col-xs-12">
-                        <hr class="pdt-hr-activity blanco">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12">
-                        <p>Realizar actividades de difusión en prensa y radio a objeto de difundir el uso de la energía renovable
-                            solar centrados en las acciones, avances y resultados del programa.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-3">
-                        <img class="content-img" src="images/difusion/1.jpg" alt="">
-                    </div>
-                    <div class="col-xs-3">
-                        <img class="content-img" src="images/difusion/2.jpg" alt="">
-                    </div>
-                    <div class="col-xs-3">
-                        <img class="content-img" src="images/difusion/3.jpg" alt="">
-                    </div>
-                    <div class="col-xs-3">
-                        <img class="content-img" src="images/difusion/4.jpg" alt="">
-                    </div>
-                </div>
-                <a href="#0" class="cd-read-more" data-cta-target="#js-modal-actividades" data-disable-scroll=true>Leer más</a>
-                <span class="cd-date">02/2016 - 12/2016</span>
-            </div>
-            <!-- cd-timeline-content -->
-        </div>
-        <!-- cd-timeline-block -->
+			<div class="cd-timeline-content">
+				<div class="row center-xs">
+					<div class="col-xs-12">
+						<h2>Realizar actividades de difusión</h2>
+					</div>
+				</div>
+				<div class="row center-xs">
+					<div class="col-xs-12">
+						<hr class="pdt-hr-activity blanco">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12">
+						<p>Realizar actividades de difusión en prensa y radio a objeto de difundir el uso de la energía renovable solar centrados
+							en las acciones, avances y resultados del programa.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-3">
+						<img class="content-img" src="images/difusion/1.jpg" alt="">
+					</div>
+					<div class="col-xs-3">
+						<img class="content-img" src="images/difusion/2.jpg" alt="">
+					</div>
+					<div class="col-xs-3">
+						<img class="content-img" src="images/difusion/3.jpg" alt="">
+					</div>
+					<div class="col-xs-3">
+						<img class="content-img" src="images/difusion/4.jpg" alt="">
+					</div>
+				</div>
+				<a href="#0" class="cd-read-more" data-cta-target="#js-modal-actividades" data-disable-scroll=true>Leer más</a>
+				<span class="cd-date">02/2016 - 12/2016</span>
+			</div>
+			<!-- cd-timeline-content -->
+		</div>
+		<!-- cd-timeline-block -->
 
-        <div class="cd-timeline-block">
-            <div class="cd-timeline-img"></div>
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img"></div>
 
-            <div class="cd-timeline-content">
-                <div class="row center-xs">
-                    <div class="col-xs-12">
-                        <h2>Elaborar propuestas de proyectos tecnológicos y/o innovación</h2>
-                    </div>
-                </div>
-                <div class="row center-xs">
-                    <div class="col-xs-12">
-                        <hr class="pdt-hr-activity blanco">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12">
-                        <p>El equipo ejecutor del programa realizará labores de tutoría tendentes a generar propuestas de proyecto
-                            de innovación a nivel de perfil para los participantes del programa.</p>
-                    </div>
-                </div>
-                <a href="#0" class="cd-read-more" data-cta-target="#js-modal-proyectos" data-disable-scroll=true>Leer más</a>
-                <span class="cd-date">01/11/2016 - 30/11/2016</span>
-            </div>
-            <!-- cd-timeline-content -->
-        </div>
-        <!-- cd-timeline-block -->
+			<div class="cd-timeline-content">
+				<div class="row center-xs">
+					<div class="col-xs-12">
+						<h2>Elaborar propuestas de proyectos tecnológicos y/o innovación</h2>
+					</div>
+				</div>
+				<div class="row center-xs">
+					<div class="col-xs-12">
+						<hr class="pdt-hr-activity blanco">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12">
+						<p>El equipo ejecutor del programa realizará labores de tutoría tendentes a generar propuestas de proyecto de innovación
+							a nivel de perfil para los participantes del programa.</p>
+					</div>
+				</div>
+				<a href="#0" class="cd-read-more" data-cta-target="#js-modal-proyectos" data-disable-scroll=true>Leer más</a>
+				<span class="cd-date">01/11/2016 - 30/11/2016</span>
+			</div>
+			<!-- cd-timeline-content -->
+		</div>
+		<!-- cd-timeline-block -->
 
-        <div class="cd-timeline-block">
-            <div class="cd-timeline-img"></div>
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img"></div>
 
-            <div class="cd-timeline-content">
-                <div class="row center-xs">
-                    <div class="col-xs-12">
-                        <h2>Asesoría en presentación de Línea 3 PDT</h2>
-                    </div>
-                </div>
-                <div class="row center-xs">
-                    <div class="col-xs-12">
-                        <hr class="pdt-hr-activity blanco">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12">
-                        <p>Asesoría en presentación de Línea 3 PDT Asesoría en presentación de Línea 3 PDT (Programa de Absorción
-                            Tecnológico), lo cual será elaborado por el equipo ejecutor del programa.</p>
-                    </div>
-                </div>
-                <a href="#0" class="cd-read-more" data-cta-target="#js-modal-asesoria" data-disable-scroll=true>Leer más</a>
-                <span class="cd-date">12/2016</span>
-            </div>
-            <!-- cd-timeline-content -->
-        </div>
-        <!-- cd-timeline-block -->
+			<div class="cd-timeline-content">
+				<div class="row center-xs">
+					<div class="col-xs-12">
+						<h2>Asesoría en presentación de Línea 3 PDT</h2>
+					</div>
+				</div>
+				<div class="row center-xs">
+					<div class="col-xs-12">
+						<hr class="pdt-hr-activity blanco">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12">
+						<p>Asesoría en presentación de Línea 3 PDT Asesoría en presentación de Línea 3 PDT (Programa de Absorción Tecnológico),
+							lo cual será elaborado por el equipo ejecutor del programa.</p>
+					</div>
+				</div>
+				<a href="#0" class="cd-read-more" data-cta-target="#js-modal-asesoria" data-disable-scroll=true>Leer más</a>
+				<span class="cd-date">12/2016</span>
+			</div>
+			<!-- cd-timeline-content -->
+		</div>
+		<!-- cd-timeline-block -->
 
-        <div class="cd-timeline-block">
-            <div class="cd-timeline-img"></div>
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img"></div>
 
-            <div class="cd-timeline-content">
-                <div class="row center-xs">
-                    <div class="col-xs-12">
-                        <h2>Seminario final</h2>
-                    </div>
-                </div>
-                <div class="row center-xs">
-                    <div class="col-xs-12">
-                        <hr class="pdt-hr-activity blanco">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12">
-                        <p>Seminario de cierre del programa, al cual se presentarán los resultados obtenidos.</p>
-                    </div>
-                </div>
-                <a href="#0" class="cd-read-more" data-cta-target="#js-modal-final" data-disable-scroll=true>Leer más</a>
-                <span class="cd-date">12/2016</span>
-            </div>
-            <!-- cd-timeline-content -->
-        </div>
-        <!-- cd-timeline-block -->
+			<div class="cd-timeline-content">
+				<div class="row center-xs">
+					<div class="col-xs-12">
+						<h2>Seminario final</h2>
+					</div>
+				</div>
+				<div class="row center-xs">
+					<div class="col-xs-12">
+						<hr class="pdt-hr-activity blanco">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12">
+						<p>Seminario de cierre del programa, al cual se presentarán los resultados obtenidos.</p>
+					</div>
+				</div>
+				<a href="#0" class="cd-read-more" data-cta-target="#js-modal-final" data-disable-scroll=true>Leer más</a>
+				<span class="cd-date">12/2016</span>
+			</div>
+			<!-- cd-timeline-content -->
+		</div>
+		<!-- cd-timeline-block -->
 
-    </section>
-    <!-- MODALES -->
-        <!-- MODAL DIAGNOSTICO -->
-        <div id="js-modal-diagnostico" class="js-modal-1  modal  modal--1">
-            <span class="modal-close-btn"></span>
-            <div class="row center-xs">
-                <div class="col-xs-12 pdt-title">
-                    <h1>Diagnóstico en profundidad</h1>
+	</section>
+	<!-- MODALES -->
+	<!-- MODAL DIAGNOSTICO -->
+	<div id="js-modal-diagnostico" class="js-modal-1  modal  modal--1">
+		<span class="modal-close-btn"></span>
+		<div class="row center-xs">
+			<div class="col-xs-12 pdt-title">
+				<h1>Diagnóstico en profundidad</h1>
+			</div>
+		</div>
+		<div class="row center-xs">
+			<div class="col-xs-11">
+				<hr class="pdt-hr celeste">
+			</div>
+		</div>
+		<div class="row center-xs">
+			<div class="col-xs-11">
+				<div class="modal-fecha">Miercoles, 6 de Abril 2016</div>
+			</div>
+		</div>
+		<div class="row center-xs">
+			<div class="col-xs-11">
+				<div class="row center-xs">
+					<div class="col-md-10 pdt-content justify-text texto-galeria">
+						El objetivo del diagnóstico, que será realizado mediante la ejecución de entrevistas en profundidad, es conocer su historia,
+						el modelo de negocios actual, los procesos de gestión, los desafíos a trabajar que la empresa identifica y la visión
+						estratégica de la misma, así como la detección de brechas, nivel de competitividad y capacidades para generar y gestionar
+						innovación.
+						<br><br> El Diagnóstico constituye una actividad crítica en el marco del Programa de Difusión Tecnológica denominado
+						“Tecnología e innovación para el desarrollo de la industria auxiliar proveedora de proyectos de generación y soluciones
+						que operan con energía solar”. El Diagnóstico representa el punto de partida, puesto que en este documento se expresa
+						la situación actual centrada en los análisis de variables internas y externas, lo que permite establecer las fortalezas,
+						debilidades, amenazas y oportunidades encontradas e identificar brechas que serán determinantes para generar nuevas
+						líneas o negocio en el ámbito de la energía solar.
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- FIN MODAL DIAGNOSTICO-->
+	<!-- MODAL INVESTIGACION CADENA DE VALOR -->
+	<div id="js-modal-investigacion" class="js-modal-1  modal  modal--1">
+		<span class="modal-close-btn"></span>
+		<div class="row center-xs">
+			<div class="col-xs-12 pdt-title">
+				<h1>Investigación de cadena de valor</h1>
+			</div>
+		</div>
+		<div class="row center-xs">
+			<div class="col-xs-11">
+				<hr class="pdt-hr celeste">
+			</div>
+		</div>
+		<div class="row center-xs">
+			<div class="col-xs-11">
+				<div class="modal-fecha">De Abril del 2016 a Julio del 2016</div>
+			</div>
+		</div>
+		<div class="row center-xs">
+			<div class="col-xs-11">
+				<div class="row center-xs">
+					<div class="col-md-10 pdt-content justify-text texto-galeria">
+						Lorem ipsum dolor sit amet, quodsi deseruisse sit in. Tale ridens diceret ius ea, id nec stet postulant interesset. Option
+						invidunt theophrastus vix ut, his vidisse dolorem facilisi ex. Eos mucius complectitur in. Ut equidem molestiae sea,
+						no per justo alterum. Quot malorum quo at, qui ne latine placerat. Ei magna democritum mea, has at nisl enim pertinax,
+						legere labore ad eum. Aeque electram qui eu. Usu lorem ludus te, aliquando sententiae nec ne. At usu rebum elitr commodo,
+						vel in labores gloriatur. Sea ne quem malorum, suscipiantur consequuntur ei vix. Ei probo quando democritum mea, ei
+						eam appareat constituam, probo debet fabulas ad qui. Detracto eligendi scripserit ei pri, an partem legere his. Tollit
+						soluta signiferumque an his. Nam viderer utroque ne, an mea tota debitis, quas maiorum ad vis. Tale aeterno cu sit,
+						decore eripuit patrioque ut ius. Vitae fierent et nec, ius ea iusto possim. Vis posse sanctus expetendis ut, et eum
+						intellegam definitionem, vix at eligendi menandri. At equidem patrioque has, lorem adversarium in duo.
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- FIN MODAL INVESTIGACION CADENA DE VALOR-->
+	<!-- MODAL VISITAS TECNICAS-->
+	<div id="js-modal-visitas" class="js-modal-1  modal  modal--1">
+		<span class="modal-close-btn"></span>
+		<div class="row center-xs">
+			<div class="col-xs-12 pdt-title">
+				<h1>Visitas Técnicas</h1>
+			</div>
+		</div>
+		<div class="row center-xs">
+			<div class="col-xs-11">
+				<hr class="pdt-hr celeste">
+			</div>
+		</div>
+		<div class="row center-xs">
+			<div class="col-xs-11">
+				<div class="modal-fecha">Del Miercoles 13 y Miercoles 20 de Abril del 2016</div>
+			</div>
+		</div>
+		<div class="row center-xs">
+			<div class="col-xs-11">
+				<div class="row center-xs">
+					<div class="col-md-10 pdt-content justify-text texto-galeria">
+						VISITA TÉCNICA ZOFRI S.A
+						<br><br> A CONTINUACIÓN LOS DATOS DE LAS PERSONAS DE ZOFRI QUE COLABORARON CON LA REALIZACIÓN DE LA ACTIVIDAD:
+						<br><br> LORENZO ZAMBRANO RIVERA SUBGERENTE DE MANTENIMIENTO
+						<br><br> CHARLES PANAQUE DE LA CRUZ SUPERVISOR DE MANTENIMIENTO
+						<br><br> Planta de 250 KV, fue construida 2013 con subsidio Corfo, aportes de Zofri y ejecutada por Andes Solar cuyo
+						gerente fue Cesar Gimeno y Consultor Paris Salgado.
+						<br><br> VISITA TÉCNICA A LA HUAYCA
+						<br><br> SPS LA HUAYCA S.A. Humberto Romero Ugarte Gerente General Via5, Manz F, Sitio2, Bajo Molle , Iquique
+						<br><br> Proyecto SPS La Huayca II. Planta fotovoltaica ubicada en el Norte de Chile, al Sur-Este de Iquique, en la
+						comuna de Pozo Almonte, localidad de La Huayca. El proyecto contempla inyectar 30,5MW al Sistema Interconectado del
+						Norte Grande (SING) y considera una inversión total de 67,3 Millones de dólares. Se instalarán de más de 128 mil paneles
+						solares, emplazados en una superficie de 50 hectáreas.
+						<br><br> Este proyecto marca un hito importante en el desarrollo fotovoltaico en Chile pues en su primera etapa fue
+						la primera central fotovoltaica en inyectar energía en el SING.
+						<br><br> La puesta en servicio definitiva está prevista para Julio de 2014.
+						<br><br> En el proyecto La Huyaca MT Mecatronica SPA está a cargo de las instalaciones eléctricas de baja y media tensión,
+						incluyendo la conexión de las subestaciones, así como instalaciones de fibra óptica.
+					</div>
+				</div>
+				<div class="row center-xs">
+					<div class="col-md-8">
+						<img src="images/revisionesTecnicas/huayca/1.jpg" alt="huayca 1">
+						<img src="images/revisionesTecnicas/huayca/2.jpg" alt="huayca 2">
+						<img src="images/revisionesTecnicas/huayca/3.jpg" alt="huayca 3">
+						<img src="images/revisionesTecnicas/zofri/1.jpg" alt="zofri 1">
+						<img src="images/revisionesTecnicas/zofri/2.jpg" alt="zofri 2">
+						<img src="images/revisionesTecnicas/zofri/3.jpg" alt="zofri 3">
+						<img src="images/revisionesTecnicas/zofri/4.jpg" alt="zofri 4">
+						<img src="images/revisionesTecnicas/zofri/5.jpg" alt="zofri 5">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- FIN MODAL VISITAS TECNICAS -->
+	<!-- MODAL MODULOS -->
+	<div id="js-modal-modulos" class="js-modal-1  modal  modal--1 galeria-imagenes">
+		<span class="modal-close-btn"></span>
+		<div class="row center-xs">
+			<div class="col-xs-12 pdt-title">
+				<h1>Módulos de capacitación</h1>
+			</div>
+		</div>
+		<div class="row center-xs">
+			<div class="col-xs-11">
+				<hr class="pdt-hr celeste">
+			</div>
+		</div>
+		<div class="row center-xs">
+			<div class="col-xs-11">
+				<div class="modal-fecha">Del Martes 10 al Jueves 26 de Mayo del 2016</div>
+			</div>
+		</div>
+		<!--tabs-->
+		<div class="row center-xs">
+			<div id="tabModulos" class="col-xs-11 pdt-title">
+				<ul class="resp-tabs-list ver_1">
+					<li><a href="#">Módulo 1</a></li>
+					<li><a href="#">Módulo 2</a></li>
+					<li><a href="#">Módulo 3</a></li>
+					<li><a href="#">Módulo 4</a></li>
+				</ul>
+				<!--contenido tabs-->
+				<div class="row center-xs resp-tabs-container ver_1">
+					<!--modulo 1-->
+					<?php include_once 'modulos/mod1.php'; ?>
+					<!--modulo 2-->
+					<?php include_once 'modulos/mod2.php'; ?>
+					<!--modulo 3-->
+					<?php include_once 'modulos/mod3.php'; ?>
+					<!--modulo 4-->
+					<?php include_once 'modulos/mod4.php'; ?>
+					<!-- fin contenido modulos-->
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- FIN MODAL MODULOS -->
+	<!-- MODAL TALLERES -->
+	<div id="js-modal-talleres" class="js-modal-1  modal  modal--1 galeria-imagenes">
+		<span class="modal-close-btn"></span>
+		<div class="row center-xs">
+			<div class="col-xs-12 pdt-title">
+				<h1>3 Talleres</h1>
+			</div>
+		</div>
+		<div class="row center-xs">
+			<div class="col-xs-11">
+				<hr class="pdt-hr celeste">
+			</div>
+		</div>
+		<div class="row center-xs">
+			<div class="col-xs-11">
+				<div class="modal-fecha">Del Miercoles 8 al Jueves 22 de Junio del 2016</div>
+			</div>
+		</div>
+		<!--tabs-->
+		<div class="row center-xs">
+				<div id="tabTalleres" class="col-xs-11 pdt-title">
+					<ul class="resp-tabs-list ver_2">
+						<li><a href="#">Taller 1</a></li>
+						<li><a href="#">Taller 2</a></li>
+						<li><a href="#">Taller 3</a></li>
+					</ul>
+					<!--contenido tabs-->
+					<div class="row center-xs resp-tabs-container ver_2">
+						<!--taller 1-->
+						<?php include_once 'talleres/taller1.php'; ?>
+						<!--taller 2-->
+						<?php include_once 'talleres/taller2.php'; ?>
+						<!--taller 3-->
+						<?php include_once 'talleres/taller3.php'; ?>
+						<!-- fin contenido talleres-->
+					</div>
+				</div>
                 </div>
-            </div>
-            <div class="row center-xs">            
-                <div class="col-xs-11">
-                    <hr class="pdt-hr celeste">
-                </div>
-            </div>
-            <div class="row center-xs">            
-                <div class="col-xs-11">
-                    <div class="modal-fecha">Miercoles, 6 de Abril 2016</div>
-                </div>
-            </div>
-            <div class="row center-xs">
-                <div class="col-xs-11">
-                    <div class="row center-xs">
-                        <div class="col-md-10 pdt-content justify-text texto-galeria">
-                            El objetivo del diagnóstico, que será realizado mediante la ejecución de
-                            entrevistas  en profundidad, es conocer su historia, el modelo de
-                            negocios actual, los procesos de gestión, los desafíos a trabajar que la
-                            empresa identifica y la visión estratégica de la misma, así como la
-                            detección de brechas, nivel de competitividad y capacidades para generar
-                            y gestionar innovación.
-                            <br><br>
-                            El Diagnóstico constituye una actividad crítica en el marco del Programa
-                            de Difusión Tecnológica denominado “Tecnología e innovación para el
-                            desarrollo de la industria auxiliar proveedora de proyectos de
-                            generación y soluciones que operan con energía solar”. El Diagnóstico
-                            representa el punto de partida, puesto que en este documento se expresa
-                            la situación actual centrada en los análisis de variables internas y
-                            externas, lo que permite establecer las fortalezas, debilidades,
-                            amenazas y oportunidades encontradas e identificar brechas que serán
-                            determinantes para generar nuevas líneas o negocio en el ámbito de la
-                            energía solar.
-                        </div>
-                    </div>
-                </div>
-            </div>      
-        </div>
-        <!-- FIN MODAL DIAGNOSTICO-->
-        <!-- MODAL INVESTIGACION CADENA DE VALOR -->
-        <div id="js-modal-investigacion" class="js-modal-1  modal  modal--1">
-            <span class="modal-close-btn"></span>
-            <div class="row center-xs">
-                <div class="col-xs-12 pdt-title">
-                    <h1>Investigación de cadena de valor</h1>
-                </div>
-            </div>
-            <div class="row center-xs">            
-                <div class="col-xs-11">
-                    <hr class="pdt-hr celeste">
-                </div>
-            </div>
-            <div class="row center-xs">            
-                <div class="col-xs-11">
-                    <div class="modal-fecha">De Abril del 2016 a Julio del 2016</div>
-                </div>
-            </div>
-            <div class="row center-xs">
-                <div class="col-xs-11">
-                    <div class="row center-xs">
-                        <div class="col-md-10 pdt-content justify-text texto-galeria">
-                            Lorem ipsum dolor sit amet, quodsi deseruisse sit in. Tale ridens diceret ius ea, id nec stet postulant interesset. Option invidunt theophrastus vix ut, his vidisse dolorem facilisi ex. Eos mucius complectitur in. Ut equidem molestiae sea, no per justo alterum.
+				<!--cierre tabs-->
+			</div>
+			<!-- FIN MODAL TALLERES -->
+			<!-- MODAL LABORATORIO -->
+			<div id="js-modal-laboratorio" class="js-modal-1  modal  modal--1">
+				<span class="modal-close-btn"></span>
+				<div class="row center-xs">
+					<div class="col-xs-12 pdt-title">
+						<h1>Laboratorio</h1>
+					</div>
+				</div>
+				<div class="row center-xs">
+					<div class="col-xs-11">
+						<hr class="pdt-hr celeste">
+					</div>
+				</div>
+				<div class="row center-xs">
+					<div class="col-xs-11">
+						<div class="modal-fecha">Miercoles 3 de Agosto del 2016</div>
+					</div>
+				</div>
+				<div class="row center-xs">
+					<div class="col-xs-11">
+						<div class="row center-xs">
+							<div class="col-md-10 pdt-content justify-text texto-galeria">
+								Lorem ipsum dolor sit amet, quodsi deseruisse sit in. Tale ridens diceret ius ea, id nec stet postulant interesset. Option
+								invidunt theophrastus vix ut, his vidisse dolorem facilisi ex. Eos mucius complectitur in. Ut equidem molestiae sea,
+								no per justo alterum. Quot malorum quo at, qui ne latine placerat. Ei magna democritum mea, has at nisl enim pertinax,
+								legere labore ad eum. Aeque electram qui eu. Usu lorem ludus te, aliquando sententiae nec ne. At usu rebum elitr
+								commodo, vel in labores gloriatur. Sea ne quem malorum, suscipiantur consequuntur ei vix. Ei probo quando democritum
+								mea, ei eam appareat constituam, probo debet fabulas ad qui. Detracto eligendi scripserit ei pri, an partem legere
+								his. Tollit soluta signiferumque an his. Nam viderer utroque ne, an mea tota debitis, quas maiorum ad vis. Tale aeterno
+								cu sit, decore eripuit patrioque ut ius. Vitae fierent et nec, ius ea iusto possim. Vis posse sanctus expetendis
+								ut, et eum intellegam definitionem, vix at eligendi menandri. At equidem patrioque has, lorem adversarium in duo.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- FIN MODAL LABORATORIO-->
+			<!-- MODAL TRABAJO CON ANTENAS -->
+			<div id="js-modal-antenas" class="js-modal-1  modal  modal--1">
+				<span class="modal-close-btn"></span>
+				<div class="row center-xs">
+					<div class="col-xs-12 pdt-title">
+						<h1>Trabajo con antenas</h1>
+					</div>
+				</div>
+				<div class="row center-xs">
+					<div class="col-xs-11">
+						<hr class="pdt-hr celeste">
+					</div>
+				</div>
+				<div class="row center-xs">
+					<div class="col-xs-11">
+						<div class="modal-fecha">Lunes 1 de Agosto al Viernes 30 de Septiembre del 2016</div>
+					</div>
+				</div>
+				<div class="row center-xs">
+					<div class="col-xs-11">
+						<div class="row center-xs">
+							<div class="col-md-10 pdt-content justify-text texto-galeria">
+								Lorem ipsum dolor sit amet, quodsi deseruisse sit in. Tale ridens diceret ius ea, id nec stet postulant interesset. Option
+								invidunt theophrastus vix ut, his vidisse dolorem facilisi ex. Eos mucius complectitur in. Ut equidem molestiae sea,
+								no per justo alterum. Quot malorum quo at, qui ne latine placerat. Ei magna democritum mea, has at nisl enim pertinax,
+								legere labore ad eum. Aeque electram qui eu. Usu lorem ludus te, aliquando sententiae nec ne. At usu rebum elitr
+								commodo, vel in labores gloriatur. Sea ne quem malorum, suscipiantur consequuntur ei vix. Ei probo quando democritum
+								mea, ei eam appareat constituam, probo debet fabulas ad qui. Detracto eligendi scripserit ei pri, an partem legere
+								his. Tollit soluta signiferumque an his. Nam viderer utroque ne, an mea tota debitis, quas maiorum ad vis. Tale aeterno
+								cu sit, decore eripuit patrioque ut ius. Vitae fierent et nec, ius ea iusto possim. Vis posse sanctus expetendis
+								ut, et eum intellegam definitionem, vix at eligendi menandri. At equidem patrioque has, lorem adversarium in duo.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- FIN MODAL TRABAJO CON ANTENAS-->
+			<!-- MODAL REUNION Y ACUERDOS -->
+			<div id="js-modal-reunion" class="js-modal-1  modal  modal--1">
+				<span class="modal-close-btn"></span>
+				<div class="row center-xs">
+					<div class="col-xs-12 pdt-title">
+						<h1>Reunión y acuerdos</h1>
+					</div>
+				</div>
+				<div class="row center-xs">
+					<div class="col-xs-11">
+						<hr class="pdt-hr celeste">
+					</div>
+				</div>
+				<div class="row center-xs">
+					<div class="col-xs-11">
+						<div class="modal-fecha">Viernes 30 de Septiembre del 2016</div>
+					</div>
+				</div>
+				<div class="row center-xs">
+					<div class="col-xs-11">
+						<div class="row center-xs">
+							<div class="col-md-10 pdt-content justify-text texto-galeria">
+								Lorem ipsum dolor sit amet, quodsi deseruisse sit in. Tale ridens diceret ius ea, id nec stet postulant interesset. Option
+								invidunt theophrastus vix ut, his vidisse dolorem facilisi ex. Eos mucius complectitur in. Ut equidem molestiae sea,
+								no per justo alterum. Quot malorum quo at, qui ne latine placerat. Ei magna democritum mea, has at nisl enim pertinax,
+								legere labore ad eum. Aeque electram qui eu. Usu lorem ludus te, aliquando sententiae nec ne. At usu rebum elitr
+								commodo, vel in labores gloriatur. Sea ne quem malorum, suscipiantur consequuntur ei vix. Ei probo quando democritum
+								mea, ei eam appareat constituam, probo debet fabulas ad qui. Detracto eligendi scripserit ei pri, an partem legere
+								his. Tollit soluta signiferumque an his. Nam viderer utroque ne, an mea tota debitis, quas maiorum ad vis. Tale aeterno
+								cu sit, decore eripuit patrioque ut ius. Vitae fierent et nec, ius ea iusto possim. Vis posse sanctus expetendis
+								ut, et eum intellegam definitionem, vix at eligendi menandri. At equidem patrioque has, lorem adversarium in duo.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- FIN MODAL REUNION Y ACUERDOS-->
+			<!-- MODAL CONSTRUCCION Y HABILITACION -->
+			<div id="js-modal-construccion" class="js-modal-1  modal  modal--1">
+				<span class="modal-close-btn"></span>
+				<div class="row center-xs">
+					<div class="col-xs-12 pdt-title">
+						<h1>Construcción y habilitación de portal web</h1>
+					</div>
+				</div>
+				<div class="row center-xs">
+					<div class="col-xs-11">
+						<hr class="pdt-hr celeste">
+					</div>
+				</div>
+				<div class="row center-xs">
+					<div class="col-xs-11">
+						<div class="modal-fecha">Viernes 30 de Septiembre del 2016</div>
+					</div>
+				</div>
+				<div class="row center-xs">
+					<div class="col-xs-11">
+						<div class="row center-xs">
+							<div class="col-md-10 pdt-content justify-text texto-galeria">
+								Lorem ipsum dolor sit amet, quodsi deseruisse sit in. Tale ridens diceret ius ea, id nec stet postulant interesset. Option
+								invidunt theophrastus vix ut, his vidisse dolorem facilisi ex. Eos mucius complectitur in. Ut equidem molestiae sea,
+								no per justo alterum. Quot malorum quo at, qui ne latine placerat. Ei magna democritum mea, has at nisl enim pertinax,
+								legere labore ad eum. Aeque electram qui eu. Usu lorem ludus te, aliquando sententiae nec ne. At usu rebum elitr
+								commodo, vel in labores gloriatur. Sea ne quem malorum, suscipiantur consequuntur ei vix. Ei probo quando democritum
+								mea, ei eam appareat constituam, probo debet fabulas ad qui. Detracto eligendi scripserit ei pri, an partem legere
+								his. Tollit soluta signiferumque an his. Nam viderer utroque ne, an mea tota debitis, quas maiorum ad vis. Tale aeterno
+								cu sit, decore eripuit patrioque ut ius. Vitae fierent et nec, ius ea iusto possim. Vis posse sanctus expetendis
+								ut, et eum intellegam definitionem, vix at eligendi menandri. At equidem patrioque has, lorem adversarium in duo.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- FIN MODAL CONSTRUCCION Y HABILITACION-->
+			<!-- MODAL SEMINARIO DE ENERGIA SOLAR -->
+			<div id="js-modal-seminario" class="js-modal-1  modal  modal--1">
+				<span class="modal-close-btn"></span>
+				<div class="row center-xs">
+					<div class="col-xs-12 pdt-title">
+						<h1>Realizar un Seminario de energía solar renovable en Tarapacá</h1>
+					</div>
+				</div>
+				<div class="row center-xs">
+					<div class="col-xs-11">
+						<hr class="pdt-hr celeste">
+					</div>
+				</div>
+				<div class="row center-xs">
+					<div class="col-xs-11">
+						<div class="modal-fecha">Martes 27 de Septiembre del 2016</div>
+					</div>
+				</div>
+				<div class="row center-xs">
+					<div class="col-xs-11">
+						<div class="row center-xs">
+							<div class="col-md-10 pdt-content justify-text texto-galeria">
+								Lorem ipsum dolor sit amet, quodsi deseruisse sit in. Tale ridens diceret ius ea, id nec stet postulant interesset. Option
+								invidunt theophrastus vix ut, his vidisse dolorem facilisi ex. Eos mucius complectitur in. Ut equidem molestiae sea,
+								no per justo alterum. Quot malorum quo at, qui ne latine placerat. Ei magna democritum mea, has at nisl enim pertinax,
+								legere labore ad eum. Aeque electram qui eu. Usu lorem ludus te, aliquando sententiae nec ne. At usu rebum elitr
+								commodo, vel in labores gloriatur. Sea ne quem malorum, suscipiantur consequuntur ei vix. Ei probo quando democritum
+								mea, ei eam appareat constituam, probo debet fabulas ad qui. Detracto eligendi scripserit ei pri, an partem legere
+								his. Tollit soluta signiferumque an his. Nam viderer utroque ne, an mea tota debitis, quas maiorum ad vis. Tale aeterno
+								cu sit, decore eripuit patrioque ut ius. Vitae fierent et nec, ius ea iusto possim. Vis posse sanctus expetendis
+								ut, et eum intellegam definitionem, vix at eligendi menandri. At equidem patrioque has, lorem adversarium in duo.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- FIN MODAL SEMINARIO DE ENERGIA SOLAR-->
+			<!-- MODAL ACTIVIDADES DE DIFUSION -->
+			<div id="js-modal-actividades" class="js-modal-1  modal  modal--1">
+				<span class="modal-close-btn"></span>
+				<div class="row center-xs">
+					<div class="col-xs-12 pdt-title">
+						<h1>Realizar actividades de difusión</h1>
+					</div>
+				</div>
+				<div class="row center-xs">
+					<div class="col-xs-11">
+						<hr class="pdt-hr celeste">
+					</div>
+				</div>
+				<div class="row center-xs">
+					<div class="col-xs-11">
+						<div class="modal-fecha">De Febrero a Diciembre del 2016</div>
+					</div>
+				</div>
+				<div class="row center-xs">
+					<div class="col-xs-11">
+						<div class="row center-xs">
+							<div class="col-md-10 pdt-content justify-text texto-galeria">
+								Lorem ipsum dolor sit amet, quodsi deseruisse sit in. Tale ridens diceret ius ea, id nec stet postulant interesset. Option
+								invidunt theophrastus vix ut, his vidisse dolorem facilisi ex. Eos mucius complectitur in. Ut equidem molestiae sea,
+								no per justo alterum. Quot malorum quo at, qui ne latine placerat. Ei magna democritum mea, has at nisl enim pertinax,
+								legere labore ad eum. Aeque electram qui eu. Usu lorem ludus te, aliquando sententiae nec ne. At usu rebum elitr
+								commodo, vel in labores gloriatur. Sea ne quem malorum, suscipiantur consequuntur ei vix. Ei probo quando democritum
+								mea, ei eam appareat constituam, probo debet fabulas ad qui. Detracto eligendi scripserit ei pri, an partem legere
+								his. Tollit soluta signiferumque an his. Nam viderer utroque ne, an mea tota debitis, quas maiorum ad vis. Tale aeterno
+								cu sit, decore eripuit patrioque ut ius. Vitae fierent et nec, ius ea iusto possim. Vis posse sanctus expetendis
+								ut, et eum intellegam definitionem, vix at eligendi menandri. At equidem patrioque has, lorem adversarium in duo.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- FIN MODAL ACTIVIDADES DE DIFUSION-->
+			<!-- MODAL PROPUESTADE DE PROYECTOS -->
+			<div id="js-modal-proyectos" class="js-modal-1  modal  modal--1">
+				<span class="modal-close-btn"></span>
+				<div class="row center-xs">
+					<div class="col-xs-12 pdt-title">
+						<h1>Elaborar propuestas de proyectos tecnológicos y/o innovación</h1>
+					</div>
+				</div>
+				<div class="row center-xs">
+					<div class="col-xs-11">
+						<hr class="pdt-hr celeste">
+					</div>
+				</div>
+				<div class="row center-xs">
+					<div class="col-xs-11">
+						<div class="modal-fecha">Del Martes 1 al Miercoles 31 de Noviembre del 2016</div>
+					</div>
+				</div>
+				<div class="row center-xs">
+					<div class="col-xs-11">
+						<div class="row center-xs">
+							<div class="col-md-10 pdt-content justify-text texto-galeria">
+								Lorem ipsum dolor sit amet, quodsi deseruisse sit in. Tale ridens diceret ius ea, id nec stet postulant interesset. Option
+								invidunt theophrastus vix ut, his vidisse dolorem facilisi ex. Eos mucius complectitur in. Ut equidem molestiae sea,
+								no per justo alterum. Quot malorum quo at, qui ne latine placerat. Ei magna democritum mea, has at nisl enim pertinax,
+								legere labore ad eum. Aeque electram qui eu. Usu lorem ludus te, aliquando sententiae nec ne. At usu rebum elitr
+								commodo, vel in labores gloriatur. Sea ne quem malorum, suscipiantur consequuntur ei vix. Ei probo quando democritum
+								mea, ei eam appareat constituam, probo debet fabulas ad qui. Detracto eligendi scripserit ei pri, an partem legere
+								his. Tollit soluta signiferumque an his. Nam viderer utroque ne, an mea tota debitis, quas maiorum ad vis. Tale aeterno
+								cu sit, decore eripuit patrioque ut ius. Vitae fierent et nec, ius ea iusto possim. Vis posse sanctus expetendis
+								ut, et eum intellegam definitionem, vix at eligendi menandri. At equidem patrioque has, lorem adversarium in duo.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- FIN MODAL PROPUESTADE DE PROYECTOS-->
+			<!-- MODAL ASESORIA -->
+			<div id="js-modal-asesoria" class="js-modal-1  modal  modal--1">
+				<span class="modal-close-btn"></span>
+				<div class="row center-xs">
+					<div class="col-xs-12 pdt-title">
+						<h1>Asesoría en presentación de Línea 3 PDT</h1>
+					</div>
+				</div>
+				<div class="row center-xs">
+					<div class="col-xs-11">
+						<hr class="pdt-hr celeste">
+					</div>
+				</div>
+				<div class="row center-xs">
+					<div class="col-xs-11">
+						<div class="modal-fecha">Diciembre del 2016</div>
+					</div>
+				</div>
+				<div class="row center-xs">
+					<div class="col-xs-11">
+						<div class="row center-xs">
+							<div class="col-md-10 pdt-content justify-text texto-galeria">
+								Lorem ipsum dolor sit amet, quodsi deseruisse sit in. Tale ridens diceret ius ea, id nec stet postulant interesset. Option
+								invidunt theophrastus vix ut, his vidisse dolorem facilisi ex. Eos mucius complectitur in. Ut equidem molestiae sea,
+								no per justo alterum. Quot malorum quo at, qui ne latine placerat. Ei magna democritum mea, has at nisl enim pertinax,
+								legere labore ad eum. Aeque electram qui eu. Usu lorem ludus te, aliquando sententiae nec ne. At usu rebum elitr
+								commodo, vel in labores gloriatur. Sea ne quem malorum, suscipiantur consequuntur ei vix. Ei probo quando democritum
+								mea, ei eam appareat constituam, probo debet fabulas ad qui. Detracto eligendi scripserit ei pri, an partem legere
+								his. Tollit soluta signiferumque an his. Nam viderer utroque ne, an mea tota debitis, quas maiorum ad vis. Tale aeterno
+								cu sit, decore eripuit patrioque ut ius. Vitae fierent et nec, ius ea iusto possim. Vis posse sanctus expetendis
+								ut, et eum intellegam definitionem, vix at eligendi menandri. At equidem patrioque has, lorem adversarium in duo.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- FIN MODAL ASESORIA-->
+			<!-- MODAL SEMINARIO FINAL -->
+			<div id="js-modal-final" class="js-modal-1  modal  modal--1">
+				<span class="modal-close-btn"></span>
+				<div class="row center-xs">
+					<div class="col-xs-12 pdt-title">
+						<h1>Seminario final</h1>
+					</div>
+				</div>
+				<div class="row center-xs">
+					<div class="col-xs-11">
+						<hr class="pdt-hr celeste">
+					</div>
+				</div>
+				<div class="row center-xs">
+					<div class="col-xs-11">
+						<div class="modal-fecha">Diciembre del 2016</div>
+					</div>
+				</div>
+				<div class="row center-xs">
+					<div class="col-xs-11">
+						<div class="row center-xs">
+							<div class="col-md-10 pdt-content justify-text texto-galeria">
+								Lorem ipsum dolor sit amet, quodsi deseruisse sit in. Tale ridens diceret ius ea, id nec stet postulant interesset. Option
+								invidunt theophrastus vix ut, his vidisse dolorem facilisi ex. Eos mucius complectitur in. Ut equidem molestiae sea,
+								no per justo alterum. Quot malorum quo at, qui ne latine placerat. Ei magna democritum mea, has at nisl enim pertinax,
+								legere labore ad eum. Aeque electram qui eu. Usu lorem ludus te, aliquando sententiae nec ne. At usu rebum elitr
+								commodo, vel in labores gloriatur. Sea ne quem malorum, suscipiantur consequuntur ei vix. Ei probo quando democritum
+								mea, ei eam appareat constituam, probo debet fabulas ad qui. Detracto eligendi scripserit ei pri, an partem legere
+								his. Tollit soluta signiferumque an his. Nam viderer utroque ne, an mea tota debitis, quas maiorum ad vis. Tale aeterno
+								cu sit, decore eripuit patrioque ut ius. Vitae fierent et nec, ius ea iusto possim. Vis posse sanctus expetendis
+								ut, et eum intellegam definitionem, vix at eligendi menandri. At equidem patrioque has, lorem adversarium in duo.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- FIN MODAL SEMINARIO FINAL-->
+			</main>
 
-                            Quot malorum quo at, qui ne latine placerat. Ei magna democritum mea, has at nisl enim pertinax, legere labore ad eum. Aeque electram qui eu. Usu lorem ludus te, aliquando sententiae nec ne. At usu rebum elitr commodo, vel in labores gloriatur. Sea ne quem malorum, suscipiantur consequuntur ei vix. Ei probo quando democritum mea, ei eam appareat constituam, probo debet fabulas ad qui.
+			<footer id="footer">
+				<?php include_once 'footer.php' ?>
+			</footer>
 
-                            Detracto eligendi scripserit ei pri, an partem legere his. Tollit soluta signiferumque an his. Nam viderer utroque ne, an mea tota debitis, quas maiorum ad vis. Tale aeterno cu sit, decore eripuit patrioque ut ius. Vitae fierent et nec, ius ea iusto possim. Vis posse sanctus expetendis ut, et eum intellegam definitionem, vix at eligendi menandri. At equidem patrioque has, lorem adversarium in duo.
-                        </div>
-                    </div>
-                </div>
-            </div>      
-        </div>
-        <!-- FIN MODAL INVESTIGACION CADENA DE VALOR-->
-         <!-- MODAL VISITAS TECNICAS-->
-        <div id="js-modal-visitas" class="js-modal-1  modal  modal--1">
-            <span class="modal-close-btn"></span>
-            <div class="row center-xs">
-                <div class="col-xs-12 pdt-title">
-                    <h1>Visitas Técnicas</h1>
-                </div>
-            </div>
-            <div class="row center-xs">            
-                <div class="col-xs-11">
-                    <hr class="pdt-hr celeste">
-                </div>
-            </div>
-            <div class="row center-xs">            
-                <div class="col-xs-11">
-                    <div class="modal-fecha">Del Miercoles 13 y Miercoles 20 de Abril del 2016</div>
-                </div>
-            </div>
-            <div class="row center-xs">
-                <div class="col-xs-11">
-                    <div class="row center-xs">
-                        <div class="col-md-10 pdt-content justify-text texto-galeria">
-                            VISITA TÉCNICA ZOFRI S.A 
-                            <br><br>
-                            A CONTINUACIÓN LOS DATOS DE LAS PERSONAS DE ZOFRI QUE COLABORARON CON LA REALIZACIÓN DE LA ACTIVIDAD:
-                            <br><br>
-                            LORENZO ZAMBRANO RIVERA
-                            SUBGERENTE DE MANTENIMIENTO
-                            <br><br>
-                            CHARLES PANAQUE DE LA CRUZ
-                            SUPERVISOR DE MANTENIMIENTO
-                            <br><br>
-                            Planta de 250 KV, fue construida 2013 con subsidio Corfo, aportes de Zofri y ejecutada por Andes Solar cuyo gerente fue Cesar Gimeno y Consultor Paris Salgado.
-                            <br><br>
-                            VISITA TÉCNICA A LA HUAYCA
-                            <br><br>
-                            SPS LA HUAYCA S.A.
-                            Humberto Romero Ugarte
-                            Gerente General
-                            Via5, Manz F, Sitio2, Bajo Molle , Iquique
-                            <br><br>
-                            Proyecto SPS La Huayca II. Planta fotovoltaica ubicada en el Norte de Chile, al Sur-Este de Iquique, en la comuna de Pozo Almonte, localidad de La Huayca. El proyecto contempla inyectar 30,5MW al Sistema Interconectado del Norte Grande (SING) y considera una inversión total de 67,3 Millones de dólares. Se instalarán de más de 128 mil paneles solares, emplazados en una superficie de 50 hectáreas.
-                            <br><br>
-                            Este proyecto marca un hito importante en el desarrollo fotovoltaico en Chile pues en su primera etapa fue la primera central fotovoltaica en inyectar energía en el SING.
-                            <br><br>
-                            La puesta en servicio definitiva está prevista para Julio de 2014.
-                            <br><br>
-                            En el proyecto La Huyaca MT Mecatronica SPA está a cargo de las instalaciones eléctricas de baja y media tensión, incluyendo la conexión de las subestaciones, así como instalaciones de fibra óptica.
-                        </div>
-                    </div>
-                    <div class="row center-xs">
-                        <div class="col-md-8">                
-                            <img src="images/revisionesTecnicas/huayca/1.jpg" alt="huayca 1">
-                            <img src="images/revisionesTecnicas/huayca/2.jpg" alt="huayca 2">
-                            <img src="images/revisionesTecnicas/huayca/3.jpg" alt="huayca 3">
-                            <img src="images/revisionesTecnicas/zofri/1.jpg" alt="zofri 1">
-                            <img src="images/revisionesTecnicas/zofri/2.jpg" alt="zofri 2">
-                            <img src="images/revisionesTecnicas/zofri/3.jpg" alt="zofri 3">
-                            <img src="images/revisionesTecnicas/zofri/4.jpg" alt="zofri 4">
-                            <img src="images/revisionesTecnicas/zofri/5.jpg" alt="zofri 5">
-                        </div>
-                    </div>
-                </div>
-            </div>      
-        </div>
-        <!-- FIN MODAL VISITAS TECNICAS -->
-        <!-- MODAL MODULOS -->
-        <div id="js-modal-modulos" class="js-modal-1  modal  modal--1 galeria-imagenes">
-            <span class="modal-close-btn"></span>
-            <div class="row center-xs">
-                <div class="col-xs-12 pdt-title">
-                    <h1>Módulos de capacitación</h1>
-                </div>
-            </div>
-            <div class="row center-xs">            
-                <div class="col-xs-11">
-                    <hr class="pdt-hr celeste">
-                </div>
-            </div>
-            <div class="row center-xs">            
-                <div class="col-xs-11">
-                    <div class="modal-fecha">Del Martes 10 al Jueves 26 de Mayo del 2016</div>
-                </div>
-            </div>
-            <div class="row center-xs">
-                <div id="tabModulos" class="col-xs-11 pdt-title">
-                    <ul class="resp-tabs-list ver_1">
-                        <li><a href="#">Módulo 1</a></li>
-                        <li><a href="#">Módulo 2</a></li>
-                        <li><a href="#">Módulo 3</a></li>
-                        <li><a href="#">Módulo 4</a></li>
-                    </ul>
-                    <div class="row center-xs resp-tabs-container ver_1">
-                        <div class="col-md-11">  
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <h3>Módulo 1</h3>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <h3>Instalación de sistemas fotovoltaicos y conexión a la red</h3>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <span>Duración: 8Hrs</span>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <span>Expositor: preguntar</span>
-                                </div>
-                            </div> 
-                            <div class="row">
-                                <div class="col-xs-12 justify-text">
-                                    <p>El participante quedará capacitado para realizar el dimensionamiento, instalación, mantención y puesta en
-                                        marcha de sistemas solares fotovoltaicos para la generación de electricidad; identificando los procedimientos
-                                        en una planificación adecuada; reconociendo y ubicando los distintos componentes del sistema solar; instalando
-                                        de acuerdo a los procedimientos establecidos y cumpliendo todas las exigencias de seguridad con mención
-                                        a la legislación actual que regula o beneficia este tipo de tecnologías.</p><br>
-                                    <p>Este módulo estará a cargo del Centro de Capacitación de Energías Renovables, empresa privada con sede en
-                                        Santiago de Chile, integrada por profesionales de gran experiencia y estudios formales en áreas de la
-                                        ingeniería, electricidad, mecánica y ERNC. Se trata de una empresa con Certificación en Sistema de Gestión
-                                        de la Calidad ISO 9001:2008 y la Norma Chilena NCh 2728:2003, registrada como OTEC y orientada en específico
-                                        a temas de energías renovables.
-                                    </p>                                        
-                                </div>
-                            </div>  
-                            <div class="row">
-                                <div class="col-md-6">                     
-                                    <img src="images/modulos/2.jpg" alt="modulos 2">
-                                </div>
-                                <div class="col-md-6"> 
-                                    <img src="images/modulos/8.jpg" alt="modulos 8">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-11">
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <h3>Módulo 2</h3>
-                                </div>
-                            </div> 
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <h3>Instalación de Sistemas Solares Térmicos</h3>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <span>Duración: 8Hrs</span>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <span>Expositor: preguntar</span>
-                                </div>
-                            </div> 
-                            <div class="row">
-                                <div class="col-xs-12 justify-text">
-                                    <p>Este módulo capacitará sobre el dimensionamiento, instalación, mantención y puesta en marcha
-                                    de sistemas solares térmicos en módulos presurizados y atmosféricos, heat pipe, tubo al vacío y
-                                    planos; identificando los procedimientos en una planificación adecuada; reconociendo y ubicando
-                                    los distintos componentes del sistema solar; instalando de acuerdo a los procedimientos
-                                    establecidos y cumpliendo todas las exigencias de seguridad con mención a la legislación actual
-                                    que regule o beneficie este tipo de tecnologías.</p>
-                                    <p>Este módulo estará a cargo del Centro de Capacitación de Energías Renovables, empresa
-                                    privada con sede en Santiago de Chile, integrada por profesionales de gran experiencia y
-                                    estudios formales en áreas de la ingeniería, electricidad, mecánica y ERNC. Se trata de una
-                                    empresa con Certificación en Sistema de Gestión de la Calidad ISO 9001:2008 y la Norma
-                                    Chilena NCh 2728:2003, registrada como OTEC y orientada en específico a temas de energías
-                                    renovables.</p>
-                                </div>
-                            </div> 
-                        </div>
-                        <div class="col-md-11">
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <h3>Módulo 3</h3>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <h3>Diseño y fabricación de componentes para la industria solar</h3>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <span>Duración: 8Hrs</span>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <span>Expositor: preguntar</span>
-                                </div>
-                            </div> 
-                            <div class="row">
-                                <div class="col-xs-12 justify-text">
-                                    <p>En este contexto, donde se requiere integrar tecnología y conocimientos para innovar, Alemania
-                                    es un ejemplo en innovación, cuenta con universidades de primera línea e instituciones de
-                                    investigación, además de importantes industrias de ingeniería, informática y fabricación, se
-                                    presenta como un país líder en muchas tecnologías de vanguardia, incluyendo la energía eólica,
-                                    solar fotovoltaica y biomasa. En el caso de la energía solar, tiene instaladas centrales de energía
-                                    solar fotovoltaica que pueden dar electricidad a 5,1 millones de personas (38,6 MW de
-                                    potencia instalada) y viene realizando una destacada cooperación científico-tecnológica en
-                                    materia energética con Chile, lo cual se refleja en que el año 2014 inició su trabajo en nuestro
-                                    país el centro de excelencia solar de Fraunhofer.</p>
-                                    <p>El programa recurre a expertos internacionales a objeto de transferir la experiencia y expertis de
-                                    la industria Alemana, en específico a la empresa Alemana MCA Innovation que será responsable
-                                    de realizar la capacitación en materia de diseño y construcción de componentes para la industria
-                                    solar, MCA Innovation está lideradas por Carlos Meneses, chileno con estudios en Ingeniería,
-                                    radicado hace más de 35 años en Alemania. Han construido más de 500 MW en Parques de
-                                    Energía solar y es representante de tecnologías como Krinner (sistemas de sujeción de paneles
-                                    solares donde no se emplean el concreto para fijar paneles a piso) y otros desarrollos.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-11">
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <h3>Módulo 4</h3>
-                                </div>
-                            </div> 
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <h3>Sistemas para el almacenamiento de energía renovable</h3>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <span>Duración: 8Hrs</span>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <span>Expositor: preguntar</span>
-                                </div>
-                            </div> 
-                            <div class="row">
-                                <div class="col-xs-12 justify-text">
-                                    <p>El almacenamiento de energía tiene un rol crítico en asegurar el futuro energético y esto se debe
-                                    a que servirán como una “reserva de electricidad” de mucho mayor capacidad que cualquier
-                                    reserva de combustibles fósiles, estabiliza la red de distribución y transmisión, permite un uso
-                                    más eficiente de la generación existente, hace viable económicamente las energías renovables,
-                                    es un elemento para suministrar energía cuando los costos de electricidad son altos, como por
-                                    ejemplo, en las horas punta, reduce o disminuye la necesidad de instalar nuevas generadoras,
-                                    realiza un seguimiento de la carga, permite tener una capacidad de reserva, realiza un soporte de
-                                    estabilidad de voltaje y de los sistemas de transmisión y distribución, da una asistencia a lo que
-                                    es la integración de fuentes solares reduciendo la volatidad de la salida y su variabilidad,
-                                    mejorando la calidad de la energía, reduciendo los problemas de congestión, entre otras.</p>
-                                    <p>Este módulo de capacitación también será desarrollado por la empresa Alemana MCA Innovation
-                                    siendo el oobjeto principal el estudiar las diversas formas de almacenamiento de energía, su
-                                    importancia, su descripción teórica, modelamiento y simulación. Mostrar la importancia del
-                                    almacenamiento de energía, clasificar las diversas formas de almacenamiento de energía
-                                    existentes, estudiar los tipos de almacenamiento más usado, crear capacidades humanas e
-                                    identificar potenciales temas de investigación en el área focalizados a la realidad nacional.</p>
-                                </div>
-                            </div> 
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- FIN MODAL MODULOS -->
-        <!-- MODAL TALLERES -->
-        <div id="js-modal-talleres" class="js-modal-1  modal  modal--1 galeria-imagenes">
-            <span class="modal-close-btn"></span>
-            <div class="row center-xs">
-                <div class="col-xs-12 pdt-title">
-                    <h1>3 Talleres</h1>
-                </div>
-            </div>
-            <div class="row center-xs">            
-                <div class="col-xs-11">
-                    <hr class="pdt-hr celeste">
-                </div>
-            </div>
-            <div class="row center-xs">            
-                <div class="col-xs-11">
-                    <div class="modal-fecha">Del Miercoles 8 al Jueves 22 de Junio del 2016</div>
-                </div>
-            </div>
-            <div class="row center-xs">
-                <div class="col-xs-12 pdt-title">
-                   <div class="row center-xs">
-                        <ul class="tab">
-                            <li><a href="#" class="tablinks active" onclick="openCity(event, 'Taller1')">Taller 1</a></li>
-                            <li><a href="#" class="tablinks" onclick="openCity(event, 'Taller2')">Taller 2</a></li>
-                            <li><a href="#" class="tablinks" onclick="openCity(event, 'Taller3')">Taller 3</a></li>
-                        </ul>
-                    </div>
-                    <div class="row center-xs">
-                        <div class="col-md-11">            
-                            <div id="Taller1" class="tabcontent">
-                                <div class="row">
-                                    <div class="col-xs-12">
-                                        <h3>Taller 1</h3>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-xs-12">
-                                        <h3>Sub titulo</h3>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-xs-12">
-                                        <span>Duración: XHrs</span>
-                                    </div>
-                                </div> 
-                                <div class="row">
-                                    <div class="col-xs-12 justify-text">                              
-                                        <p>
-                                        Lorem ipsum dolor sit amet, quodsi deseruisse sit in. Tale ridens diceret ius ea, id nec stet postulant interesset. Option invidunt theophrastus vix ut, his vidisse dolorem facilisi ex. Eos mucius complectitur in. Ut equidem molestiae sea, no per justo alterum.
+			<section class="pretzel no-margin row center-xs middle-xs">
+				<div class="col-xs-6">
+					<p>Pretzel Studio<sup>&reg;</sup> 2016</p>
+				</div>
+			</section>
 
-                            Quot malorum quo at, qui ne latine placerat. Ei magna democritum mea, has at nisl enim pertinax, legere labore ad eum. Aeque electram qui eu. Usu lorem ludus te, aliquando sententiae nec ne. At usu rebum elitr commodo, vel in labores gloriatur. Sea ne quem malorum, suscipiantur consequuntur ei vix. Ei probo quando democritum mea, ei eam appareat constituam, probo debet fabulas ad qui.
-                                        </p>                                        
-                                    </div>
-                                </div>  
-                            </div>
-                            <div id="Taller2" class="tabcontent">
-                                <div class="row">
-                                    <div class="col-xs-12">
-                                        <h3>Taller 2</h3>
-                                    </div>
-                                </div> 
-                                <div class="row">
-                                    <div class="col-xs-12 justify-text">
-                                        <p>
-                                        Lorem ipsum dolor sit amet, quodsi deseruisse sit in. Tale ridens diceret ius ea, id nec stet postulant interesset. Option invidunt theophrastus vix ut, his vidisse dolorem facilisi ex. Eos mucius complectitur in. Ut equidem molestiae sea, no per justo alterum.
 
-                            Quot malorum quo at, qui ne latine placerat. Ei magna democritum mea, has at nisl enim pertinax, legere labore ad eum. Aeque electram qui eu. Usu lorem ludus te, aliquando sententiae nec ne. At usu rebum elitr commodo, vel in labores gloriatur. Sea ne quem malorum, suscipiantur consequuntur ei vix. Ei probo quando democritum mea, ei eam appareat constituam, probo debet fabulas ad qui.
-                                        </p>
-                                    </div>
-                                </div> 
-                            </div>
-                            
-                            <div id="Taller3" class="tabcontent">
-                                <div class="row">
-                                    <div class="col-xs-12">
-                                        <h3>Taller 3</h3>
-                                    </div>
-                                </div> 
-                                <div class="row">
-                                    <div class="col-xs-12 justify-text">
-                                        <p>
-                                            Lorem ipsum dolor sit amet, quodsi deseruisse sit in. Tale ridens diceret ius ea, id nec stet postulant interesset. Option invidunt theophrastus vix ut, his vidisse dolorem facilisi ex. Eos mucius complectitur in. Ut equidem molestiae sea, no per justo alterum.
-
-                            Quot malorum quo at, qui ne latine placerat. Ei magna democritum mea, has at nisl enim pertinax, legere labore ad eum. Aeque electram qui eu. Usu lorem ludus te, aliquando sententiae nec ne. At usu rebum elitr commodo, vel in labores gloriatur. Sea ne quem malorum, suscipiantur consequuntur ei vix. Ei probo quando democritum mea, ei eam appareat constituam, probo debet fabulas ad qui.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- FIN MODAL TALLERES -->
-        <!-- MODAL LABORATORIO -->
-        <div id="js-modal-laboratorio" class="js-modal-1  modal  modal--1">
-            <span class="modal-close-btn"></span>
-            <div class="row center-xs">
-                <div class="col-xs-12 pdt-title">
-                    <h1>Laboratorio</h1>
-                </div>
-            </div>
-            <div class="row center-xs">            
-                <div class="col-xs-11">
-                    <hr class="pdt-hr celeste">
-                </div>
-            </div>
-            <div class="row center-xs">            
-                <div class="col-xs-11">
-                    <div class="modal-fecha">Miercoles 3 de Agosto del 2016</div>
-                </div>
-            </div>
-            <div class="row center-xs">
-                <div class="col-xs-11">
-                    <div class="row center-xs">
-                        <div class="col-md-10 pdt-content justify-text texto-galeria">
-                            Lorem ipsum dolor sit amet, quodsi deseruisse sit in. Tale ridens diceret ius ea, id nec stet postulant interesset. Option invidunt theophrastus vix ut, his vidisse dolorem facilisi ex. Eos mucius complectitur in. Ut equidem molestiae sea, no per justo alterum.
-
-                            Quot malorum quo at, qui ne latine placerat. Ei magna democritum mea, has at nisl enim pertinax, legere labore ad eum. Aeque electram qui eu. Usu lorem ludus te, aliquando sententiae nec ne. At usu rebum elitr commodo, vel in labores gloriatur. Sea ne quem malorum, suscipiantur consequuntur ei vix. Ei probo quando democritum mea, ei eam appareat constituam, probo debet fabulas ad qui.
-
-                            Detracto eligendi scripserit ei pri, an partem legere his. Tollit soluta signiferumque an his. Nam viderer utroque ne, an mea tota debitis, quas maiorum ad vis. Tale aeterno cu sit, decore eripuit patrioque ut ius. Vitae fierent et nec, ius ea iusto possim. Vis posse sanctus expetendis ut, et eum intellegam definitionem, vix at eligendi menandri. At equidem patrioque has, lorem adversarium in duo.
-                        </div>
-                    </div>
-                </div>
-            </div>      
-        </div>
-        <!-- FIN MODAL LABORATORIO-->
-        <!-- MODAL TRABAJO CON ANTENAS -->
-        <div id="js-modal-antenas" class="js-modal-1  modal  modal--1">
-            <span class="modal-close-btn"></span>
-            <div class="row center-xs">
-                <div class="col-xs-12 pdt-title">
-                    <h1>Trabajo con antenas</h1>
-                </div>
-            </div>
-            <div class="row center-xs">            
-                <div class="col-xs-11">
-                    <hr class="pdt-hr celeste">
-                </div>
-            </div>
-            <div class="row center-xs">            
-                <div class="col-xs-11">
-                    <div class="modal-fecha">Lunes 1 de Agosto al Viernes 30 de Septiembre del 2016</div>
-                </div>
-            </div>
-            <div class="row center-xs">
-                <div class="col-xs-11">
-                    <div class="row center-xs">
-                        <div class="col-md-10 pdt-content justify-text texto-galeria">
-                            Lorem ipsum dolor sit amet, quodsi deseruisse sit in. Tale ridens diceret ius ea, id nec stet postulant interesset. Option invidunt theophrastus vix ut, his vidisse dolorem facilisi ex. Eos mucius complectitur in. Ut equidem molestiae sea, no per justo alterum.
-
-                            Quot malorum quo at, qui ne latine placerat. Ei magna democritum mea, has at nisl enim pertinax, legere labore ad eum. Aeque electram qui eu. Usu lorem ludus te, aliquando sententiae nec ne. At usu rebum elitr commodo, vel in labores gloriatur. Sea ne quem malorum, suscipiantur consequuntur ei vix. Ei probo quando democritum mea, ei eam appareat constituam, probo debet fabulas ad qui.
-
-                            Detracto eligendi scripserit ei pri, an partem legere his. Tollit soluta signiferumque an his. Nam viderer utroque ne, an mea tota debitis, quas maiorum ad vis. Tale aeterno cu sit, decore eripuit patrioque ut ius. Vitae fierent et nec, ius ea iusto possim. Vis posse sanctus expetendis ut, et eum intellegam definitionem, vix at eligendi menandri. At equidem patrioque has, lorem adversarium in duo.
-                        </div>
-                    </div>
-                </div>
-            </div>      
-        </div>
-        <!-- FIN MODAL TRABAJO CON ANTENAS-->
-        <!-- MODAL REUNION Y ACUERDOS -->
-        <div id="js-modal-reunion" class="js-modal-1  modal  modal--1">
-            <span class="modal-close-btn"></span>
-            <div class="row center-xs">
-                <div class="col-xs-12 pdt-title">
-                    <h1>Reunión y acuerdos</h1>
-                </div>
-            </div>
-            <div class="row center-xs">            
-                <div class="col-xs-11">
-                    <hr class="pdt-hr celeste">
-                </div>
-            </div>
-            <div class="row center-xs">            
-                <div class="col-xs-11">
-                    <div class="modal-fecha">Viernes 30 de Septiembre del 2016</div>
-                </div>
-            </div>
-            <div class="row center-xs">
-                <div class="col-xs-11">
-                    <div class="row center-xs">
-                        <div class="col-md-10 pdt-content justify-text texto-galeria">
-                            Lorem ipsum dolor sit amet, quodsi deseruisse sit in. Tale ridens diceret ius ea, id nec stet postulant interesset. Option invidunt theophrastus vix ut, his vidisse dolorem facilisi ex. Eos mucius complectitur in. Ut equidem molestiae sea, no per justo alterum.
-
-                            Quot malorum quo at, qui ne latine placerat. Ei magna democritum mea, has at nisl enim pertinax, legere labore ad eum. Aeque electram qui eu. Usu lorem ludus te, aliquando sententiae nec ne. At usu rebum elitr commodo, vel in labores gloriatur. Sea ne quem malorum, suscipiantur consequuntur ei vix. Ei probo quando democritum mea, ei eam appareat constituam, probo debet fabulas ad qui.
-
-                            Detracto eligendi scripserit ei pri, an partem legere his. Tollit soluta signiferumque an his. Nam viderer utroque ne, an mea tota debitis, quas maiorum ad vis. Tale aeterno cu sit, decore eripuit patrioque ut ius. Vitae fierent et nec, ius ea iusto possim. Vis posse sanctus expetendis ut, et eum intellegam definitionem, vix at eligendi menandri. At equidem patrioque has, lorem adversarium in duo.
-                        </div>
-                    </div>
-                </div>
-            </div>      
-        </div>
-        <!-- FIN MODAL REUNION Y ACUERDOS-->
-        <!-- MODAL CONSTRUCCION Y HABILITACION -->
-        <div id="js-modal-construccion" class="js-modal-1  modal  modal--1">
-            <span class="modal-close-btn"></span>
-            <div class="row center-xs">
-                <div class="col-xs-12 pdt-title">
-                    <h1>Construcción y habilitación de portal web</h1>
-                </div>
-            </div>
-            <div class="row center-xs">            
-                <div class="col-xs-11">
-                    <hr class="pdt-hr celeste">
-                </div>
-            </div>
-            <div class="row center-xs">            
-                <div class="col-xs-11">
-                    <div class="modal-fecha">Viernes 30 de Septiembre del 2016</div>
-                </div>
-            </div>
-            <div class="row center-xs">
-                <div class="col-xs-11">
-                    <div class="row center-xs">
-                        <div class="col-md-10 pdt-content justify-text texto-galeria">
-                            Lorem ipsum dolor sit amet, quodsi deseruisse sit in. Tale ridens diceret ius ea, id nec stet postulant interesset. Option invidunt theophrastus vix ut, his vidisse dolorem facilisi ex. Eos mucius complectitur in. Ut equidem molestiae sea, no per justo alterum.
-
-                            Quot malorum quo at, qui ne latine placerat. Ei magna democritum mea, has at nisl enim pertinax, legere labore ad eum. Aeque electram qui eu. Usu lorem ludus te, aliquando sententiae nec ne. At usu rebum elitr commodo, vel in labores gloriatur. Sea ne quem malorum, suscipiantur consequuntur ei vix. Ei probo quando democritum mea, ei eam appareat constituam, probo debet fabulas ad qui.
-
-                            Detracto eligendi scripserit ei pri, an partem legere his. Tollit soluta signiferumque an his. Nam viderer utroque ne, an mea tota debitis, quas maiorum ad vis. Tale aeterno cu sit, decore eripuit patrioque ut ius. Vitae fierent et nec, ius ea iusto possim. Vis posse sanctus expetendis ut, et eum intellegam definitionem, vix at eligendi menandri. At equidem patrioque has, lorem adversarium in duo.
-                        </div>
-                    </div>
-                </div>
-            </div>      
-        </div>
-        <!-- FIN MODAL CONSTRUCCION Y HABILITACION-->
-        <!-- MODAL SEMINARIO DE ENERGIA SOLAR -->
-        <div id="js-modal-seminario" class="js-modal-1  modal  modal--1">
-            <span class="modal-close-btn"></span>
-            <div class="row center-xs">
-                <div class="col-xs-12 pdt-title">
-                    <h1>Realizar un Seminario de energía solar renovable en Tarapacá</h1>
-                </div>
-            </div>
-            <div class="row center-xs">            
-                <div class="col-xs-11">
-                    <hr class="pdt-hr celeste">
-                </div>
-            </div>
-            <div class="row center-xs">            
-                <div class="col-xs-11">
-                    <div class="modal-fecha">Martes 27 de Septiembre del 2016</div>
-                </div>
-            </div>
-            <div class="row center-xs">
-                <div class="col-xs-11">
-                    <div class="row center-xs">
-                        <div class="col-md-10 pdt-content justify-text texto-galeria">
-                            Lorem ipsum dolor sit amet, quodsi deseruisse sit in. Tale ridens diceret ius ea, id nec stet postulant interesset. Option invidunt theophrastus vix ut, his vidisse dolorem facilisi ex. Eos mucius complectitur in. Ut equidem molestiae sea, no per justo alterum.
-
-                            Quot malorum quo at, qui ne latine placerat. Ei magna democritum mea, has at nisl enim pertinax, legere labore ad eum. Aeque electram qui eu. Usu lorem ludus te, aliquando sententiae nec ne. At usu rebum elitr commodo, vel in labores gloriatur. Sea ne quem malorum, suscipiantur consequuntur ei vix. Ei probo quando democritum mea, ei eam appareat constituam, probo debet fabulas ad qui.
-
-                            Detracto eligendi scripserit ei pri, an partem legere his. Tollit soluta signiferumque an his. Nam viderer utroque ne, an mea tota debitis, quas maiorum ad vis. Tale aeterno cu sit, decore eripuit patrioque ut ius. Vitae fierent et nec, ius ea iusto possim. Vis posse sanctus expetendis ut, et eum intellegam definitionem, vix at eligendi menandri. At equidem patrioque has, lorem adversarium in duo.
-                        </div>
-                    </div>
-                </div>
-            </div>      
-        </div>
-        <!-- FIN MODAL SEMINARIO DE ENERGIA SOLAR-->
-        <!-- MODAL ACTIVIDADES DE DIFUSION -->
-        <div id="js-modal-actividades" class="js-modal-1  modal  modal--1">
-            <span class="modal-close-btn"></span>
-            <div class="row center-xs">
-                <div class="col-xs-12 pdt-title">
-                    <h1>Realizar actividades de difusión</h1>
-                </div>
-            </div>
-            <div class="row center-xs">            
-                <div class="col-xs-11">
-                    <hr class="pdt-hr celeste">
-                </div>
-            </div>
-            <div class="row center-xs">            
-                <div class="col-xs-11">
-                    <div class="modal-fecha">De Febrero a Diciembre del 2016</div>
-                </div>
-            </div>
-            <div class="row center-xs">
-                <div class="col-xs-11">
-                    <div class="row center-xs">
-                        <div class="col-md-10 pdt-content justify-text texto-galeria">
-                            Lorem ipsum dolor sit amet, quodsi deseruisse sit in. Tale ridens diceret ius ea, id nec stet postulant interesset. Option invidunt theophrastus vix ut, his vidisse dolorem facilisi ex. Eos mucius complectitur in. Ut equidem molestiae sea, no per justo alterum.
-
-                            Quot malorum quo at, qui ne latine placerat. Ei magna democritum mea, has at nisl enim pertinax, legere labore ad eum. Aeque electram qui eu. Usu lorem ludus te, aliquando sententiae nec ne. At usu rebum elitr commodo, vel in labores gloriatur. Sea ne quem malorum, suscipiantur consequuntur ei vix. Ei probo quando democritum mea, ei eam appareat constituam, probo debet fabulas ad qui.
-
-                            Detracto eligendi scripserit ei pri, an partem legere his. Tollit soluta signiferumque an his. Nam viderer utroque ne, an mea tota debitis, quas maiorum ad vis. Tale aeterno cu sit, decore eripuit patrioque ut ius. Vitae fierent et nec, ius ea iusto possim. Vis posse sanctus expetendis ut, et eum intellegam definitionem, vix at eligendi menandri. At equidem patrioque has, lorem adversarium in duo.
-                        </div>
-                    </div>
-                </div>
-            </div>      
-        </div>
-        <!-- FIN MODAL ACTIVIDADES DE DIFUSION-->
-        <!-- MODAL PROPUESTADE DE PROYECTOS -->
-        <div id="js-modal-proyectos" class="js-modal-1  modal  modal--1">
-            <span class="modal-close-btn"></span>
-            <div class="row center-xs">
-                <div class="col-xs-12 pdt-title">
-                    <h1>Elaborar propuestas de proyectos tecnológicos y/o innovación</h1>
-                </div>
-            </div>
-            <div class="row center-xs">            
-                <div class="col-xs-11">
-                    <hr class="pdt-hr celeste">
-                </div>
-            </div>
-            <div class="row center-xs">            
-                <div class="col-xs-11">
-                    <div class="modal-fecha">Del Martes 1 al Miercoles 31 de Noviembre del 2016</div>
-                </div>
-            </div>
-            <div class="row center-xs">
-                <div class="col-xs-11">
-                    <div class="row center-xs">
-                        <div class="col-md-10 pdt-content justify-text texto-galeria">
-                            Lorem ipsum dolor sit amet, quodsi deseruisse sit in. Tale ridens diceret ius ea, id nec stet postulant interesset. Option invidunt theophrastus vix ut, his vidisse dolorem facilisi ex. Eos mucius complectitur in. Ut equidem molestiae sea, no per justo alterum.
-
-                            Quot malorum quo at, qui ne latine placerat. Ei magna democritum mea, has at nisl enim pertinax, legere labore ad eum. Aeque electram qui eu. Usu lorem ludus te, aliquando sententiae nec ne. At usu rebum elitr commodo, vel in labores gloriatur. Sea ne quem malorum, suscipiantur consequuntur ei vix. Ei probo quando democritum mea, ei eam appareat constituam, probo debet fabulas ad qui.
-
-                            Detracto eligendi scripserit ei pri, an partem legere his. Tollit soluta signiferumque an his. Nam viderer utroque ne, an mea tota debitis, quas maiorum ad vis. Tale aeterno cu sit, decore eripuit patrioque ut ius. Vitae fierent et nec, ius ea iusto possim. Vis posse sanctus expetendis ut, et eum intellegam definitionem, vix at eligendi menandri. At equidem patrioque has, lorem adversarium in duo.
-                        </div>
-                    </div>
-                </div>
-            </div>      
-        </div>
-        <!-- FIN MODAL PROPUESTADE DE PROYECTOS-->
-        <!-- MODAL ASESORIA -->
-        <div id="js-modal-asesoria" class="js-modal-1  modal  modal--1">
-            <span class="modal-close-btn"></span>
-            <div class="row center-xs">
-                <div class="col-xs-12 pdt-title">
-                    <h1>Asesoría en presentación de Línea 3 PDT</h1>
-                </div>
-            </div>
-            <div class="row center-xs">            
-                <div class="col-xs-11">
-                    <hr class="pdt-hr celeste">
-                </div>
-            </div>
-            <div class="row center-xs">            
-                <div class="col-xs-11">
-                    <div class="modal-fecha">Diciembre del 2016</div>
-                </div>
-            </div>
-            <div class="row center-xs">
-                <div class="col-xs-11">
-                    <div class="row center-xs">
-                        <div class="col-md-10 pdt-content justify-text texto-galeria">
-                            Lorem ipsum dolor sit amet, quodsi deseruisse sit in. Tale ridens diceret ius ea, id nec stet postulant interesset. Option invidunt theophrastus vix ut, his vidisse dolorem facilisi ex. Eos mucius complectitur in. Ut equidem molestiae sea, no per justo alterum.
-
-                            Quot malorum quo at, qui ne latine placerat. Ei magna democritum mea, has at nisl enim pertinax, legere labore ad eum. Aeque electram qui eu. Usu lorem ludus te, aliquando sententiae nec ne. At usu rebum elitr commodo, vel in labores gloriatur. Sea ne quem malorum, suscipiantur consequuntur ei vix. Ei probo quando democritum mea, ei eam appareat constituam, probo debet fabulas ad qui.
-
-                            Detracto eligendi scripserit ei pri, an partem legere his. Tollit soluta signiferumque an his. Nam viderer utroque ne, an mea tota debitis, quas maiorum ad vis. Tale aeterno cu sit, decore eripuit patrioque ut ius. Vitae fierent et nec, ius ea iusto possim. Vis posse sanctus expetendis ut, et eum intellegam definitionem, vix at eligendi menandri. At equidem patrioque has, lorem adversarium in duo.
-                        </div>
-                    </div>
-                </div>
-            </div>      
-        </div>
-        <!-- FIN MODAL ASESORIA-->
-        <!-- MODAL SEMINARIO FINAL -->
-        <div id="js-modal-final" class="js-modal-1  modal  modal--1">
-            <span class="modal-close-btn"></span>
-            <div class="row center-xs">
-                <div class="col-xs-12 pdt-title">
-                    <h1>Seminario final</h1>
-                </div>
-            </div>
-            <div class="row center-xs">            
-                <div class="col-xs-11">
-                    <hr class="pdt-hr celeste">
-                </div>
-            </div>
-            <div class="row center-xs">            
-                <div class="col-xs-11">
-                    <div class="modal-fecha">Diciembre del 2016</div>
-                </div>
-            </div>
-            <div class="row center-xs">
-                <div class="col-xs-11">
-                    <div class="row center-xs">
-                        <div class="col-md-10 pdt-content justify-text texto-galeria">
-                            Lorem ipsum dolor sit amet, quodsi deseruisse sit in. Tale ridens diceret ius ea, id nec stet postulant interesset. Option invidunt theophrastus vix ut, his vidisse dolorem facilisi ex. Eos mucius complectitur in. Ut equidem molestiae sea, no per justo alterum.
-
-                            Quot malorum quo at, qui ne latine placerat. Ei magna democritum mea, has at nisl enim pertinax, legere labore ad eum. Aeque electram qui eu. Usu lorem ludus te, aliquando sententiae nec ne. At usu rebum elitr commodo, vel in labores gloriatur. Sea ne quem malorum, suscipiantur consequuntur ei vix. Ei probo quando democritum mea, ei eam appareat constituam, probo debet fabulas ad qui.
-
-                            Detracto eligendi scripserit ei pri, an partem legere his. Tollit soluta signiferumque an his. Nam viderer utroque ne, an mea tota debitis, quas maiorum ad vis. Tale aeterno cu sit, decore eripuit patrioque ut ius. Vitae fierent et nec, ius ea iusto possim. Vis posse sanctus expetendis ut, et eum intellegam definitionem, vix at eligendi menandri. At equidem patrioque has, lorem adversarium in duo.
-                        </div>
-                    </div>
-                </div>
-            </div>      
-        </div>
-        <!-- FIN MODAL SEMINARIO FINAL-->
-    </main>
-
-    <footer id="footer"><?php include_once 'footer.php' ?></footer>
-
-    <section class="pretzel no-margin row center-xs middle-xs">
-        <div class="col-xs-6">
-            <p>Pretzel Studio<sup>&reg;</sup> 2016</p>
-        </div>
-    </section>
-
-    
-    <!-- cd-timeline -->
-    <script src="js/jquery-3.1.1.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/cta.min.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/easyResponsiveTabs.js"></script>
-    <!-- Resource jQuery -->
-    <script type="text/javascript">
+			<!-- cd-timeline -->
+			<script src="js/jquery-3.1.1.min.js"></script>
+			<script src="js/main.js"></script>
+			<script src="js/cta.min.js"></script>
+			<script src="js/slick.min.js"></script>
+			<script src="js/easyResponsiveTabs.js"></script>
+			<!-- Resource jQuery -->
+			<script type="text/javascript">
         var closeFn;
         function closeShowingModal() {
             var showingModal = document.querySelector('.modal.show');
@@ -1330,6 +1142,16 @@
                 width: 'auto',
                 fit: true,
                 tabidentify: 'ver_1', // The tab groups identifier
+                activetab_bg: '#fff', // background color for active tabs in this group
+                inactive_bg: '#F5F5F5', // background color for inactive tabs in this group
+                active_border_color: '#c1c1c1', // border color for active tabs heads in this group
+                active_content_border_color: '#5AB1D0' // border color for active tabs contect in this group so that it matches the tab head border
+            });
+            $('#tabTalleres').easyResponsiveTabs({
+                type: 'horizontal',
+                width: 'auto',
+                fit: true,
+                tabidentify: 'ver_2', // The tab groups identifier
                 activetab_bg: '#fff', // background color for active tabs in this group
                 inactive_bg: '#F5F5F5', // background color for inactive tabs in this group
                 active_border_color: '#c1c1c1', // border color for active tabs heads in this group
