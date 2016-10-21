@@ -144,12 +144,13 @@
 				</div>
 				<div class="row">
 					<div class="col-xs-12">
-						<p>2 Visitas técnicas a proyectos de generación de energía con energía solar. Los proyectos a visitar son:
-							<ol>
+						<p>Visitas técnicas a proyectos de generación de energía con energía solar. Los proyectos a visitar son:
+							<ul>
+								<br>
 								<li>Parque Fotovoltaico de la empresa Alemana SELRAY de 29MW.</li>
-								<li>ZOFRI S.A., específicamente se realizará una visita técnica al sistema de abastecimiento de servicios comunes que
-									genera el 32% de la energía empleada.</li>
-							</ol>
+								<br>
+								<li>ZOFRI S.A., planta fotovoltaica que le permite suministrar un 21% de la energía del centro comercial.</li>
+							</ul>
 						</p>
 					</div>
 				</div>
@@ -187,7 +188,7 @@
 				</div>
 				<div class="row">
 					<div class="col-xs-12">
-						<p>Las capacitaciones con expertos en energía solas de Chile y alemania con la modalidad de clase magistral en donde asistirán
+						<p>Las capacitaciones con expertos en energía solar de Chile y Alemania con la modalidad de clase magistral en donde asistirán
 							todos los participantes del programa. De enfrentarse inconvenientes de horario será vía on-line.</p>
 					</div>
 				</div>
@@ -227,7 +228,7 @@
 				</div>
 				<div class="row">
 					<div class="col-xs-12">
-						<p>Las capacitaciones con expertos en energía solas de Chile y alemania con la modalidad de clase magistral en donde asistirán
+						<p>Las capacitaciones con expertos en energía solar de Chile y Alemania con la modalidad de clase magistral en donde asistirán
 							todos los participantes del programa. De enfrentarse inconvenientes de horario será vía on-line.</p>
 					</div>
 				</div>
@@ -556,6 +557,20 @@
 				</div>
 			</div>
 		</div>
+		<div class="row center-xs">
+			<div class="col-xs-12">
+				<h3>Material</h3>
+			</div>
+		</div>
+		<br>
+		<div class="row center-xs">
+			<div class="col-xs-12">
+				<a class="" href="actividades/diagnosticoProf/PAUTA_DIAGNOSTICO_2.pdf" target="_blank">Pauta diagnóstico 1</a>				
+			</div>
+			<div class="col-xs-12">
+				<a class="" href="actividades/diagnosticoProf/PAUTA_DIAGNOSTICO_(2)_(2).pdf" target="_blank">Pauta diagnóstico 2</a>
+			</div>
+		</div>
 	</div>
 	<!-- FIN MODAL DIAGNOSTICO-->
 	<!-- MODAL INVESTIGACION CADENA DE VALOR -->
@@ -580,17 +595,17 @@
 			<div class="col-xs-11">
 				<div class="row center-xs">
 					<div class="col-md-10 pdt-content justify-text texto-galeria">
-						Lorem ipsum dolor sit amet, quodsi deseruisse sit in. Tale ridens diceret ius ea, id nec stet postulant interesset. Option
-						invidunt theophrastus vix ut, his vidisse dolorem facilisi ex. Eos mucius complectitur in. Ut equidem molestiae sea,
-						no per justo alterum. Quot malorum quo at, qui ne latine placerat. Ei magna democritum mea, has at nisl enim pertinax,
-						legere labore ad eum. Aeque electram qui eu. Usu lorem ludus te, aliquando sententiae nec ne. At usu rebum elitr commodo,
-						vel in labores gloriatur. Sea ne quem malorum, suscipiantur consequuntur ei vix. Ei probo quando democritum mea, ei
-						eam appareat constituam, probo debet fabulas ad qui. Detracto eligendi scripserit ei pri, an partem legere his. Tollit
-						soluta signiferumque an his. Nam viderer utroque ne, an mea tota debitis, quas maiorum ad vis. Tale aeterno cu sit,
-						decore eripuit patrioque ut ius. Vitae fierent et nec, ius ea iusto possim. Vis posse sanctus expetendis ut, et eum
-						intellegam definitionem, vix at eligendi menandri. At equidem patrioque has, lorem adversarium in duo.
+						Si bien existen múltiples negocios  y posibilidades de innovar  en materia de energía solar, lo cual involucra proveer a grandes proyectos de generación de energía, hasta el diseño y la producción de soluciones para diversas industrias, que van desde  productos de iluminación hasta vehículos solares, se considera relevante realizar una investigación con asesoría especializada tendente a identificar la cadena del valor de las distintas tecnologías con últimas innovaciones desarrolladas y/o en avance, análisis de gaps dentro de la cadena de valor y  la Identificación y creación de una base de datos con empresas y soluciones en el ámbito nacional  e internacional para identificar nichos para el desarrollo de tecnologías y soluciones innovadoras en el ámbito local. 
 					</div>
 				</div>
+			</div>
+		</div>
+		<div class="row center-xs">
+			<div class="col-xs-12">
+				<a class="" href="actividades/cadenaValor/energia_2050.pdf" target="_blank">Energía 2050</a>
+			</div>
+			<div class="col-xs-12">
+				<a class="" href="actividades/cadenaValor/investigacion_de_energia_solar_en_chile.pdf" target="_blank">Investigación de energía solar en Chile</a>
 			</div>
 		</div>
 	</div>
@@ -610,46 +625,53 @@
 		</div>
 		<div class="row center-xs">
 			<div class="col-xs-11">
-				<div class="modal-fecha">Del Miercoles 13 y Miercoles 20 de Abril del 2016</div>
+				<div class="modal-fecha">Miercoles 13 y Miercoles 20 de Abril del 2016</div>
 			</div>
 		</div>
 		<div class="row center-xs">
 			<div class="col-xs-11">
 				<div class="row center-xs">
 					<div class="col-md-10 pdt-content justify-text texto-galeria">
-						VISITA TÉCNICA ZOFRI S.A
-						<br><br> A CONTINUACIÓN LOS DATOS DE LAS PERSONAS DE ZOFRI QUE COLABORARON CON LA REALIZACIÓN DE LA ACTIVIDAD:
-						<br><br> LORENZO ZAMBRANO RIVERA SUBGERENTE DE MANTENIMIENTO
-						<br><br> CHARLES PANAQUE DE LA CRUZ SUPERVISOR DE MANTENIMIENTO
-						<br><br> Planta de 250 KV, fue construida 2013 con subsidio Corfo, aportes de Zofri y ejecutada por Andes Solar cuyo
-						gerente fue Cesar Gimeno y Consultor Paris Salgado.
-						<br><br> VISITA TÉCNICA A LA HUAYCA
-						<br><br> SPS LA HUAYCA S.A. Humberto Romero Ugarte Gerente General Via5, Manz F, Sitio2, Bajo Molle , Iquique
-						<br><br> Proyecto SPS La Huayca II. Planta fotovoltaica ubicada en el Norte de Chile, al Sur-Este de Iquique, en la
+						VISITA TÉCNICA A LA HUAYCA
+						<br><br> SPS LA HUAYCA S.A. representada por Don Humberto Romero Ugarte Gerente General
+						<br><br> Planta fotovoltaica ubicada en el Norte de Chile, al Sur-Este de Iquique, en la
 						comuna de Pozo Almonte, localidad de La Huayca. El proyecto contempla inyectar 30,5MW al Sistema Interconectado del
 						Norte Grande (SING) y considera una inversión total de 67,3 Millones de dólares. Se instalarán de más de 128 mil paneles
 						solares, emplazados en una superficie de 50 hectáreas.
 						<br><br> Este proyecto marca un hito importante en el desarrollo fotovoltaico en Chile pues en su primera etapa fue
 						la primera central fotovoltaica en inyectar energía en el SING.
 						<br><br> La puesta en servicio definitiva está prevista para Julio de 2014.
-						<br><br> En el proyecto La Huyaca MT Mecatronica SPA está a cargo de las instalaciones eléctricas de baja y media tensión,
+						<br><br> En el proyecto La Huayca MT Mecatronica SPA está a cargo de las instalaciones eléctricas de baja y media tensión,
 						incluyendo la conexión de las subestaciones, así como instalaciones de fibra óptica.
+						<br><br><br>VISITA TÉCNICA ZOFRI S.A
+						<br><br> Esta visitase realizó en colaboración con Don Lorenzo Zambrano Rivera Subgerente de Mantenimiento ZOFRI S.A. y Don Charles Panaque de la Cruz Supervisor de Mantenimiento de ZOFRI S.A.:
+						<br><br> Planta de 250 KV, fue construida 2013 con subsidio Corfo, aportes de Zofri y ejecutada por Andes Solar cuyo
+						gerente fue Cesar Gimeno y Consultor Paris Salgado.						 
 					</div>
 				</div>
-				<div class="row center-xs">
-					<div class="col-md-8">
-						<img src="images/revisionesTecnicas/huayca/1.jpg" alt="huayca 1">
-						<img src="images/revisionesTecnicas/huayca/2.jpg" alt="huayca 2">
-						<img src="images/revisionesTecnicas/huayca/3.jpg" alt="huayca 3">
-						<img src="images/revisionesTecnicas/zofri/1.jpg" alt="zofri 1">
-						<img src="images/revisionesTecnicas/zofri/2.jpg" alt="zofri 2">
-						<img src="images/revisionesTecnicas/zofri/3.jpg" alt="zofri 3">
-						<img src="images/revisionesTecnicas/zofri/4.jpg" alt="zofri 4">
-						<img src="images/revisionesTecnicas/zofri/5.jpg" alt="zofri 5">
+				<div class="row">
+					<div class="col-md-4 col-sm-12">
+						<img class="content-img" src="images/revisionesTecnicas/huayca/1.jpg" alt="huayca 1">
+					</div>
+					<div class="col-md-4 col-sm-12">
+						<img class="content-img" src="images/revisionesTecnicas/huayca/2.jpg" alt="huayca 2">
+					</div>
+					<div class="col-md-4 col-sm-12">
+						<img class="content-img" src="images/revisionesTecnicas/zofri/1.jpg" alt="zofri 1">
+					</div>
+					<div class="col-md-4 col-sm-12">
+						<img class="content-img" src="images/revisionesTecnicas/zofri/2.jpg" alt="zofri 2">
+					</div>
+					<div class="col-md-4 col-sm-12">
+						<img class="content-img" src="images/revisionesTecnicas/zofri/3.jpg" alt="zofri 3">
+					</div>
+					<div class="col-md-4 col-sm-12">
+						<img class="content-img" src="images/revisionesTecnicas/zofri/4.jpg" alt="zofri 4">
 					</div>
 				</div>
 			</div>
 		</div>
+		<br><br>
 	</div>
 	<!-- FIN MODAL VISITAS TECNICAS -->
 	<!-- MODAL MODULOS -->
@@ -667,7 +689,7 @@
 		</div>
 		<div class="row center-xs">
 			<div class="col-xs-11">
-				<div class="modal-fecha">Del Martes 10 al Jueves 26 de Mayo del 2016</div>
+				<div class="modal-fecha">Desde el Martes 10 al Jueves 26 de Mayo del 2016</div>
 			</div>
 		</div>
 		<!--tabs-->
@@ -732,9 +754,9 @@
 						<!-- fin contenido talleres-->
 					</div>
 				</div>
-                </div>
+        </div>
 				<!--cierre tabs-->
-			</div>
+	</div>
 			<!-- FIN MODAL TALLERES -->
 			<!-- MODAL LABORATORIO -->
 			<div id="js-modal-laboratorio" class="js-modal-1  modal  modal--1">
@@ -919,6 +941,36 @@
 						</div>
 					</div>
 				</div>
+				<div class="row center-xs">
+					<div class="col-xs-12">
+						<h3>Galería</h3>
+					</div>
+				</div>
+				<br>
+				<div class="row center-xs">
+					<div class="col-md-4">
+						<img src="images/seminario_ernc/1.jpg" alt="seminario ernc">
+					</div>
+					<div class="col-md-4">
+						<img src="images/seminario_ernc/2.jpg" alt="seminario ernc ">
+					</div>
+				</div>
+				<br>
+				<div class="row center-xs">
+					<div class="col-xs-12">
+						<h3>Material complementario</h3>
+					</div>
+				</div>
+				<br>
+				<div class="row center-xs">
+					<div class="col-md-12">
+						<a class="" href="seminario_ernc/presentacion_ultimo_seminario_PDT_Corfo-mvega.ppt">Presentación último seminario Corfo</a>
+					</div>
+					<div class="col-md-12">
+						<a href="http://www.4echile.cl/tecnologia-de-concentracion-solar-para-la-industria--6" target="_blank">Tecnología de concentración solar para la industria</a>
+					</div>
+				</div>
+				<br><br><br><br>
 			</div>
 			<!-- FIN MODAL SEMINARIO DE ENERGIA SOLAR-->
 			<!-- MODAL ACTIVIDADES DE DIFUSION -->

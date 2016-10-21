@@ -16,7 +16,7 @@
 	</div>
 	<div class="row">
 		<div class="col-xs-12">
-			<span>Expositores: Werner Störmer - Carlos Manuel Meneses</span>
+			<span>Expositores: Carlos Meneses</span>
 		</div>
 	</div>
 	<div class="row">
@@ -34,6 +34,14 @@
 				estudios en Ingeniería, radicado hace más de 35 años en Alemania. Han construido más de 500 MW en Parques de Energía
 				solar y es representante de tecnologías como Krinner (sistemas de sujeción de paneles solares donde no se emplean el
 				concreto para fijar paneles a piso) y otros desarrollos.</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+			<img src="images/modulos/mod4/IMG_4927.JPG" alt="modulos 4">
+		</div>
+		<div class="col-md-6">
+			<img src="images/modulos/mod4/IMG_4926.JPG" alt="modulos 4">
 		</div>
 	</div>
 </div>

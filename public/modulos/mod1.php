@@ -41,10 +41,10 @@
 	</div>
 	<div class="row">
 		<div class="col-md-6">
-			<img src="images/modulos/2.jpg" alt="modulos 2">
+			<img src="images/modulos/mod1/2.jpg" alt="modulos 2">
 		</div>
 		<div class="col-md-6">
-			<img src="images/modulos/8.jpg" alt="modulos 8">
+			<img src="images/modulos/mod1/5.jpg" alt="modulos 8">
 		</div>
 	</div>
 	<!--material-->
@@ -54,12 +54,32 @@
 		</div>
 	</div>
 	<div class="row start-xs">
-		<div class="col-md-12">
-			<a class="" href="modulos/mod1/clase1.pdf" target="_blank">clase 1</a>
-		</div>
-		<div class="col-md-12">
-			<a href="modulos/mod1/clase2.pdf" target="_blank">clase 2</a>
-		</div>
+		<ul>
+			<div class="col-md-12">
+				<li><a href="modulos/mod1/0.pptx">Conceptos básicos de Energía Solar, Calor y Fluidos.</a></li>
+			</div>
+			<div class="col-md-12">
+				<li><a href="modulos/mod1/1.pptx">Configuraciones y componentes</a></li>
+			</div>
+			<div class="col-md-12">
+				<li><a href="modulos/mod1/2.pptx">Circulación natural</a></li>
+			</div>
+			<div class="col-md-12">
+				<li><a href="modulos/mod1/algoritmo_fchart_v3.xls">Algoritmo de verificación del cumplimiento de la contribución solar mínima (CSM)</a></li>
+			</div>
+			<div class="col-md-12">
+				<li><a href="modulos/mod1/manual_tecnico_solar_2013.pdf">Manual práctico del técnico solar sst de acs en viviendas unifamiliares</a></li>
+			</div>
+			<div class="col-md-12">
+				<li><a href="modulos/mod1/PRESPROYRENOVACIONLEY20365JUNIO2015_ARICA_IQUIQUE_ANTOFAGASTA.pdf">Renovación ley 20.365</a></li>
+			</div>
+			<div class="col-md-12">
+				<li><a href="modulos/mod1/Registro_de_colectores_SEC.PDF">Registro de colectores</a></li>
+			</div>				
+			<div class="col-md-12">
+				<li><a href="modulos/mod1/reporte_solar.pdf">Reporte solar</a></li>
+			</div>	
+		</ul>
 	</div>
 	<!--fin material-->
 </div>

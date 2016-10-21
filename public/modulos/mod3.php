@@ -16,7 +16,7 @@
 	</div>
 	<div class="row">
 		<div class="col-xs-12">
-			<span>Expositor: Carlos Meneses</span>
+			<span>Expositor: Werner Störmer</span>
 		</div>
 	</div>
 	<div class="row">
@@ -36,4 +36,13 @@
 				temas de investigación en el área focalizados a la realidad nacional.</p>
 		</div>
 	</div>
+	<div class="row">
+		<div class="col-md-6">
+			<img src="images/modulos/mod3/IMG_4921.JPG" alt="modulo 3">
+		</div>
+		<div class="col-md-6">
+			<img src="images/modulos/mod3/IMG_4919.JPG" alt="modulo 3">
+		</div>
+	</div>
+
 </div>
