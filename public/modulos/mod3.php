@@ -44,5 +44,17 @@
 			<img src="images/modulos/mod3/IMG_4919.JPG" alt="modulo 3">
 		</div>
 	</div>
-
+	<!--material-->
+	<div class="row start-xs">
+		<div class="col-xs-12">
+			<h3>Material complementario</h3>
+		</div>
+	</div>
+	<div class="row start-xs">
+		<ul>			
+			<div class="col-md-12">
+				<li><a href="modulos/mod3/hola.pdf"></a></li>
+			</div>
+		</ul>
+	</div>
 </div>

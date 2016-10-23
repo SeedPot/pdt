@@ -143,9 +143,101 @@
 				<li><a href="modulos/mod2/SI4548_6048U_DEN131512.pdf">Sunny island 4548-US / 6048-US</a></li>
 			</div>	
 			<div class="col-md-12">
-				<li><a href="modulos/mod2/SI4548_6048U_DEN131512.pdf">Sunny island 6.0H / 8.0H</a></li>
+				<li><a href="modulos/mod2/SI_OFF_ON_6H_8H_DEN1421W.pdf">Sunny island 6.0H / 8.0H for off-grid and on-grid applications</a></li>
 			</div>	
 			<!--desde inversores ongrid -->
+			<div class="col-md-12">
+				<li><a href="modulos/mod2/ERNC_mercado_electrico_chileno_baja_resolucion.pdf">ERNC mercado eléctrico chileno</a></li>
+			</div>	
+			<div class="col-md-12">
+				<li><a href="modulos/mod2/GIZ_ERNC_Mercado_Electrico_Complemento_2012.pdf">GIZ ERNC mercado eléctrico chileno complemento 2012</a></li>
+			</div>
+			<div class="col-md-12">
+				<li><a href="modulos/mod2/guia_de_conexion.pdf">Guía de conexión</a></li>
+			</div>
+			<div class="col-md-12">
+				<li><a href="modulos/mod2/guia_de_gestion.pdf">Guía de gestión</a></li>
+			</div>
+			<!--libro enalmex-->
+			<!--****************************************************-->
+			<!--libros fotovoltaicos-->
+			<div class="col-md-12">
+				<li><a href="modulos/mod2/buenas_y_malas_practicas_manual_nov2013_es_author.pdf">Manual de buenas y malas prácticas</a></li>
+			</div>
+			<div class="col-md-12">
+				<li><a href="modulos/mod2/librofotovoltaico.pdf">Libro fotovoltaico</a></li>
+			</div>
+			<!--otras presentaciones-->
+			<div class="col-md-12">
+				<li><a href="modulos/mod2/MDL_UCV_2013_ESolar_1_Conceptos.pdf">Energía solar 1 Conceptos</a></li>
+			</div>
+			<div class="col-md-12">
+				<li><a href="modulos/mod2/MDL_UCV_2013_ESolar_2_BT_MT.pdf">Energía solar 2 BT&MT</a></li>
+			</div>
+			<div class="col-md-12">
+				<li><a href="modulos/mod2/MDL_UCV_2013_ESolar_3_CSP.pdf">Energía solar 3 CSP</a></li>
+			</div>
+			<div class="col-md-12">
+				<li><a href="modulos/mod2/MDL_UCV_2013_ESolar_4_PV.pdf">Energía solar 4 PV</a></li>
+			</div>
+			<!--paneles-->
+			<div class="col-md-12">
+				<li><a href="modulos/mod2/20140807_CHSM6610P_with_35mm_frame.pdf">Datasheet Crystalline PV Module Baseline CHSM6610P Series</a></li>
+			</div>
+			<div class="col-md-12">
+				<li><a href="modulos/mod2/JAM6_60_250_270.pdf">JAM6 Monocrystalline silicon module 60/250-270</a></li>
+			</div>
+			<div class="col-md-12">
+				<li><a href="modulos/mod2/JAP6_60_245_265_3BB.pdf">JAP6 Multicrystalline silicon module 60/245-265/3BB</a></li>
+			</div>
+			<!--poste solar-->
+			<div class="col-md-12">
+				<li><a href="modulos/mod2/LUMINARIA_KRL_028.pdf">Luminaria LED 60W KRL-028</a></li>
+			</div>
+			<!--protecciones-->
+			<div class="col-md-12">
+				<li><a href="modulos/mod2/201535.pdf">Catálogo de productos (Alemán)</a></li>
+			</div>
+			<div class="col-md-12">
+				<li><a href="modulos/mod2/generales_03_SE8649_DIN_rail_mounted_MCBs.pdf">Protección</a></li>
+			</div>
+			<div class="col-md-12">
+				<li><a href="modulos/mod2/S_1000_4RT_T30_Y_PC_4_0_GB_GAK_V1_20001010.pdf">DC-combiner boxes</a></li>
+			</div>
+			<div class="col-md-12">
+				<li><a href="modulos/mod2/S_1000_2x_4Sx_T40_Y_PC_4_0_GB_GAK_V1_20001020.pdf">DC-combiner boxes</a></li>
+			</div>
+			<div class="col-md-12">
+				<li><a href="modulos/mod2/Seccionador_CA901030E.pdf">Seccionador CA901030E</a></li>
+			</div>
+			<div class="col-md-12">
+				<li><a href="modulos/mod2/Seccionador_CA901032E.pdf">Seccionador CA901032E</a></li>
+			</div>
+			<div class="col-md-12">
+				<li><a href="modulos/mod2/Seccionador_CA901043E.pdf">Seccionador CA901043E</a></li>
+			</div>
+			<div class="col-md-12">	
+				<li><a href="modulos/mod2/Sobrecorriente_CA901031E.pdf">Sobrecorriente CA901031E</a></li>
+			</div>
+			<div class="col-md-12">
+				<li><a href="modulos/mod2/Sobretension_04_SE8649_Surge_protection.pdf">Sobretensión SE8649 surge protection</a></li>
+			</div>
+			<div class="col-md-12">
+				<li><a href="modulos/mod2/Sobretension_SE8030_Acti_9_SPDs.pdf">Sobretensión Acti 9 SPDs</a></li>
+			</div>
+			<div class="col-md-12">
+				<li><a href="modulos/mod2/Sobretensiones_AAV53249.pdf">Sobretensiones AAV53249</a></li>
+			</div>
+			<!--reguladores de caga-->
+			<div class="col-md-12">
+				<li><a href="modulos/mod2/Datasheet_Blue_Solar_Charge_Controller_MPPT_150_70_150_85_ES.pdf">Controlador de carga MPPT 150/70 y 150/85</a></li>
+			</div>
+			<div class="col-md-12">
+				<li><a href="modulos/mod2/Datasheet_BlueSolar_charge_controller_MPPT_150_35_ES.pdf">Controlador de carga BlueSolar MPPT 150/35</a></li>
+			</div>
+			<!--contenido raiz-->
+			<!--**************-->
+			<!-- -->
 		</ul>
 	</div>
 	<!--fin material-->
